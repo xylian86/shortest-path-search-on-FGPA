@@ -1,0 +1,65 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "SBR1",
+					"strict" : false
+				},
+				{
+					"name" : "SBR0",
+					"strict" : false
+				},
+				{
+					"name" : "AEBOUT",
+					"strict" : false
+				},
+				{
+					"name" : "select",
+					"strict" : false
+				},
+				{
+					"name" : "SAR0",
+					"strict" : false
+				},
+				{
+					"name" : "SAR1",
+					"strict" : false
+				},
+				{
+					"name" : "STORE",
+					"strict" : false
+				},
+				{
+					"name" : "DIN1",
+					"strict" : false
+				},
+				{
+					"name" : "LDSBR",
+					"strict" : false
+				},
+				{
+					"name" : "FETCH",
+					"strict" : false
+				},
+				{
+					"name" : "LOW",
+					"strict" : false
+				},
+				{
+					"name" : "CLOCK",
+					"strict" : false
+				},
+				{
+					"name" : "HIGH",
+					"strict" : false
+				},
+				{
+					"name" : "DIN0",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
