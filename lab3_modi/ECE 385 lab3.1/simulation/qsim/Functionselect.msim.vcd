@@ -1,0 +1,64 @@
+$comment
+	File created using the following command:
+		vcd file Functionselect.msim.vcd -direction
+$end
+$date
+	Fri Sep 25 18:56:19 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module Functionselect_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # F0 $end
+$var reg 1 $ F1 $end
+$var reg 1 % F2 $end
+$var wire 1 & f $end
+
+$scope module i1 $end
+$var wire 1 ' gnd $end
+$var wire 1 ( vcc $end
+$var wire 1 ) unknown $end
+$var tri1 1 * devclrn $end
+$var tri1 1 + devpor $end
+$var tri1 1 , devoe $end
+$var wire 1 - f~output_o $end
+$var wire 1 . F1~input_o $end
+$var wire 1 / B~input_o $end
+$var wire 1 0 F0~input_o $end
+$var wire 1 1 A~input_o $end
+$var wire 1 2 inst|sub|81~0_combout $end
+$var wire 1 3 F2~input_o $end
+$var wire 1 4 inst|sub|81~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+1"
+0#
+0$
+0%
+1&
+0'
+1(
+x)
+1*
+1+
+1,
+1-
+0.
+1/
+00
+11
+12
+03
+14
+$end
+#1000000

@@ -1,0 +1,238 @@
+$comment
+	File created using the following command:
+		vcd file memory.msim.vcd -direction
+$end
+$date
+	Sat Sep 26 00:58:04 2020
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module memory_vlg_vec_tst $end
+$var reg 1 ! A0 $end
+$var reg 1 " A1 $end
+$var reg 1 # A2 $end
+$var reg 1 $ A3 $end
+$var reg 1 % B0 $end
+$var reg 1 & B1 $end
+$var reg 1 ' B2 $end
+$var reg 1 ( B3 $end
+$var reg 1 ) clock $end
+$var reg 1 * S0 $end
+$var reg 1 + S1 $end
+$var wire 1 , Aout $end
+$var wire 1 - Bout $end
+
+$scope module i1 $end
+$var wire 1 . gnd $end
+$var wire 1 / vcc $end
+$var wire 1 0 unknown $end
+$var tri1 1 1 devclrn $end
+$var tri1 1 2 devpor $end
+$var tri1 1 3 devoe $end
+$var wire 1 4 Aout~output_o $end
+$var wire 1 5 Bout~output_o $end
+$var wire 1 6 clock~input_o $end
+$var wire 1 7 clock~inputclkctrl_outclk $end
+$var wire 1 8 A2~input_o $end
+$var wire 1 9 S1~input_o $end
+$var wire 1 : S0~input_o $end
+$var wire 1 ; A1~input_o $end
+$var wire 1 < A0~input_o $end
+$var wire 1 = inst2|41~0_combout $end
+$var wire 1 > inst2|37~0_combout $end
+$var wire 1 ? inst2|41~q $end
+$var wire 1 @ inst2|36~0_combout $end
+$var wire 1 A inst2|36~1_combout $end
+$var wire 1 B inst2|40~q $end
+$var wire 1 C inst2|35~0_combout $end
+$var wire 1 D inst2|35~1_combout $end
+$var wire 1 E inst2|39~q $end
+$var wire 1 F inst2|38~0_combout $end
+$var wire 1 G A3~input_o $end
+$var wire 1 H inst2|34~0_combout $end
+$var wire 1 I inst2|38~q $end
+$var wire 1 J B2~input_o $end
+$var wire 1 K B1~input_o $end
+$var wire 1 L B0~input_o $end
+$var wire 1 M inst1|41~0_combout $end
+$var wire 1 N inst1|37~0_combout $end
+$var wire 1 O inst1|41~q $end
+$var wire 1 P inst1|36~0_combout $end
+$var wire 1 Q inst1|36~1_combout $end
+$var wire 1 R inst1|40~q $end
+$var wire 1 S inst1|35~0_combout $end
+$var wire 1 T inst1|35~1_combout $end
+$var wire 1 U inst1|39~q $end
+$var wire 1 V inst1|38~0_combout $end
+$var wire 1 W B3~input_o $end
+$var wire 1 X inst1|34~0_combout $end
+$var wire 1 Y inst1|38~q $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0#
+0$
+1%
+0&
+0'
+0(
+0)
+1*
+0+
+0,
+0-
+0.
+1/
+x0
+11
+12
+13
+04
+05
+06
+07
+08
+09
+1:
+0;
+1<
+1=
+1>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+0F
+0G
+0H
+0I
+0J
+0K
+1L
+1M
+1N
+0O
+0P
+0Q
+0R
+0S
+0T
+0U
+0V
+0W
+0X
+0Y
+$end
+#50000
+1)
+16
+17
+1O
+1?
+1P
+1@
+1Q
+1A
+#100000
+0)
+06
+07
+#150000
+1)
+16
+17
+1R
+1B
+1S
+1C
+1T
+1D
+#200000
+0)
+06
+07
+#250000
+1)
+16
+17
+1U
+1E
+1V
+1F
+#300000
+0)
+06
+07
+#350000
+1)
+16
+17
+1Y
+1I
+14
+15
+1-
+1,
+#400000
+0)
+06
+07
+#450000
+1)
+16
+17
+#500000
+0)
+06
+07
+#550000
+1)
+16
+17
+#600000
+0)
+06
+07
+#650000
+1)
+16
+17
+#700000
+0*
+0)
+0:
+06
+07
+#750000
+1)
+16
+17
+#800000
+0)
+06
+07
+#850000
+1)
+16
+17
+#900000
+0)
+06
+07
+#950000
+1)
+16
+17
+#1000000
