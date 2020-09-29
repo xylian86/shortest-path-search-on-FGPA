@@ -1,0 +1,75 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/ECE 385 lab3.1/simulation/qsim
+vFunctionselect
+Z1 !s110 1601031378
+!i10b 1
+!s100 [JA4Ogm8?>CFeYdRl;SAS2
+IK0N>aPVCE3Ei4T4f?7eWV0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1601031377
+Z4 8Functionselect.vo
+Z5 FFunctionselect.vo
+L0 31
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1601031378.000000
+Z8 !s107 Functionselect.vo|
+Z9 !s90 -work|work|Functionselect.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+n@functionselect
+vFunctionselect_vlg_vec_tst
+R1
+!i10b 1
+!s100 ?X7<Y3o]EzGkWTP]T;BX^1
+Ie8_Y5TVhUf47KT[oR=`9h2
+R2
+R0
+w1601031375
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+L0 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R10
+R11
+n@functionselect_vlg_vec_tst
+vhard_block
+R1
+!i10b 1
+!s100 ]3kzo67aDA`93J8T2hYzm1
+IXDzG94[nN7E2K3SH]odD:3
+R2
+R0
+R3
+R4
+R5
+L0 181
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
