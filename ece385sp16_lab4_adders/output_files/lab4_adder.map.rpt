@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab4_adder
-Wed Sep 30 09:38:02 2020
+Thu Oct 01 15:18:52 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -44,13 +44,13 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Sep 30 09:38:02 2020       ;
+; Analysis & Synthesis Status        ; Successful - Thu Oct 01 15:18:52 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab4_adder                                  ;
 ; Top-level Entity Name              ; lab4_adders_toplevel                        ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 116                                         ;
-;     Total combinational functions  ; 100                                         ;
+; Total logic elements               ; 130                                         ;
+;     Total combinational functions  ; 114                                         ;
 ;     Dedicated logic registers      ; 105                                         ;
 ; Total registers                    ; 105                                         ;
 ; Total pins                         ; 93                                          ;
@@ -159,7 +159,7 @@ refer to the applicable agreement for further details.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processors 2-6         ;   0.0%      ;
+;     Processors 2-6         ;   0.1%      ;
 +----------------------------+-------------+
 
 
@@ -179,16 +179,16 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 116       ;
+; Estimated Total logic elements              ; 130       ;
 ;                                             ;           ;
-; Total combinational functions               ; 100       ;
+; Total combinational functions               ; 114       ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 67        ;
-;     -- 3 input functions                    ; 7         ;
-;     -- <=2 input functions                  ; 26        ;
+;     -- 4 input functions                    ; 74        ;
+;     -- 3 input functions                    ; 8         ;
+;     -- <=2 input functions                  ; 32        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 100       ;
+;     -- normal mode                          ; 114       ;
 ;     -- arithmetic mode                      ; 0         ;
 ;                                             ;           ;
 ; Total registers                             ; 105       ;
@@ -201,8 +201,8 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; Clk~input ;
 ; Maximum fan-out                             ; 105       ;
-; Total fan-out                               ; 783       ;
-; Average fan-out                             ; 2.00      ;
+; Total fan-out                               ; 826       ;
+; Average fan-out                             ; 2.04      ;
 +---------------------------------------------+-----------+
 
 
@@ -211,7 +211,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+----------------------+--------------+
 ; Compilation Hierarchy Node          ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                       ; Entity Name          ; Library Name ;
 +-------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+----------------------+--------------+
-; |lab4_adders_toplevel               ; 100 (19)            ; 105 (105)                 ; 0           ; 0            ; 0       ; 0         ; 93   ; 0            ; |lab4_adders_toplevel                                                                     ; lab4_adders_toplevel ; work         ;
+; |lab4_adders_toplevel               ; 114 (19)            ; 105 (105)                 ; 0           ; 0            ; 0       ; 0         ; 93   ; 0            ; |lab4_adders_toplevel                                                                     ; lab4_adders_toplevel ; work         ;
 ;    |HexDriver:Ahex0_inst|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|HexDriver:Ahex0_inst                                                ; HexDriver            ; work         ;
 ;    |HexDriver:Ahex1_inst|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|HexDriver:Ahex1_inst                                                ; HexDriver            ; work         ;
 ;    |HexDriver:Ahex2_inst|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|HexDriver:Ahex2_inst                                                ; HexDriver            ; work         ;
@@ -220,26 +220,26 @@ refer to the applicable agreement for further details.
 ;    |HexDriver:Bhex1_inst|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|HexDriver:Bhex1_inst                                                ; HexDriver            ; work         ;
 ;    |HexDriver:Bhex2_inst|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|HexDriver:Bhex2_inst                                                ; HexDriver            ; work         ;
 ;    |HexDriver:Bhex3_inst|           ; 7 (7)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|HexDriver:Bhex3_inst                                                ; HexDriver            ; work         ;
-;    |ripple_adder:ripple_adder_inst| ; 25 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst                                      ; ripple_adder         ; work         ;
+;    |ripple_adder:ripple_adder_inst| ; 39 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst                                      ; ripple_adder         ; work         ;
 ;       |four_bit_adder:ADDER1|       ; 6 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER1                ; four_bit_adder       ; work         ;
 ;          |full_adder:FA0|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER1|full_adder:FA0 ; full_adder           ; work         ;
 ;          |full_adder:FA1|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER1|full_adder:FA1 ; full_adder           ; work         ;
-;          |full_adder:FA2|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER1|full_adder:FA2 ; full_adder           ; work         ;
-;          |full_adder:FA3|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER1|full_adder:FA3 ; full_adder           ; work         ;
-;       |four_bit_adder:ADDER2|       ; 6 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER2                ; four_bit_adder       ; work         ;
-;          |full_adder:FA0|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER2|full_adder:FA0 ; full_adder           ; work         ;
+;          |full_adder:FA2|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER1|full_adder:FA2 ; full_adder           ; work         ;
+;          |full_adder:FA3|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER1|full_adder:FA3 ; full_adder           ; work         ;
+;       |four_bit_adder:ADDER2|       ; 13 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER2                ; four_bit_adder       ; work         ;
+;          |full_adder:FA0|           ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER2|full_adder:FA0 ; full_adder           ; work         ;
 ;          |full_adder:FA1|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER2|full_adder:FA1 ; full_adder           ; work         ;
 ;          |full_adder:FA2|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER2|full_adder:FA2 ; full_adder           ; work         ;
-;          |full_adder:FA3|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER2|full_adder:FA3 ; full_adder           ; work         ;
-;       |four_bit_adder:ADDER3|       ; 6 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER3                ; four_bit_adder       ; work         ;
-;          |full_adder:FA0|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER3|full_adder:FA0 ; full_adder           ; work         ;
-;          |full_adder:FA1|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER3|full_adder:FA1 ; full_adder           ; work         ;
-;          |full_adder:FA2|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER3|full_adder:FA2 ; full_adder           ; work         ;
-;          |full_adder:FA3|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER3|full_adder:FA3 ; full_adder           ; work         ;
-;       |four_bit_adder:ADDER4|       ; 7 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER4                ; four_bit_adder       ; work         ;
-;          |full_adder:FA0|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER4|full_adder:FA0 ; full_adder           ; work         ;
-;          |full_adder:FA1|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER4|full_adder:FA1 ; full_adder           ; work         ;
-;          |full_adder:FA2|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER4|full_adder:FA2 ; full_adder           ; work         ;
+;          |full_adder:FA3|           ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER2|full_adder:FA3 ; full_adder           ; work         ;
+;       |four_bit_adder:ADDER3|       ; 9 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER3                ; four_bit_adder       ; work         ;
+;          |full_adder:FA0|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER3|full_adder:FA0 ; full_adder           ; work         ;
+;          |full_adder:FA1|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER3|full_adder:FA1 ; full_adder           ; work         ;
+;          |full_adder:FA2|           ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER3|full_adder:FA2 ; full_adder           ; work         ;
+;          |full_adder:FA3|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER3|full_adder:FA3 ; full_adder           ; work         ;
+;       |four_bit_adder:ADDER4|       ; 11 (0)              ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER4                ; four_bit_adder       ; work         ;
+;          |full_adder:FA0|           ; 3 (3)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER4|full_adder:FA0 ; full_adder           ; work         ;
+;          |full_adder:FA1|           ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER4|full_adder:FA1 ; full_adder           ; work         ;
+;          |full_adder:FA2|           ; 5 (5)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER4|full_adder:FA2 ; full_adder           ; work         ;
 ;          |full_adder:FA3|           ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab4_adders_toplevel|ripple_adder:ripple_adder_inst|four_bit_adder:ADDER4|full_adder:FA3 ; full_adder           ; work         ;
 +-------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+-------------------------------------------------------------------------------------------+----------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -267,7 +267,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
 ; 3:1                ; 17 bits   ; 34 LEs        ; 17 LEs               ; 17 LEs                 ; Yes        ; |lab4_adders_toplevel|CO~reg0 ;
 ; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab4_adders_toplevel|B[15]   ;
-; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab4_adders_toplevel|A[14]   ;
+; 3:1                ; 16 bits   ; 32 LEs        ; 16 LEs               ; 16 LEs                 ; Yes        ; |lab4_adders_toplevel|A[15]   ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------+
 
 
@@ -291,14 +291,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;     ENA               ; 32                          ;
 ;     ENA SCLR          ; 17                          ;
 ;     plain             ; 56                          ;
-; cycloneiii_lcell_comb ; 100                         ;
-;     normal            ; 100                         ;
-;         2 data inputs ; 26                          ;
-;         3 data inputs ; 7                           ;
-;         4 data inputs ; 67                          ;
+; cycloneiii_lcell_comb ; 114                         ;
+;     normal            ; 114                         ;
+;         2 data inputs ; 32                          ;
+;         3 data inputs ; 8                           ;
+;         4 data inputs ; 74                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 3.00                        ;
-; Average LUT depth     ; 1.00                        ;
+; Max LUT depth         ; 11.00                       ;
+; Average LUT depth     ; 2.40                        ;
 +-----------------------+-----------------------------+
 
 
@@ -317,10 +317,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Wed Sep 30 09:37:52 2020
+    Info: Processing started: Thu Oct 01 15:18:40 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab4_adder -c lab4_adder
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file testbench_adder.sv
+    Info (12023): Found entity 1: testbench File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/testbench_adder.sv Line: 5
 Info (12021): Found 3 design units, including 3 entities, in source file ripple_adder.sv
     Info (12023): Found entity 1: ripple_adder File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/ripple_adder.sv Line: 1
     Info (12023): Found entity 2: full_adder File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/ripple_adder.sv Line: 25
@@ -333,12 +335,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file hexdriv
 Info (12021): Found 4 design units, including 4 entities, in source file carry_select_adder.sv
     Info (12023): Found entity 1: carry_select_adder File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_select_adder.sv Line: 1
     Info (12023): Found entity 2: twooneMUX File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_select_adder.sv Line: 24
-    Info (12023): Found entity 3: four_bit_CRA File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_select_adder.sv Line: 37
-    Info (12023): Found entity 4: super_four_bit_CRA File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_select_adder.sv Line: 50
+    Info (12023): Found entity 3: four_bit_CRA File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_select_adder.sv Line: 39
+    Info (12023): Found entity 4: super_four_bit_CRA File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_select_adder.sv Line: 52
 Info (12021): Found 1 design units, including 1 entities, in source file carry_lookahead_adder.sv
     Info (12023): Found entity 1: carry_lookahead_adder File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_lookahead_adder.sv Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at ripple_adder.sv(42): created implicit net for "cin" File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/ripple_adder.sv Line: 42
-Warning (10236): Verilog HDL Implicit Net warning at carry_select_adder.sv(44): created implicit net for "cin" File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_select_adder.sv Line: 44
 Warning (10236): Verilog HDL Implicit Net warning at carry_lookahead_adder.sv(27): created implicit net for "C1" File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_lookahead_adder.sv Line: 27
 Warning (10236): Verilog HDL Implicit Net warning at carry_lookahead_adder.sv(28): created implicit net for "C2" File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_lookahead_adder.sv Line: 28
 Warning (10236): Verilog HDL Implicit Net warning at carry_lookahead_adder.sv(35): created implicit net for "c" File: D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_lookahead_adder.sv Line: 35
@@ -351,14 +351,14 @@ Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 225 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 239 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 20 input pins
     Info (21059): Implemented 73 output pins
-    Info (21061): Implemented 132 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 8 warnings
-    Info: Peak virtual memory: 4816 megabytes
-    Info: Processing ended: Wed Sep 30 09:38:02 2020
-    Info: Elapsed time: 00:00:10
+    Info (21061): Implemented 146 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 4815 megabytes
+    Info: Processing ended: Thu Oct 01 15:18:52 2020
+    Info: Elapsed time: 00:00:12
     Info: Total CPU time (on all processors): 00:00:20
 
 

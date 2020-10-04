@@ -28,7 +28,7 @@ module carry_lookahead_adder
 		four_bit_adder ADDER3(.x(A[11:8]),.y(B[11:8]),.c_in(C1),.s(Sum[11:8]),.c(C2));
 		four_bit_adder ADDER4(.x(A[15:12]),.y(B[15:12]),.c_in(C2),.s(Sum[15:12]),.c(C0));
 	  
-module full_adder(input x,y,z, output logic p,g,s);
+module new_full_adder(input x,y,z, output logic p,g,s);
 
 	assign p = x&y;
 	assign g = x^y;
@@ -54,10 +54,10 @@ module four_bit_adder(input [3:0]x,
 		  assign C3 = (c_in&P0&P1&P2)|(G0&P1&P2)|(G1&P2)|G2;
 		  end
 		  
-		  full_adder FA0(.x(x[0]),.y(y[0]),.z(c_in),.p(P0),.g(G0),.s(S[0]));
-		  full_adder FA1(.x(x[1]),.y(y[1]),.z(C1),.p(P1),.g(G1),.s(S[1]));
-		  full_adder FA2(.x(x[2]),.y(y[2]),.z(C2),.p(P2),.g(G2),.s(S[2]));
-		  full_adder FA3(.x(x[3]),.y(y[3]),.z(C3),.p(P3),.g(G3),.s(S[3]));
+		  new_full_adder FA0(.x(x[0]),.y(y[0]),.z(c_in),.p(P0),.g(G0),.s(S[0]));
+		  new_full_adder FA1(.x(x[1]),.y(y[1]),.z(C1),.p(P1),.g(G1),.s(S[1]));
+		  new_full_adder FA2(.x(x[2]),.y(y[2]),.z(C2),.p(P2),.g(G2),.s(S[2]));
+		  new_full_adder FA3(.x(x[3]),.y(y[3]),.z(C3),.p(P3),.g(G3),.s(S[3]));
 		  
 		  assign PG=P0&P1&P2&P3;
 		  assign GG=G3|(G2&G3)|(G1&P3&P2)|(G0&P3&P2&P1);

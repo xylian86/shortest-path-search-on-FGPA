@@ -10,15 +10,15 @@ cModel Technology
 Z0 dD:/ece385/lab/lab4/ece385sp16_lab4_adders/simulation/modelsim
 vfour_bit_adder
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1601429661
+Z2 !s110 1601536802
 !i10b 1
-!s100 MX2;F1C0nbXj]k^:T2>AM0
-IBOHe[9L[9=A_jCm`I6n941
+!s100 TTWag5E`gi`UZ:=g@hQ:93
+IF_B`hC5o]zc2DnR6_YcO>0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 Z4 !s105 ripple_adder_sv_unit
 S1
 R0
-Z5 w1601428919
+Z5 w1601535763
 Z6 8D:/ece385/lab/lab4/ece385sp16_lab4_adders/ripple_adder.sv
 Z7 FD:/ece385/lab/lab4/ece385sp16_lab4_adders/ripple_adder.sv
 L0 34
@@ -26,7 +26,7 @@ Z8 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z9 !s108 1601429661.000000
+Z9 !s108 1601536801.000000
 Z10 !s107 D:/ece385/lab/lab4/ece385sp16_lab4_adders/ripple_adder.sv|
 Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/lab/lab4/ece385sp16_lab4_adders|D:/ece385/lab/lab4/ece385sp16_lab4_adders/ripple_adder.sv|
 !i113 1
@@ -76,7 +76,7 @@ R8
 r1
 !s85 0
 31
-R9
+Z15 !s108 1601536802.000000
 !s107 D:/ece385/lab/lab4/ece385sp16_lab4_adders/HexDriver.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/lab/lab4/ece385sp16_lab4_adders|D:/ece385/lab/lab4/ece385sp16_lab4_adders/HexDriver.sv|
 !i113 1
@@ -102,7 +102,7 @@ R8
 r1
 !s85 0
 31
-R9
+R15
 !s107 D:/ece385/lab/lab4/ece385sp16_lab4_adders/lab4_adders_toplevel.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/lab/lab4/ece385sp16_lab4_adders|D:/ece385/lab/lab4/ece385sp16_lab4_adders/lab4_adders_toplevel.sv|
 !i113 1
@@ -130,6 +130,31 @@ r1
 R9
 R10
 R11
+!i113 1
+R12
+R13
+R14
+vtestbench
+R1
+R2
+!i10b 1
+!s100 cHn3>7M4Azd4N4L[hSH[D1
+I93`nnRWU`Zm6Y?zKDRlf`3
+R3
+!s105 testbench_adder_sv_unit
+S1
+R0
+w1601459403
+8D:/ece385/lab/lab4/ece385sp16_lab4_adders/testbench_adder.sv
+FD:/ece385/lab/lab4/ece385sp16_lab4_adders/testbench_adder.sv
+L0 5
+R8
+r1
+!s85 0
+31
+R15
+!s107 D:/ece385/lab/lab4/ece385sp16_lab4_adders/testbench_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/lab/lab4/ece385sp16_lab4_adders|D:/ece385/lab/lab4/ece385sp16_lab4_adders/testbench_adder.sv|
 !i113 1
 R12
 R13
