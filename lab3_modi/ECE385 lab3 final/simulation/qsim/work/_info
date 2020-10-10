@@ -9,65 +9,65 @@ z2
 cModel Technology
 Z0 dC:/Users/Administrator/Desktop/ECE385 lab3 final/simulation/qsim
 vhard_block
-Z1 !s110 1601185820
+!s110 1601185820
 !i10b 1
 !s100 m<oUVf;E_6QiYdEHAjojP1
 IFliYh>VjB[JObC;0WB4Za0
-Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z1 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1601185819
-Z4 8lab3final.vo
-Z5 Flab3final.vo
+w1601185819
+Z2 8lab3final.vo
+Z3 Flab3final.vo
 L0 1117
-Z6 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1601185820.000000
-Z8 !s107 lab3final.vo|
-Z9 !s90 -work|work|lab3final.vo|
+!s108 1601185820.000000
+Z5 !s107 lab3final.vo|
+Z6 !s90 -work|work|lab3final.vo|
 !i113 1
-Z10 o-work work
-Z11 tCvgOpt 0
+Z7 o-work work
+Z8 tCvgOpt 0
 vlab3final
-R1
+Z9 !s110 1602286302
 !i10b 1
-!s100 [SZZaP@>Ko:ThMfBB9aid1
-ITIzfFgWKe_6blHc>bMEW<3
+!s100 gDPRXbiln9aMWbNUJA>oQ0
+I3B]aLLZGGF@=[m_1Y7lJL0
+R1
+Z10 dD:/ece385/lab3/ECE385 lab3 final/simulation/qsim
+w1602286302
 R2
-R0
 R3
-R4
-R5
 L0 31
-R6
+R4
 r1
 !s85 0
 31
+Z11 !s108 1602286302.000000
+R5
+R6
+!i113 1
 R7
 R8
-R9
-!i113 1
-R10
-R11
 vlab3final_vlg_vec_tst
-R1
+R9
 !i10b 1
 !s100 LhBcWKnH8NJ3O9CzA[@lI1
 I?jfY67VMV=obZdMkm:PSC3
-R2
-R0
-w1601185817
+R1
+R10
+w1602286301
 8Waveform.vwf.vt
 FWaveform.vwf.vt
 L0 29
-R6
+R4
 r1
 !s85 0
 31
-R7
+R11
 !s107 Waveform.vwf.vt|
 !s90 -work|work|Waveform.vwf.vt|
 !i113 1
-R10
-R11
+R7
+R8

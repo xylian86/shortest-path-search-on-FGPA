@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab3final
-Tue Sep 29 18:40:49 2020
+Sat Oct 10 07:31:26 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Sep 29 18:40:49 2020       ;
+; Analysis & Synthesis Status        ; Successful - Sat Oct 10 07:31:26 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab3final                                   ;
 ; Top-level Entity Name              ; lab3final                                   ;
@@ -163,27 +163,25 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                            ;
-+--------------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+---------+
-; File Name with User-Entered Path     ; Used in Netlist ; File Type                          ; File Name with Absolute Path                              ; Library ;
-+--------------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+---------+
-; ../ECE385 lab3.3/controlunit.bdf     ; yes             ; User Block Diagram/Schematic File  ; D:/ece385/lab3test/lab3/ECE385 lab3.3/controlunit.bdf     ;         ;
-; ../ECE385 lab3.2/memory.bdf          ; yes             ; User Block Diagram/Schematic File  ; D:/ece385/lab3test/lab3/ECE385 lab3.2/memory.bdf          ;         ;
-; ../ECE 385 lab3.1/Functionselect.bdf ; yes             ; User Block Diagram/Schematic File  ; D:/ece385/lab3test/lab3/ECE 385 lab3.1/Functionselect.bdf ;         ;
-; ../ECE 385 lab3/ECElab3.bdf          ; yes             ; User Block Diagram/Schematic File  ; D:/ece385/lab3test/lab3/ECE 385 lab3/ECElab3.bdf          ;         ;
-; lab3final.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/ece385/lab3test/lab3/ECE385 lab3 final/lab3final.bdf   ;         ;
-; 7474.bdf                             ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/7474.bdf      ;         ;
-; 7404.bdf                             ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/7404.bdf      ;         ;
-; 7427.bdf                             ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/7427.bdf      ;         ;
-; 7400.bdf                             ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/7400.bdf      ;         ;
-; 7402.bdf                             ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/7402.bdf      ;         ;
-; 74194.bdf                            ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/74194.bdf     ;         ;
-; 74153.bdf                            ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/74153.bdf     ;         ;
-; 74151.tdf                            ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/74151.tdf     ;         ;
-; aglobal.inc                          ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/megafunctions/aglobal.inc     ;         ;
-; f74151.bdf                           ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/f74151.bdf    ;         ;
-+--------------------------------------+-----------------+------------------------------------+-----------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                         ;
++--------------------------------------+-----------------+------------------------------------+--------------------------------------------------------+---------+
+; File Name with User-Entered Path     ; Used in Netlist ; File Type                          ; File Name with Absolute Path                           ; Library ;
++--------------------------------------+-----------------+------------------------------------+--------------------------------------------------------+---------+
+; ../ECE385 lab3.3/controlunit.bdf     ; yes             ; User Block Diagram/Schematic File  ; D:/ece385/lab3/ECE385 lab3.3/controlunit.bdf           ;         ;
+; ../ECE385 lab3.2/memory.bdf          ; yes             ; User Block Diagram/Schematic File  ; D:/ece385/lab3/ECE385 lab3.2/memory.bdf                ;         ;
+; ../ECE 385 lab3.1/Functionselect.bdf ; yes             ; User Block Diagram/Schematic File  ; D:/ece385/lab3/ECE 385 lab3.1/Functionselect.bdf       ;         ;
+; ../ECE 385 lab3/ECElab3.bdf          ; yes             ; User Block Diagram/Schematic File  ; D:/ece385/lab3/ECE 385 lab3/ECElab3.bdf                ;         ;
+; lab3final.bdf                        ; yes             ; User Block Diagram/Schematic File  ; D:/ece385/lab3/ECE385 lab3 final/lab3final.bdf         ;         ;
+; 7474.bdf                             ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/7474.bdf   ;         ;
+; 7404.bdf                             ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/7404.bdf   ;         ;
+; 74194.bdf                            ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/74194.bdf  ;         ;
+; 74153.bdf                            ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/74153.bdf  ;         ;
+; 74151.tdf                            ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/74151.tdf  ;         ;
+; aglobal.inc                          ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/megafunctions/aglobal.inc  ;         ;
+; f74151.bdf                           ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/f74151.bdf ;         ;
+; 7402.bdf                             ; yes             ; Megafunction                       ; d:/ece385/quartus/libraries/others/maxplus2/7402.bdf   ;         ;
++--------------------------------------+-----------------+------------------------------------+--------------------------------------------------------+---------+
 
 
 +---------------------------------------------------------+
@@ -196,8 +194,8 @@ refer to the applicable agreement for further details.
 ; Total combinational functions               ; 22        ;
 ; Logic element usage by number of LUT inputs ;           ;
 ;     -- 4 input functions                    ; 10        ;
-;     -- 3 input functions                    ; 9         ;
-;     -- <=2 input functions                  ; 3         ;
+;     -- 3 input functions                    ; 8         ;
+;     -- <=2 input functions                  ; 4         ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
 ;     -- normal mode                          ; 22        ;
@@ -213,8 +211,8 @@ refer to the applicable agreement for further details.
 ;                                             ;           ;
 ; Maximum fan-out node                        ; CLK~input ;
 ; Maximum fan-out                             ; 12        ;
-; Total fan-out                               ; 140       ;
-; Average fan-out                             ; 1.67      ;
+; Total fan-out                               ; 139       ;
+; Average fan-out                             ; 1.65      ;
 +---------------------------------------------+-----------+
 
 
@@ -227,10 +225,7 @@ refer to the applicable agreement for further details.
 ;    |Functionselect:inst2|  ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|Functionselect:inst2                       ; Functionselect ; work         ;
 ;       |74151:inst|         ; 2 (0)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|Functionselect:inst2|74151:inst            ; 74151          ; work         ;
 ;          |f74151:sub|      ; 2 (2)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|Functionselect:inst2|74151:inst|f74151:sub ; f74151         ; work         ;
-;    |controlunit:inst1|     ; 4 (0)               ; 4 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|controlunit:inst1                          ; controlunit    ; work         ;
-;       |7402:inst20|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|controlunit:inst1|7402:inst20              ; 7402           ; work         ;
-;       |7427:inst17|        ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|controlunit:inst1|7427:inst17              ; 7427           ; work         ;
-;       |7427:inst|          ; 1 (1)               ; 0 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|controlunit:inst1|7427:inst                ; 7427           ; work         ;
+;    |controlunit:inst1|     ; 4 (3)               ; 4 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|controlunit:inst1                          ; controlunit    ; work         ;
 ;       |7474:inst1|         ; 0 (0)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|controlunit:inst1|7474:inst1               ; 7474           ; work         ;
 ;       |7474:inst2|         ; 1 (1)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|controlunit:inst1|7474:inst2               ; 7474           ; work         ;
 ;    |memory:inst3|          ; 16 (0)              ; 8 (0)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |lab3final|memory:inst3                               ; memory         ; work         ;
@@ -280,12 +275,12 @@ Note: In order to hide this table in the UI and the text report file, please set
 ;     plain             ; 6                           ;
 ; cycloneiii_lcell_comb ; 22                          ;
 ;     normal            ; 22                          ;
-;         2 data inputs ; 3                           ;
-;         3 data inputs ; 9                           ;
+;         2 data inputs ; 4                           ;
+;         3 data inputs ; 8                           ;
 ;         4 data inputs ; 10                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 4.00                        ;
-; Average LUT depth     ; 1.94                        ;
+; Average LUT depth     ; 1.96                        ;
 +-----------------------+-----------------------------+
 
 
@@ -304,18 +299,17 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Sep 29 18:40:38 2020
+    Info: Processing started: Sat Oct 10 07:31:17 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab3final -c lab3final
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
-Warning (12019): Can't analyze file -- file lab3.bdf is missing
-Info (12021): Found 1 design units, including 1 entities, in source file /ece385/lab3test/lab3/ece385 lab3.3/controlunit.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file /ece385/lab3/ece385 lab3.3/controlunit.bdf
     Info (12023): Found entity 1: controlunit
-Info (12021): Found 1 design units, including 1 entities, in source file /ece385/lab3test/lab3/ece385 lab3.2/memory.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file /ece385/lab3/ece385 lab3.2/memory.bdf
     Info (12023): Found entity 1: memory
-Info (12021): Found 1 design units, including 1 entities, in source file /ece385/lab3test/lab3/ece 385 lab3.1/functionselect.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file /ece385/lab3/ece 385 lab3.1/functionselect.bdf
     Info (12023): Found entity 1: Functionselect
-Info (12021): Found 1 design units, including 1 entities, in source file /ece385/lab3test/lab3/ece 385 lab3/ecelab3.bdf
+Info (12021): Found 1 design units, including 1 entities, in source file /ece385/lab3/ece 385 lab3/ecelab3.bdf
     Info (12023): Found entity 1: ECElab3
 Info (12021): Found 1 design units, including 1 entities, in source file lab3final.bdf
     Info (12023): Found entity 1: lab3final
@@ -323,14 +317,8 @@ Info (12127): Elaborating entity "lab3final" for the top level hierarchy
 Info (12128): Elaborating entity "controlunit" for hierarchy "controlunit:inst1"
 Info (12128): Elaborating entity "7474" for hierarchy "controlunit:inst1|7474:inst1"
 Info (12130): Elaborated megafunction instantiation "controlunit:inst1|7474:inst1"
-Info (12128): Elaborating entity "7404" for hierarchy "controlunit:inst1|7404:inst19"
-Info (12130): Elaborated megafunction instantiation "controlunit:inst1|7404:inst19"
-Info (12128): Elaborating entity "7427" for hierarchy "controlunit:inst1|7427:inst"
-Info (12130): Elaborated megafunction instantiation "controlunit:inst1|7427:inst"
-Info (12128): Elaborating entity "7400" for hierarchy "controlunit:inst1|7400:inst4"
-Info (12130): Elaborated megafunction instantiation "controlunit:inst1|7400:inst4"
-Info (12128): Elaborating entity "7402" for hierarchy "controlunit:inst1|7402:inst20"
-Info (12130): Elaborated megafunction instantiation "controlunit:inst1|7402:inst20"
+Info (12128): Elaborating entity "7404" for hierarchy "controlunit:inst1|7404:ins3t"
+Info (12130): Elaborated megafunction instantiation "controlunit:inst1|7404:ins3t"
 Info (12128): Elaborating entity "memory" for hierarchy "memory:inst3"
 Info (12128): Elaborating entity "74194" for hierarchy "memory:inst3|74194:inst2"
 Info (12130): Elaborated megafunction instantiation "memory:inst3|74194:inst2"
@@ -338,11 +326,13 @@ Info (12128): Elaborating entity "ECElab3" for hierarchy "ECElab3:inst"
 Info (12128): Elaborating entity "74153" for hierarchy "ECElab3:inst|74153:inst"
 Info (12130): Elaborated megafunction instantiation "ECElab3:inst|74153:inst"
 Info (12128): Elaborating entity "Functionselect" for hierarchy "Functionselect:inst2"
-Warning (275011): Block or symbol "7404" of instance "inst7" overlaps another block or symbol
+Warning (275011): Block or symbol "NOT" of instance "inst12" overlaps another block or symbol
 Info (12128): Elaborating entity "74151" for hierarchy "Functionselect:inst2|74151:inst"
 Info (12130): Elaborated megafunction instantiation "Functionselect:inst2|74151:inst"
 Info (12128): Elaborating entity "f74151" for hierarchy "Functionselect:inst2|74151:inst|f74151:sub" File: d:/ece385/quartus/libraries/others/maxplus2/74151.tdf Line: 24
 Info (12131): Elaborated megafunction instantiation "Functionselect:inst2|74151:inst|f74151:sub", which is child of megafunction instantiation "Functionselect:inst2|74151:inst" File: d:/ece385/quartus/libraries/others/maxplus2/74151.tdf Line: 24
+Info (12128): Elaborating entity "7402" for hierarchy "7402:inst4"
+Info (12130): Elaborated megafunction instantiation "7402:inst4"
 Info (13014): Ignored 2 buffer(s)
     Info (13017): Ignored 2 CASCADE buffer(s)
 Info (286030): Timing-Driven Synthesis is running
@@ -352,10 +342,10 @@ Info (21057): Implemented 47 device resources after synthesis - the final resour
     Info (21058): Implemented 13 input pins
     Info (21059): Implemented 12 output pins
     Info (21061): Implemented 22 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 3 warnings
-    Info: Peak virtual memory: 4816 megabytes
-    Info: Processing ended: Tue Sep 29 18:40:49 2020
-    Info: Elapsed time: 00:00:11
-    Info: Total CPU time (on all processors): 00:00:21
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4791 megabytes
+    Info: Processing ended: Sat Oct 10 07:31:26 2020
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:18
 
 

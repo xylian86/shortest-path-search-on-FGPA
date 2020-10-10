@@ -1,5 +1,5 @@
 Flow report for lab3final
-Tue Sep 29 18:40:52 2020
+Sat Oct 10 07:31:42 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,22 +40,22 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Flow Failed - Tue Sep 29 18:40:52 2020      ;
+; Flow Status                        ; Successful - Sat Oct 10 07:31:42 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab3final                                   ;
 ; Top-level Entity Name              ; lab3final                                   ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 23 / 114,480 ( < 1 % )                      ;
-;     Total combinational functions  ; 23 / 114,480 ( < 1 % )                      ;
-;     Dedicated logic registers      ; 12 / 114,480 ( < 1 % )                      ;
+; Total logic elements               ; 22                                          ;
+;     Total combinational functions  ; 22                                          ;
+;     Dedicated logic registers      ; 12                                          ;
 ; Total registers                    ; 12                                          ;
-; Total pins                         ; 25 / 529 ( 5 % )                            ;
+; Total pins                         ; 25                                          ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 0 / 3,981,312 ( 0 % )                       ;
-; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
-; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
+; Total memory bits                  ; 0                                           ;
+; Embedded Multiplier 9-bit elements ; 0                                           ;
+; Total PLLs                         ; 0                                           ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/29/2020 18:40:39 ;
+; Start date & time ; 10/10/2020 07:31:18 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab3final           ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 1098942336504.160137603923184          ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 198696037295579.160228627715228        ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --         ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE         ; 1.2V                                   ; --            ; --          ; --         ;
@@ -93,9 +93,10 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4816 MB             ; 00:00:21                           ;
-; Fitter               ; 00:00:02     ; 1.0                     ; 5398 MB             ; 00:00:02                           ;
-; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:23                           ;
+; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4791 MB             ; 00:00:18                           ;
+; EDA Netlist Writer   ; 00:00:00     ; 1.0                     ; 4646 MB             ; 00:00:00                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4649 MB             ; 00:00:00                           ;
+; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:18                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -105,7 +106,8 @@ refer to the applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; LAPTOP-OHJK49M9  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; LAPTOP-OHJK49M9  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-OHJK49M9  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; LAPTOP-OHJK49M9  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -113,7 +115,8 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off lab3final -c lab3final
-quartus_fit --read_settings_files=off --write_settings_files=off lab3final -c lab3final
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab3final -c lab3final --vector_source="D:/ece385/lab3/ECE385 lab3 final/Waveform.vwf" --testbench_file="D:/ece385/lab3/ECE385 lab3 final/simulation/qsim/Waveform.vwf.vt"
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/ece385/lab3/ECE385 lab3 final/simulation/qsim/" lab3final -c lab3final
 
 
 

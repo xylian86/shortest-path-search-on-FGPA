@@ -1,8 +1,8 @@
 /*<simulation_settings>
-<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab3final -c lab3final --vector_source="C:/Users/Administrator/Desktop/ECE385 lab3 final/Waveform.vwf" --testbench_file="C:/Users/Administrator/Desktop/ECE385 lab3 final/simulation/qsim/Waveform.vwf.vt"</ftestbench_cmd>
-<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab3final -c lab3final --vector_source="C:/Users/Administrator/Desktop/ECE385 lab3 final/Waveform.vwf" --testbench_file="C:/Users/Administrator/Desktop/ECE385 lab3 final/simulation/qsim/Waveform.vwf.vt"</ttestbench_cmd>
-<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Administrator/Desktop/ECE385 lab3 final/simulation/qsim/" lab3final -c lab3final</fnetlist_cmd>
-<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory="C:/Users/Administrator/Desktop/ECE385 lab3 final/simulation/qsim/" lab3final -c lab3final</tnetlist_cmd>
+<ftestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab3final -c lab3final --vector_source="D:/ece385/lab3/ECE385 lab3 final/Waveform.vwf" --testbench_file="D:/ece385/lab3/ECE385 lab3 final/simulation/qsim/Waveform.vwf.vt"</ftestbench_cmd>
+<ttestbench_cmd>quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off lab3final -c lab3final --vector_source="D:/ece385/lab3/ECE385 lab3 final/Waveform.vwf" --testbench_file="D:/ece385/lab3/ECE385 lab3 final/simulation/qsim/Waveform.vwf.vt"</ttestbench_cmd>
+<fnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory="D:/ece385/lab3/ECE385 lab3 final/simulation/qsim/" lab3final -c lab3final</fnetlist_cmd>
+<tnetlist_cmd>quartus_eda --write_settings_files=off --simulation --functional=off --flatten_buses=off --timescale=1ps --tool=modelsim_oem --format=verilog --output_directory="D:/ece385/lab3/ECE385 lab3 final/simulation/qsim/" lab3final -c lab3final</tnetlist_cmd>
 <modelsim_script>onerror {exit -code 1}
 vlib work
 vlog -work work lab3final.vo
@@ -205,21 +205,6 @@ SIGNAL("CLK")
 	PARENT = "";
 }
 
-GROUP("D")
-{
-	MEMBERS = "D0", "D1", "D2", "D3";
-}
-
-GROUP("F")
-{
-	MEMBERS = "F0", "F1", "F2";
-}
-
-GROUP("R")
-{
-	MEMBERS = "R0", "R1";
-}
-
 SIGNAL("RA0")
 {
 	VALUE_TYPE = NINE_LEVEL_BIT;
@@ -298,6 +283,21 @@ SIGNAL("RB3")
 	LSB_INDEX = -1;
 	DIRECTION = OUTPUT;
 	PARENT = "";
+}
+
+GROUP("D")
+{
+	MEMBERS = "D0", "D1", "D2", "D3";
+}
+
+GROUP("F")
+{
+	MEMBERS = "F0", "F1", "F2";
+}
+
+GROUP("R")
+{
+	MEMBERS = "R0", "R1";
 }
 
 GROUP("A")

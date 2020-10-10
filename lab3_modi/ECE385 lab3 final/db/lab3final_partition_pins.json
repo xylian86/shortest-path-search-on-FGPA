@@ -64,6 +64,10 @@
 					"strict" : false
 				},
 				{
+					"name" : "R0",
+					"strict" : false
+				},
+				{
 					"name" : "R1",
 					"strict" : false
 				},
@@ -72,15 +76,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "F1",
-					"strict" : false
-				},
-				{
 					"name" : "F0",
 					"strict" : false
 				},
 				{
-					"name" : "R0",
+					"name" : "F1",
 					"strict" : false
 				},
 				{

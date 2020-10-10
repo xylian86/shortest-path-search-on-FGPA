@@ -1,5 +1,5 @@
 Fitter report for lab3final
-Tue Sep 29 18:40:52 2020
+Tue Sep 29 22:53:23 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -56,7 +56,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Failed - Tue Sep 29 18:40:52 2020           ;
+; Fitter Status                      ; Failed - Tue Sep 29 22:53:23 2020           ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab3final                                   ;
 ; Top-level Entity Name              ; lab3final                                   ;
@@ -1168,9 +1168,6 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 ;       |74151:inst|         ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |lab3final|Functionselect:inst2|74151:inst            ; 74151          ; work         ;
 ;          |f74151:sub|      ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |lab3final|Functionselect:inst2|74151:inst|f74151:sub ; f74151         ; work         ;
 ;    |controlunit:inst1|     ; 0 (0)       ; 4 (0)                     ; 0 (0)         ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |lab3final|controlunit:inst1                          ; controlunit    ; work         ;
-;       |7402:inst20|        ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |lab3final|controlunit:inst1|7402:inst20              ; 7402           ; work         ;
-;       |7427:inst17|        ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |lab3final|controlunit:inst1|7427:inst17              ; 7427           ; work         ;
-;       |7427:inst|          ; 0 (0)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |lab3final|controlunit:inst1|7427:inst                ; 7427           ; work         ;
 ;       |7474:inst1|         ; 0 (0)       ; 2 (2)                     ; 0 (0)         ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |lab3final|controlunit:inst1|7474:inst1               ; 7474           ; work         ;
 ;       |7474:inst2|         ; 0 (0)       ; 2 (2)                     ; 0 (0)         ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |lab3final|controlunit:inst1|7474:inst2               ; 7474           ; work         ;
 ;    |memory:inst3|          ; 0 (0)       ; 8 (0)                     ; 0 (0)         ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 0 (0)            ; |lab3final|memory:inst3                               ; memory         ; work         ;
@@ -1417,8 +1414,8 @@ Info (176353): Automatically promoted node CLK~input (placed in PIN J1 (CLK1, DI
 Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
 Error (171000): Can't fit design in device
 Error: Quartus Prime Fitter was unsuccessful. 3 errors, 3 warnings
-    Error: Peak virtual memory: 5398 megabytes
-    Error: Processing ended: Tue Sep 29 18:40:52 2020
+    Error: Peak virtual memory: 5400 megabytes
+    Error: Processing ended: Tue Sep 29 22:53:23 2020
     Error: Elapsed time: 00:00:02
     Error: Total CPU time (on all processors): 00:00:02
 
