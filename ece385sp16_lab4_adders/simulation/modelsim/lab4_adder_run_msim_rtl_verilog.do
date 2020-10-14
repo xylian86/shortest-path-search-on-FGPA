@@ -7,6 +7,7 @@ vmap work rtl_work
 
 vlog -sv -work work +incdir+D:/ece385/lab/lab4/ece385sp16_lab4_adders {D:/ece385/lab/lab4/ece385sp16_lab4_adders/ripple_adder.sv}
 vlog -sv -work work +incdir+D:/ece385/lab/lab4/ece385sp16_lab4_adders {D:/ece385/lab/lab4/ece385sp16_lab4_adders/HexDriver.sv}
+vlog -sv -work work +incdir+D:/ece385/lab/lab4/ece385sp16_lab4_adders {D:/ece385/lab/lab4/ece385sp16_lab4_adders/carry_select_adder.sv}
 vlog -sv -work work +incdir+D:/ece385/lab/lab4/ece385sp16_lab4_adders {D:/ece385/lab/lab4/ece385sp16_lab4_adders/lab4_adders_toplevel.sv}
 
 vlog -sv -work work +incdir+D:/ece385/lab/lab4/ece385sp16_lab4_adders {D:/ece385/lab/lab4/ece385sp16_lab4_adders/testbench_adder.sv}
@@ -16,4 +17,4 @@ vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lns
 add wave *
 view structure
 view signals
-run 10 sec
+run 1000 ns
