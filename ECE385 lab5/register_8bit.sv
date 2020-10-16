@@ -7,16 +7,16 @@ module register_8bit(input logic shiftin, clk, reset, load, enable,
 	always_ff @ (posedge clk)
 	begin
 		if(reset)
-			dataout <= 8'h00;
+			dataout <= 8'h0;
 		else if (load)
 			dataout <= datain;
 		else if (enable)
 		begin
-			dataout <= {shiftin, datain[7:1]};
+			dataout <= {shiftin, dataout[7:1]};
 		end
 	end
 	
-	assign shiftout = datain[0] ;
+	assign shiftout = dataout[0];
 	
 endmodule
 							

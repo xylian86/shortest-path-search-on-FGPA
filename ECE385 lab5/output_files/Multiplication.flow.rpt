@@ -1,6 +1,6 @@
 Flow report for Multiplication
-Fri Oct 16 19:48:44 2020
-Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Fri Oct 16 23:33:55 2020
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -40,17 +40,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Fri Oct 16 19:48:44 2020       ;
-; Quartus Prime Version              ; 18.0.0 Build 614 04/24/2018 SJ Lite Edition ;
+; Flow Status                        ; Successful - Fri Oct 16 23:33:55 2020       ;
+; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; Multiplication                              ;
 ; Top-level Entity Name              ; toplevel                                    ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 102                                         ;
-;     Total combinational functions  ; 94                                          ;
-;     Dedicated logic registers      ; 47                                          ;
-; Total registers                    ; 47                                          ;
+; Total logic elements               ; 95                                          ;
+;     Total combinational functions  ; 95                                          ;
+;     Dedicated logic registers      ; 36                                          ;
+; Total registers                    ; 36                                          ;
 ; Total pins                         ; 57                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/16/2020 19:48:30 ;
+; Start date & time ; 10/16/2020 23:33:45 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Multiplication      ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+----------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value  ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+----------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 154027281721376.160284890906764        ; --             ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 198696037295579.160286242511340        ; --             ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --             ; --          ; testbench      ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                              ; --             ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --             ; --          ; eda_simulation ;
@@ -85,7 +85,7 @@ refer to the applicable agreement for further details.
 ; EDA_TEST_BENCH_MODULE_NAME           ; testbench                              ; --             ; --          ; testbench      ;
 ; EDA_TEST_BENCH_NAME                  ; testbench                              ; --             ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 5000 ns                                ; --             ; --          ; testbench      ;
-; EDA_TIME_SCALE                       ; 1 ps                                   ; --             ; --          ; eda_simulation ;
+; EDA_TIME_SCALE                       ; 1 ns                                   ; --             ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --             ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --             ; --          ; --             ;
 ; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                   ; --             ; --          ; --             ;
@@ -104,8 +104,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:15     ; 1.0                     ; 4773 MB             ; 00:00:30                           ;
-; Total                ; 00:00:15     ; --                      ; --                  ; 00:00:30                           ;
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4819 MB             ; 00:00:20                           ;
+; Total                ; 00:00:10     ; --                      ; --                  ; 00:00:20                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -114,7 +114,7 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; LxyµÄthinkpad    ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; LAPTOP-OHJK49M9  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

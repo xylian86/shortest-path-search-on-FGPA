@@ -1,6 +1,6 @@
 Assembler report for Multiplication
-Fri Oct 16 19:02:57 2020
-Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Fri Oct 16 22:43:22 2020
+Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
 ---------------------
@@ -10,7 +10,7 @@ Quartus Prime Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/Administrator/Desktop/ECE385 lab4/output_files/Multiplication.sof
+  5. Assembler Device Options: D:/ece385/lab/lab5/ECE385 lab5/output_files/Multiplication.sof
   6. Assembler Messages
 
 
@@ -37,7 +37,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Fri Oct 16 19:02:57 2020 ;
+; Assembler Status      ; Successful - Fri Oct 16 22:43:22 2020 ;
 ; Revision Name         ; Multiplication                        ;
 ; Top-level Entity Name ; toplevel                              ;
 ; Family                ; Cyclone IV E                          ;
@@ -52,23 +52,23 @@ refer to the applicable agreement for further details.
 +--------+---------+---------------+
 
 
-+----------------------------------------------------------------------------+
-; Assembler Generated Files                                                  ;
-+----------------------------------------------------------------------------+
-; File Name                                                                  ;
-+----------------------------------------------------------------------------+
-; C:/Users/Administrator/Desktop/ECE385 lab4/output_files/Multiplication.sof ;
-+----------------------------------------------------------------------------+
++----------------------------------------------------------------+
+; Assembler Generated Files                                      ;
++----------------------------------------------------------------+
+; File Name                                                      ;
++----------------------------------------------------------------+
+; D:/ece385/lab/lab5/ECE385 lab5/output_files/Multiplication.sof ;
++----------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/Administrator/Desktop/ECE385 lab4/output_files/Multiplication.sof ;
-+----------------+-------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                             ;
-+----------------+-------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x00573AFB                                                                          ;
-; Checksum       ; 0x00573AFB                                                                          ;
-+----------------+-------------------------------------------------------------------------------------+
++------------------------------------------------------------------------------------------+
+; Assembler Device Options: D:/ece385/lab/lab5/ECE385 lab5/output_files/Multiplication.sof ;
++----------------+-------------------------------------------------------------------------+
+; Option         ; Setting                                                                 ;
++----------------+-------------------------------------------------------------------------+
+; JTAG usercode  ; 0x00572F72                                                              ;
+; Checksum       ; 0x00572F72                                                              ;
++----------------+-------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -76,16 +76,16 @@ refer to the applicable agreement for further details.
 +--------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
-    Info: Version 18.0.0 Build 614 04/24/2018 SJ Lite Edition
-    Info: Processing started: Fri Oct 16 19:02:53 2020
+    Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+    Info: Processing started: Fri Oct 16 22:43:19 2020
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off Multiplication -c Multiplication
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115031): Writing out detailed assembly data for power analysis
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4686 megabytes
-    Info: Processing ended: Fri Oct 16 19:02:57 2020
+    Info: Peak virtual memory: 4707 megabytes
+    Info: Processing ended: Fri Oct 16 22:43:23 2020
     Info: Elapsed time: 00:00:04
-    Info: Total CPU time (on all processors): 00:00:04
+    Info: Total CPU time (on all processors): 00:00:03
 
 

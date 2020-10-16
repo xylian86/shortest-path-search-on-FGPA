@@ -1,1 +1,1 @@
-Info (10281): Verilog HDL Declaration information at toplevel.sv(4): object "x" differs only in case from object "X" in the same scope File: C:/Users/Administrator/Desktop/ECE385 lab4/toplevel.sv Line: 4
+Warning (10268): Verilog HDL information at D_flipflop.sv(3): always construct contains both blocking and non-blocking assignments File: D:/ece385/lab/lab5/ECE385 lab5/D_flipflop.sv Line: 3

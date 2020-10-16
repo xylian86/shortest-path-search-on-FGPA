@@ -1,72 +1,77 @@
 module toplevel(
-							input logic Clk, Reset, Run, ClearA_LoadB,
 							input logic [7:0] S,
+							input logic Clk, Reset, Run, ClearA_LoadB,
+							output logic [6:0] AhexL, AhexU, BhexL, BhexU,
 							output logic [7:0] Aval, Bval,
-							output logic X,
-							output logic [6:0] AhexL, AhexU, BhexL, BhexU
+							output logic X
 							);
 							
-					logic reset_SH, run_SH, calb_SH;
-					logic m, clearA, loadA, loadB, shift, add_sub, BmemoryIn;
-					logic [7:0] S_S;
-					logic [8:0] operationresult;
+					logic m, clearA, loadA, loadB, shift, add , sub, BmemoryIn, specialX;
+					logic [7:0] S_S,A,B;
+					
+					assign Aval=A;
+					assign Bval=B;
+					assign m=B[0];
+					assign loadA=add|sub;
 						
 							
 
 register_8bit	Amemory(.shiftin(X), 
 							  .clk(Clk), 
-							  .reset(reset_SH | clearA), 
+							  .reset(clearA), 
 							  .load(loadA), 
 							  .enable(shift),
-							  .datain(operationresult[7:0]),
+							  .datain(S_S),
 							  .shiftout(BmemoryIn),
-							  .dataout(Aval));
+							  .dataout(A));
 
 register_8bit	Bmemory(.shiftin(BmemoryIn), 
 							  .clk(Clk), 
-							  .reset(reset_SH), 
-							  .load(calb_SH), 
+							  .reset(!Reset), 
+							  .load(loadB), 
 							  .enable(shift),
-							  .datain(S_S),
+							  .datain(S),
 							  .shiftout(),
-							  .dataout(Bval));
+							  .dataout(B));
 
 D_flipflop		Xmemory(.clk(Clk),
 							  .load(loadA),
-							  .reset(reset_SH | clearA),
-							  .datain(operationresult[8]),
+							  .reset(clearA),
+							  .datain(specialX),
 							  .dataout(X));
 							  
-control controlunit(.clk(Clk), 
-						  .reset(reset_SH), 
-						  .run(run_SH), 
-						  .calb(calb_SH), 
-						  .m(Bval[0]),
-						  .clearA(clearA), 
-						  .loadA(loadA), 
-						  .loadB(loadB), 
-						  .shift(shift),
-						  .add_sub(add_sub));
+Control controlunit(.Clk(Clk), 
+						  .Reset(Reset), 
+						  .Run(Run), 
+						  .clab(ClearA_LoadB), 
+						  .m(m),
+						  .ResetA(clearA), 
+						  .Clr_Ld(loadB), 
+						  .Shift(shift),
+						  .add(add),
+						  .sub(sub));
 						  
-ADD_SUB9		operation(.A(Aval),
-							 .B(S_S),
-							 .fn(add_sub),
-							 .S(operationresult));
+ADD_SUB9		operation(.A(A),
+							 .B(S),
+							 .add(add),
+							 .sub(sub),
+							 .S(S_S),
+							 .specialX(specialX));
 						  
 	 HexDriver        HexAL (
-                        .In0(Aval[3:0]),
+                        .In0(A[3:0]),
                         .Out0(AhexL) );
 	 HexDriver        HexAU (
-                        .In0(Aval[7:4]),
+                        .In0(A[7:4]),
                         .Out0(AhexU) );	
 	 HexDriver        HexBL (
-                        .In0(Bval[3:0]),
+                        .In0(B[3:0]),
                         .Out0(BhexL) );
 	 HexDriver        HexBU (
-                        .In0(Bval[7:4]),
+                        .In0(B[7:4]),
                         .Out0(BhexU) );
 
-	sync button_sync[2:0] (Clk, {~Reset, ~Run, ~ClearA_LoadB}, {reset_SH, run_SH, calb_SH});
-	sync Din_sync[7:0] (Clk, S, S_S);
+//	sync button_sync[2:0] (Clk, {~Reset, ~Run, ~ClearA_LoadB}, {reset_SH, run_SH, calb_SH});
+//	sync Din_sync[7:0] (Clk, S, S_S);
 	
 endmodule
