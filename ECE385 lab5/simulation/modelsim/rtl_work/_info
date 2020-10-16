@@ -1,0 +1,288 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Administrator/Desktop/ECE385 lab4/simulation/modelsim
+vADD_SUB9
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1602848978
+!i10b 1
+!s100 ]L1VPbT_;B5]dzCO9TLim1
+I@6j[T>[PJ[cKRZ3lC2AM52
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+!s105 ADD_SUB9_sv_unit
+S1
+R0
+w1602814168
+8C:/Users/Administrator/Desktop/ECE385 lab4/ADD_SUB9.sv
+FC:/Users/Administrator/Desktop/ECE385 lab4/ADD_SUB9.sv
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1602848978.000000
+!s107 C:/Users/Administrator/Desktop/ECE385 lab4/ADD_SUB9.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/ECE385 lab4|C:/Users/Administrator/Desktop/ECE385 lab4/ADD_SUB9.sv|
+!i113 1
+Z4 o-sv -work work
+Z5 !s92 -sv -work work {+incdir+C:/Users/Administrator/Desktop/ECE385 lab4}
+Z6 tCvgOpt 0
+n@a@d@d_@s@u@b9
+vcontrol
+R1
+Z7 !s110 1602848979
+!i10b 1
+!s100 4DH8cXzEjSlHWoH>5U2>Y1
+ICK:;I@zVQ6m=]SB?jk[2<0
+R2
+!s105 control_sv_unit
+S1
+R0
+w1602848906
+8C:/Users/Administrator/Desktop/ECE385 lab4/control.sv
+FC:/Users/Administrator/Desktop/ECE385 lab4/control.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z8 !s108 1602848979.000000
+!s107 C:/Users/Administrator/Desktop/ECE385 lab4/control.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/ECE385 lab4|C:/Users/Administrator/Desktop/ECE385 lab4/control.sv|
+!i113 1
+R4
+R5
+R6
+vD_flipflop
+R1
+R7
+!i10b 1
+!s100 Oi3URARVc6fNW^7W<Y:]13
+IhbC=eH;O@?F0Umjbo^]Dg3
+R2
+!s105 D_flipflop_sv_unit
+S1
+R0
+w1602765614
+8C:/Users/Administrator/Desktop/ECE385 lab4/D_flipflop.sv
+FC:/Users/Administrator/Desktop/ECE385 lab4/D_flipflop.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Administrator/Desktop/ECE385 lab4/D_flipflop.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/ECE385 lab4|C:/Users/Administrator/Desktop/ECE385 lab4/D_flipflop.sv|
+!i113 1
+R4
+R5
+R6
+n@d_flipflop
+vfull_adder
+R1
+R7
+!i10b 1
+!s100 7?THOPd^4`Z[XRBN=F5II2
+Ij]iZ?hh8H1D^g<]T_<iN73
+R2
+!s105 full_adder_sv_unit
+S1
+R0
+w1602746010
+8C:/Users/Administrator/Desktop/ECE385 lab4/full_adder.sv
+FC:/Users/Administrator/Desktop/ECE385 lab4/full_adder.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Administrator/Desktop/ECE385 lab4/full_adder.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/ECE385 lab4|C:/Users/Administrator/Desktop/ECE385 lab4/full_adder.sv|
+!i113 1
+R4
+R5
+R6
+vHexDriver
+R1
+R7
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+IZiCHh>6<jZ=:ZazHVaL[Y0
+R2
+!s105 HexDriver_sv_unit
+S1
+R0
+w1602752262
+8C:/Users/Administrator/Desktop/ECE385 lab4/HexDriver.sv
+FC:/Users/Administrator/Desktop/ECE385 lab4/HexDriver.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Administrator/Desktop/ECE385 lab4/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/ECE385 lab4|C:/Users/Administrator/Desktop/ECE385 lab4/HexDriver.sv|
+!i113 1
+R4
+R5
+R6
+n@hex@driver
+vregister_8bit
+R1
+R7
+!i10b 1
+!s100 bZSWA[[YdBdMV]4I0B;b>1
+I3QZ99WI7NglLWGN@a?dH[1
+R2
+!s105 register_8bit_sv_unit
+S1
+R0
+w1602815210
+8C:/Users/Administrator/Desktop/ECE385 lab4/register_8bit.sv
+FC:/Users/Administrator/Desktop/ECE385 lab4/register_8bit.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Administrator/Desktop/ECE385 lab4/register_8bit.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/ECE385 lab4|C:/Users/Administrator/Desktop/ECE385 lab4/register_8bit.sv|
+!i113 1
+R4
+R5
+R6
+vsync
+R1
+Z9 !s110 1602848980
+!i10b 1
+!s100 Q09R2]zhiN3W=8N=XJAl<2
+IP_TG?70L?2bTTlo<V<]141
+R2
+Z10 !s105 Synchronizer_sv_unit
+S1
+R0
+Z11 w1602813113
+Z12 8C:/Users/Administrator/Desktop/ECE385 lab4/Synchronizer.sv
+Z13 FC:/Users/Administrator/Desktop/ECE385 lab4/Synchronizer.sv
+L0 1
+R3
+r1
+!s85 0
+31
+Z14 !s108 1602848980.000000
+Z15 !s107 C:/Users/Administrator/Desktop/ECE385 lab4/Synchronizer.sv|
+Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/ECE385 lab4|C:/Users/Administrator/Desktop/ECE385 lab4/Synchronizer.sv|
+!i113 1
+R4
+R5
+R6
+vsync_r0
+R1
+R9
+!i10b 1
+!s100 ?To1WzSYI76hlE;iT<1IG0
+IaEa=4Igf4LZC]2Ei0;3Q=0
+R2
+R10
+S1
+R0
+R11
+R12
+R13
+L0 15
+R3
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R4
+R5
+R6
+vsync_r1
+R1
+R9
+!i10b 1
+!s100 e8ThiBj6l<kKk[dK10@MD0
+I:83Nko>9ALI1lFT9j5ASn2
+R2
+R10
+S1
+R0
+R11
+R12
+R13
+L0 34
+R3
+r1
+!s85 0
+31
+R14
+R15
+R16
+!i113 1
+R4
+R5
+R6
+vtestbench
+R1
+R9
+!i10b 1
+!s100 FN]RERVj?o4KfR<REF]k:3
+Ia5dhmVX=6bT[1SWe[b>h@3
+R2
+!s105 testbench_sv_unit
+S1
+R0
+w1602846270
+8C:/Users/Administrator/Desktop/ECE385 lab4/testbench.sv
+FC:/Users/Administrator/Desktop/ECE385 lab4/testbench.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Administrator/Desktop/ECE385 lab4/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/ECE385 lab4|C:/Users/Administrator/Desktop/ECE385 lab4/testbench.sv|
+!i113 1
+R4
+R5
+R6
+vtoplevel
+R1
+R9
+!i10b 1
+!s100 h0YHf^PD=a=I4o894nRS40
+I;g`?aXY;=3l^G;GBWm^VO2
+R2
+!s105 toplevel_sv_unit
+S1
+R0
+w1602848679
+8C:/Users/Administrator/Desktop/ECE385 lab4/toplevel.sv
+FC:/Users/Administrator/Desktop/ECE385 lab4/toplevel.sv
+L0 1
+R3
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Administrator/Desktop/ECE385 lab4/toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/ECE385 lab4|C:/Users/Administrator/Desktop/ECE385 lab4/toplevel.sv|
+!i113 1
+R4
+R5
+R6
