@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module control (input logic clk, reset, run, calb, m,
 					 output logic clearA, loadA, loadB, shift,add_sub);
 
@@ -9,14 +10,28 @@ module control (input logic clk, reset, run, calb, m,
 		else
 			curr_state <= next_state;
 	end
+=======
+module Control(
+			input logic Clk, Reset, Run, clab, m,
+			output logic Clr_Ld, Shift, add,sub, ResetA
+);
+	enum logic [4:0] {A, B, C, D, E, F, G, H, I, J, K, L, M_, N, O, P, Q, R, Z}   curr_state, next_state; 
+	
+	always_ff @ (posedge Clk)  
+		begin
+			if (!Reset)
+            curr_state <= A;
+			else 
+            curr_state <= next_state;
+		end	
+>>>>>>> 417fb817bae660e9708fc5600586f138f956582b
 	
 	always_comb
 		begin
-		
 			next_state = curr_state;
-			
-			unique case (curr_state)
+			unique case(curr_state)
 				
+<<<<<<< HEAD
 				resetstate: if(run)
 									next_state = beginrun;
 				beginrun:	next_state = A1;
@@ -38,34 +53,52 @@ module control (input logic clk, reset, run, calb, m,
 				S8:			next_state = hold;
 				hold:			if(~run)
 									next_state = resetstate;
+=======
+				A : if (~Run)
+						next_state = Z;
+				Z : next_state = B;
+				B : next_state = C;
+				C : next_state = D;
+				D : next_state = E;
+				E : next_state = F;
+				F : next_state = G;
+				G : next_state = H;
+				H : next_state = I;
+				I : next_state = J;
+				J : next_state = K;
+				K : next_state = L;
+				L : next_state = M_;
+				M_ : next_state = N;
+				N : next_state = O;
+				O : next_state = P;
+				P : next_state = Q;
+				Q : next_state = R;
+				R : if (Run)
+						next_state = A;
+			
+>>>>>>> 417fb817bae660e9708fc5600586f138f956582b
 			endcase
 			
-		//unique case(curr_state)
-		case(curr_state)
-			resetstate:
+			case (curr_state)
+				A:
 				begin
-					loadA = 1'b0;
-					shift = 1'b0;
-					add_sub = 1'b0;
-					loadB = 1'b0;
-					clearA = 1'b0;
-					if(calb)
-						begin
-							loadB = 1'b1;
-							clearA = 1'b1;
-						end
-					end
-			
-			beginrun:
-				begin
-					clearA = 1'b1;
-					loadA = 1'b0;
-					loadB = 1'b0;
-					shift = 1'b0;
-					add_sub = 1'b0;
+					Shift = 1'b0;
+					add=1'b0;
+					sub=1'b0;
+					Clr_Ld = !clab;
+					ResetA = (!Reset)|Clr_Ld;
 				end
-			A1,A2,A3,A4,A5,A6,A7:
+				B, D, F, H, J, L, N:
 				begin
+					Shift = 1'b0;
+					add=m;
+					sub=1'b0;
+					Clr_Ld = 1'b0;
+					ResetA = (!Reset)|Clr_Ld;	
+				end
+				P:
+				begin
+<<<<<<< HEAD
 					if(m == 1'b1)
 						begin
 							clearA = 1'b0;
@@ -86,15 +119,25 @@ module control (input logic clk, reset, run, calb, m,
 							
 									
 			S1,S2,S3,S4,S5,S6,S7,S8:
+=======
+					Shift = 1'b0;
+					add=1'b0;
+					sub=m;
+					Clr_Ld = 1'b0;
+					ResetA = (!Reset)|Clr_Ld;	
+				end
+				R:
+>>>>>>> 417fb817bae660e9708fc5600586f138f956582b
 				begin
-					clearA = 1'b0;
-					loadA = 1'b0;
-					loadB = 1'b0;
-					shift = 1'b1;
-					add_sub = 1'b0;
-				end						
-			A8:
+					Shift = 1'b0;
+					add=1'b0;
+					sub=1'b0;
+					Clr_Ld = 1'b0;
+					ResetA = (!Reset)|Clr_Ld;	
+				end
+				Z:
 				begin
+<<<<<<< HEAD
 					if(m == 1'b1)
 						begin
 							clearA = 1'b0;
@@ -113,20 +156,34 @@ module control (input logic clk, reset, run, calb, m,
 						end
 				end
 			hold:
+=======
+					Shift = 1'b0;
+					add=1'b0;
+					sub=1'b0;
+					Clr_Ld = 1'b0;
+					ResetA = 1'b1;
+				end
+				default:
+>>>>>>> 417fb817bae660e9708fc5600586f138f956582b
 				begin
-					clearA = 1'b0;
-					loadA = 1'b0;
-					loadB = 1'b0;
-					shift = 1'b0;
-					add_sub = 1'b0;
+					Shift = 1'b1;
+					add=1'b0;
+					sub=1'b0;
+					Clr_Ld = 1'b0;
+					ResetA = (!Reset)|Clr_Ld;	
 				end
 			endcase
+<<<<<<< HEAD
 	end
 endmodule
 					
 					
 			
 			
+=======
+		end
+																
+endmodule
+>>>>>>> 417fb817bae660e9708fc5600586f138f956582b
 
-						
-					
+

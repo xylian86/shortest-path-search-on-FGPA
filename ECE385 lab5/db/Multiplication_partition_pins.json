@@ -4,74 +4,6 @@
 			"name" : "Top",
 			"pins" : [
 				{
-					"name" : "Aval[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Aval[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Aval[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Aval[3]",
-					"strict" : false
-				},
-				{
-					"name" : "Aval[4]",
-					"strict" : false
-				},
-				{
-					"name" : "Aval[5]",
-					"strict" : false
-				},
-				{
-					"name" : "Aval[6]",
-					"strict" : false
-				},
-				{
-					"name" : "Aval[7]",
-					"strict" : false
-				},
-				{
-					"name" : "Bval[0]",
-					"strict" : false
-				},
-				{
-					"name" : "Bval[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Bval[2]",
-					"strict" : false
-				},
-				{
-					"name" : "Bval[3]",
-					"strict" : false
-				},
-				{
-					"name" : "Bval[4]",
-					"strict" : false
-				},
-				{
-					"name" : "Bval[5]",
-					"strict" : false
-				},
-				{
-					"name" : "Bval[6]",
-					"strict" : false
-				},
-				{
-					"name" : "Bval[7]",
-					"strict" : false
-				},
-				{
-					"name" : "X",
-					"strict" : false
-				},
-				{
 					"name" : "AhexL[0]",
 					"strict" : false
 				},
@@ -184,7 +116,71 @@
 					"strict" : false
 				},
 				{
-					"name" : "Clk",
+					"name" : "Aval[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Aval[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Bval[7]",
+					"strict" : false
+				},
+				{
+					"name" : "X",
 					"strict" : false
 				},
 				{
@@ -193,6 +189,18 @@
 				},
 				{
 					"name" : "ClearA_LoadB",
+					"strict" : false
+				},
+				{
+<<<<<<< HEAD
+					"name" : "ClearA_LoadB",
+=======
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Clk",
+>>>>>>> 417fb817bae660e9708fc5600586f138f956582b
 					"strict" : false
 				},
 				{

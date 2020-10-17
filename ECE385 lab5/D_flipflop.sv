@@ -6,6 +6,8 @@ module D_flipflop(input logic clk, load, reset, datain,
 			dataout <= 1'b0;
 		else if (load)
 			dataout <= datain;
+		else
+			dataout <= dataout;
 	end
 
 endmodule

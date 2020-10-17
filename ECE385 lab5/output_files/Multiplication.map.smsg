@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 Warning (10268): Verilog HDL information at control.sv(277): always construct contains both blocking and non-blocking assignments File: C:/Users/Administrator/Desktop/ECE385 lab5/control.sv Line: 277
+=======
+Warning (10268): Verilog HDL information at D_flipflop.sv(3): always construct contains both blocking and non-blocking assignments File: D:/ece385/lab/lab5/ECE385 lab5/D_flipflop.sv Line: 3
+>>>>>>> 417fb817bae660e9708fc5600586f138f956582b

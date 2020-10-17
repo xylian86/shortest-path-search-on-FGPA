@@ -57,7 +57,6 @@ initial begin
 
 	if (Aval != ans_a || Bval != ans_b)
 		ErrorCnt++;
-		$display("1 Try again!");
 		
 	// Test 2: 7 * -59 = -413
 	#10 S = 8'b00000111; // 7
@@ -77,7 +76,6 @@ initial begin
 
 	if (Aval != ans_a || Bval != ans_b)
 		ErrorCnt++;
-		$display("2 Try again!");
 		
 		
 	// Test 3: -7 * 59 = -413
@@ -98,7 +96,6 @@ initial begin
 
 	if (Aval != ans_a || Bval != ans_b)
 		ErrorCnt++;
-		$display("3 Try again!");
 	
 	// Test 4: -7 * -59 = 413
 	#10 S = 8'b11111001; // -7
@@ -118,7 +115,7 @@ initial begin
 
 	if (Aval != ans_a || Bval != ans_b)
 		ErrorCnt++;
-		$display("4 Try again!");
+
 		
 	// Test 5: -2*-2*-2*-2*-2 = -32
 	#10 S = 8'b11111110; // -2
@@ -148,7 +145,7 @@ initial begin
 
 	if (Aval != ans_a || Bval != ans_b)
 		ErrorCnt++;
-		$display("5 Try again!");
+
 	
 	
 	if (ErrorCnt == 0)
