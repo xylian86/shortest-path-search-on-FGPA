@@ -11,32 +11,7 @@ module toplevel(
 					logic [7:0] S_S;
 					logic [8:0] operationresult;
 						
-							
-
-register_8bit	Amemory(.shiftin(X), 
-							  .clk(Clk), 
-							  .reset(reset_SH | clearA), 
-							  .load(loadA), 
-							  .enable(shift),
-							  .datain(operationresult[7:0]),
-							  .shiftout(BmemoryIn),
-							  .dataout(Aval));
-
-register_8bit	Bmemory(.shiftin(BmemoryIn), 
-							  .clk(Clk), 
-							  .reset(reset_SH), 
-							  .load(calb_SH), 
-							  .enable(shift),
-							  .datain(S_S),
-							  .shiftout(),
-							  .dataout(Bval));
-
-D_flipflop		Xmemory(.clk(Clk),
-							  .load(loadA),
-							  .reset(reset_SH | clearA),
-							  .datain(operationresult[8]),
-							  .dataout(X));
-							  
+	
 control controlunit(.clk(Clk), 
 						  .reset(reset_SH), 
 						  .run(run_SH), 
@@ -46,7 +21,37 @@ control controlunit(.clk(Clk),
 						  .loadA(loadA), 
 						  .loadB(loadB), 
 						  .shift(shift),
-						  .add_sub(add_sub));
+						  .add_sub(add_sub));	
+					  
+register_8bit				Amemory( 
+							  .clk(Clk), 
+							  .reset(clearA),
+							  .shiftin(X), 
+							  .load(loadA), 
+							  .enable(shift),
+							  .datain(operationresult[7:0]),
+							  .shiftout(BmemoryIn),
+							  .dataout(Aval));
+							  
+register_8bit				Bmemory( 
+							  .clk(Clk), 
+							  .reset(reset_SH),
+							  .shiftin(BmemoryIn), 
+							  .load(loadB), 
+							  .enable(shift),
+							  .datain(S_S),
+							  .shiftout(),
+							  .dataout(Bval));
+				
+
+
+D_flipflop		Xmemory(.clk(Clk),
+							  .load(loadA),
+							  .reset(clearA),
+							  .datain(operationresult[8]),
+							  .dataout(X));
+							  
+
 						  
 ADD_SUB9		operation(.A(Aval),
 							 .B(S_S),

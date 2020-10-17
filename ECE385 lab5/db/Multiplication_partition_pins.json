@@ -192,15 +192,11 @@
 					"strict" : false
 				},
 				{
-					"name" : "S[1]",
-					"strict" : false
-				},
-				{
-					"name" : "Reset",
-					"strict" : false
-				},
-				{
 					"name" : "ClearA_LoadB",
+					"strict" : false
+				},
+				{
+					"name" : "S[1]",
 					"strict" : false
 				},
 				{
@@ -225,6 +221,10 @@
 				},
 				{
 					"name" : "S[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
 					"strict" : false
 				},
 				{
