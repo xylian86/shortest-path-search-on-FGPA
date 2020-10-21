@@ -1,0 +1,22 @@
+module mux2to1(input logic [15:0] data0,data1,
+					input logic  select,
+					output logic [15:0] out);
+			
+always_comb
+	begin
+		if (select)
+			out=data1;
+		else
+			out=data0;
+	end
+endmodule
+
+module mux4to1(input logic [15:0] data0,data1,
+					input logic [1:0] select,
+					output logic [15:0] out);
+always_comb
+	begin
+		case(select)
+			
+			
+		
