@@ -5,7 +5,7 @@ module reg_file(	input logic [15:0] BUSRESULT,
 			
 logic W0,W1,W2,W3,W4,W5,W6,W7;
 logic L0,L1,L2,L3,L4,L5,L6,L7;
-logic O0,O1,O2,O3,O4,O5,O6,O7;		
+logic [15:0] O0,O1,O2,O3,O4,O5,O6,O7;		
 	
 assign W0=L0&LD;
 assign W1=L1&LD;

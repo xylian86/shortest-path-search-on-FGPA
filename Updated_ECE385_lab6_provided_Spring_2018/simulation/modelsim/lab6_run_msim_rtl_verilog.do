@@ -21,6 +21,7 @@ vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spri
 vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/lab6_toplevel.sv}
 
 vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv}
+vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week0.sv}
 
 vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench_week1
 

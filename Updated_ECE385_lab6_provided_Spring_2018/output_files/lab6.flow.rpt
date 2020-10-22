@@ -1,5 +1,5 @@
 Flow report for lab6
-Thu Oct 22 17:11:04 2020
+Thu Oct 22 22:40:52 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,17 +40,17 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Oct 22 17:11:04 2020       ;
+; Flow Status                        ; Successful - Thu Oct 22 22:40:52 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab6                                        ;
 ; Top-level Entity Name              ; lab6_toplevel                               ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F23C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 147                                         ;
-;     Total combinational functions  ; 115                                         ;
-;     Dedicated logic registers      ; 87                                          ;
-; Total registers                    ; 87                                          ;
+; Total logic elements               ; 184                                         ;
+;     Total combinational functions  ; 136                                         ;
+;     Dedicated logic registers      ; 103                                         ;
+; Total registers                    ; 103                                         ;
 ; Total pins                         ; 129                                         ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 0                                           ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/22/2020 17:10:54 ;
+; Start date & time ; 10/22/2020 22:40:41 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab6                ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+---------------+-----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name   ; Section Id      ;
 +--------------------------------------+----------------------------------------+---------------+---------------+-----------------+
-; COMPILER_SIGNATURE_ID                ; 198696037295579.160335785404368        ; --            ; --            ; --              ;
+; COMPILER_SIGNATURE_ID                ; 198696037295579.160337764111716        ; --            ; --            ; --              ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --            ; testbench_week1 ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench_week1                        ; --            ; --            ; eda_simulation  ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --            ; eda_simulation  ;
@@ -104,8 +104,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 4821 MB             ; 00:00:20                           ;
-; Total                ; 00:00:10     ; --                      ; --                  ; 00:00:20                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4822 MB             ; 00:00:23                           ;
+; Total                ; 00:00:12     ; --                      ; --                  ; 00:00:23                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

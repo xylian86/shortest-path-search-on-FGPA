@@ -103,7 +103,7 @@ always_ff @(posedge Clk)
 	begin 
 		if (Reset_ah)
 			PC<=16'b0;
-		else if(LD_IR)
+		else if(LD_PC)
 			PC<=MUX_to_PC;
 	end
 	
@@ -112,16 +112,16 @@ mux4to1 PC_MUX(.data0(PC+1),.data1(BUSRESULT),.data2(ADDER_OUT),.data3(16'b0),.s
 //ADDER part
 assign ADDER_OUT=MUX1_to_adder+MUX2_to_adder;
 
-mux2to1 ADDER1_MUX(.data0(PC),.data1(SR1_OUT),.select(ADDER1MUX),.out(MUX1_to_adder));
-mux4to1 ADDER2_MUX(.data0(16'b0),.data1({{10{IR[5]}},{IR[5:0]}}),.data2({{7{IR[8]}},{IR[8:0]}}),.data3({{5{IR[10]}},{IR[10:0]}}),.select(ADDER2MUX),.out(MUX2_to_adder));
+mux2to1 ADDER1_MUX(.data0(PC),.data1(SR1_OUT),.select(ADDR1MUX),.out(MUX1_to_adder));
+mux4to1 ADDER2_MUX(.data0(16'b0),.data1({{10{IR[5]}},{IR[5:0]}}),.data2({{7{IR[8]}},{IR[8:0]}}),.data3({{5{IR[10]}},{IR[10:0]}}),.select(ADDR2MUX),.out(MUX2_to_adder));
 
 
 //reg_file
-reg_file REGUSE(.BUSRESULT(BUSRESULT), .Clk(Clk), .DR(MUX_to_DR), .SR1(MUX_to_SR1), .SR2(IR[1:0]),
+reg_file REGUSE(.BUSRESULT(BUSRESULT), .Clk(Clk), .DR(MUX_to_DR), .SR1(MUX_to_SR1), .SR2(IR[2:0]),
 					 .Reset(Reset_ah), .LD(LD_REG), .SR1_OUT(SR1_OUT), .SR2_OUT(SR2_OUT));
 					 
-mux2to1 MUX_SR1(.data0(IR[11:9]),.data1(IR[8:6]),.select(SR1MUX),.out(MUX_to_SR1));
-mux2to1 MUX_DR(.data0(IR[11:9]),.data1(3'b111),.select(SR1MUX),.out(MUX_to_DR));
+mux2to1 #(3) MUX_SR1(.data0(IR[11:9]),.data1(IR[8:6]),.select(SR1MUX),.out(MUX_to_SR1));
+mux2to1 #(3) MUX_DR(.data0(IR[11:9]),.data1(3'b111),.select(SR1MUX),.out(MUX_to_DR));
 
 
 //ALU part
@@ -132,12 +132,12 @@ ALU ALU(.A(SR1_OUT), .B(MUX_to_ALU), .ALUK(ALUK), .ALU_OUT(ALU_OUT));
 
 
 //MDR part
-mux2to1 MEMORYOUT(.data0(BUSRESULT), .data1(MDR_IN), .select(LD_MDR), .out(MUX_to_MDR));
+mux2to1 MEMORYOUT(.data0(BUSRESULT), .data1(MDR_In), .select(MIO_EN), .out(MUX_to_MDR));
 always_ff @(posedge Clk) 
 	begin 
 		if (Reset_ah)
 			MDR<=16'b0;
-		else if(LD_IR)
+		else if(LD_MDR)
 			MDR<=MUX_to_MDR;
 	end
 

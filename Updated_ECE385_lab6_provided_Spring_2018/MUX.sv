@@ -1,6 +1,6 @@
-module mux2to1(input logic [15:0] data0,data1,
+module mux2to1 #(parameter width=16 )(input logic [width-1:0] data0,data1,
 					input logic  select,
-					output logic [15:0] out);
+					output logic [width-1:0] out);
 			
 always_comb
 	begin
@@ -11,9 +11,9 @@ always_comb
 	end
 endmodule
 
-module mux4to1(input logic [15:0] data0,data1,data2,data3,
+module mux4to1 #(parameter width=16)(input logic [width-1:0] data0,data1,data2,data3,
 					input logic [1:0] select,
-					output logic [15:0] out);
+					output logic [width-1:0] out);
 always_comb
 	begin
 		case(select)
@@ -25,9 +25,9 @@ always_comb
 	end
 endmodule
 
-module mux8to1(input logic [15:0] data0,data1,data2,data3,data4,data5,data6,data7,
+module mux8to1 #(parameter width=16) (input logic [width-1:0] data0,data1,data2,data3,data4,data5,data6,data7,
 					input logic [2:0] select,
-					output logic [15:0] out);
+					output logic [width-1:0] out);
 always_comb
 	begin
 		case(select)

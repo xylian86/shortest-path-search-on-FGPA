@@ -44,9 +44,9 @@ timeprecision 1ns;
 	always begin
 	#1
 	PC = test.my_slc.d0.PC;
-	MAR = test.my_slc.d0.MAR_reg.data_out;
-	MDR = test.my_slc.d0.MDR_reg.data_out;
-	IR = test.my_slc.d0.IR_reg.data_out;	
+	MAR = test.my_slc.MAR;
+	MDR = test.my_slc.MDR;
+	IR = test.my_slc.IR;	
 	end
 	
 	// set clock rule
