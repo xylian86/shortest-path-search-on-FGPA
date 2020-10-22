@@ -1,0 +1,283 @@
+# Reading D:/ece385/modelsim_ase/tcl/vsim/pref.tcl
+# do lab6_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying D:/ece385/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:29 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 17:11:29 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/tristate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:29 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/tristate.sv 
+# -- Compiling module tristate
+# 
+# Top level modules:
+# 	tristate
+# End time: 17:11:29 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:29 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:30 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:30 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:30 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:30 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:30 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv 
+# -- Compiling module mux2to1
+# -- Compiling module mux4to1
+# -- Compiling module mux8to1
+# 
+# Top level modules:
+# 	mux2to1
+# 	mux4to1
+# 	mux8to1
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:30 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv 
+# -- Compiling module datapath
+# 
+# Top level modules:
+# 	datapath
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:30 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv 
+# -- Compiling module reg_file
+# -- Compiling module register
+# 
+# Top level modules:
+# 	reg_file
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/BEN.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:30 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/BEN.sv 
+# -- Compiling module NZP_LOGIC
+# -- Compiling module BEN_LOGIC
+# 
+# Top level modules:
+# 	NZP_LOGIC
+# 	BEN_LOGIC
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:30 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:30 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 17:11:30 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/lab6_toplevel.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:31 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/lab6_toplevel.sv 
+# -- Compiling module lab6_toplevel
+# 
+# Top level modules:
+# 	lab6_toplevel
+# End time: 17:11:31 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018 {D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 17:11:31 on Oct 22,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018" D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv 
+# -- Compiling module testbench_week1
+# 
+# Top level modules:
+# 	testbench_week1
+# End time: 17:11:31 on Oct 22,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench_week1
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testbench_week1 
+# Start time: 17:11:31 on Oct 22,2020
+# Loading sv_std.std
+# Loading work.testbench_week1
+# Loading work.lab6_toplevel
+# Loading work.slc3
+# Loading work.HexDriver
+# Loading work.datapath
+# Loading work.mux4to1
+# Loading work.mux2to1
+# Loading work.reg_file
+# Loading work.register
+# Loading work.mux8to1
+# Loading work.ALU
+# Loading work.NZP_LOGIC
+# Loading work.BEN_LOGIC
+# Loading work.Mem2IO
+# Loading work.tristate
+# Loading work.ISDU
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# ** Warning: (vsim-3008) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv(49): [CNNODP] - Component name (IR_reg) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv
+# ** Error: (vsim-3043) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv(49): Unresolved reference to 'IR_reg' in test.my_slc.d0.IR_reg.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv
+# ** Warning: (vsim-3008) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv(47): [CNNODP] - Component name (MAR_reg) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv
+# ** Error: (vsim-3043) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv(47): Unresolved reference to 'MAR_reg' in test.my_slc.d0.MAR_reg.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv
+# ** Warning: (vsim-3008) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv(48): [CNNODP] - Component name (MDR_reg) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv
+# ** Error: (vsim-3043) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv(48): Unresolved reference to 'MDR_reg' in test.my_slc.d0.MDR_reg.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv(110): [PCDPC] - Port size (16) does not match connection size (32) for port 'data0'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(14).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/PC_MUX File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv(116): [PCDPC] - Port size (2) does not match connection size (1) for port 'select'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(15).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/ADDER2_MUX File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv(120): [PCDPC] - Port size (3) does not match connection size (2) for port 'SR2'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(2).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(41): [PCDPC] - Port size (16) does not match connection size (1) for port 'dataout'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/R0 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(42): [PCDPC] - Port size (16) does not match connection size (1) for port 'dataout'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/R1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(43): [PCDPC] - Port size (16) does not match connection size (1) for port 'dataout'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/R2 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(44): [PCDPC] - Port size (16) does not match connection size (1) for port 'dataout'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/R3 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(45): [PCDPC] - Port size (16) does not match connection size (1) for port 'dataout'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/R4 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(46): [PCDPC] - Port size (16) does not match connection size (1) for port 'dataout'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/R5 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(47): [PCDPC] - Port size (16) does not match connection size (1) for port 'dataout'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/R6 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(48): [PCDPC] - Port size (16) does not match connection size (1) for port 'dataout'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(58).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/R7 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(50): [PCDPC] - Port size (16) does not match connection size (1) for port 'data0'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(50): [PCDPC] - Port size (16) does not match connection size (1) for port 'data1'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(50): [PCDPC] - Port size (16) does not match connection size (1) for port 'data2'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(50): [PCDPC] - Port size (16) does not match connection size (1) for port 'data3'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(50): [PCDPC] - Port size (16) does not match connection size (1) for port 'data4'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(50): [PCDPC] - Port size (16) does not match connection size (1) for port 'data5'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(50): [PCDPC] - Port size (16) does not match connection size (1) for port 'data6'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(50): [PCDPC] - Port size (16) does not match connection size (1) for port 'data7'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(51): [PCDPC] - Port size (16) does not match connection size (1) for port 'data0'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR2 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(51): [PCDPC] - Port size (16) does not match connection size (1) for port 'data1'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR2 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(51): [PCDPC] - Port size (16) does not match connection size (1) for port 'data2'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR2 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(51): [PCDPC] - Port size (16) does not match connection size (1) for port 'data3'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR2 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(51): [PCDPC] - Port size (16) does not match connection size (1) for port 'data4'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR2 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(51): [PCDPC] - Port size (16) does not match connection size (1) for port 'data5'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR2 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(51): [PCDPC] - Port size (16) does not match connection size (1) for port 'data6'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR2 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv(51): [PCDPC] - Port size (16) does not match connection size (1) for port 'data7'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(28).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/REGUSE/MUXSR2 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv(123): [PCDPC] - Port size (16) does not match connection size (3) for port 'data0'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/MUX_SR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv(123): [PCDPC] - Port size (16) does not match connection size (3) for port 'data1'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/MUX_SR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv(123): [PCDPC] - Port size (16) does not match connection size (3) for port 'out'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/MUX_SR1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv(124): [PCDPC] - Port size (16) does not match connection size (3) for port 'data0'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/MUX_DR File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv(124): [PCDPC] - Port size (16) does not match connection size (3) for port 'data1'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/MUX_DR File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv(124): [PCDPC] - Port size (16) does not match connection size (3) for port 'out'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(3).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/MUX_DR File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# ** Warning: (vsim-3015) D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/slc3.sv(135): [PCDPC] - Port size (16) does not match connection size (1) for port 'data1'. The port definition is at: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /testbench_week1/test/my_slc/MEMORYOUT File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./lab6_run_msim_rtl_verilog.do PAUSED at line 25
+# End time: 18:06:59 on Oct 22,2020, Elapsed time: 0:55:28
+# Errors: 3, Warnings: 37

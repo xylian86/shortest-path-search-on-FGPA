@@ -75,8 +75,9 @@ assign MIO_EN = ~OE;
 // You need to make your own datapath module and connect everything to the datapath
 // Be careful about whether Reset is active high or low
 
+//Output test
 assign LED = IR[11:0];
-// internal logic
+// Create internal logic
 logic [15:0] BUSRESULT,
              MUX_to_PC,
              MUX1_to_adder, MUX2_to_adder, ADDER_OUT,
@@ -89,7 +90,7 @@ logic N, Z, P, Nin, Zin, Pin, BENin;
 datapath d0 (/* Please fill in the signals.... */.*);
 
 //IR part
-always_ff &(posedge Clk) 
+always_ff @(posedge Clk) 
 	begin 
 		if (Reset_ah)
 			IR<=16'b0;
@@ -98,7 +99,7 @@ always_ff &(posedge Clk)
 	end
 
 //PC part
-always_ff &(posedge Clk) 
+always_ff @(posedge Clk) 
 	begin 
 		if (Reset_ah)
 			PC<=16'b0;
@@ -108,7 +109,74 @@ always_ff &(posedge Clk)
 	
 mux4to1 PC_MUX(.data0(PC+1),.data1(BUSRESULT),.data2(ADDER_OUT),.data3(16'b0),.select(PCMUX),.out(MUX_to_PC));
 
+//ADDER part
 assign ADDER_OUT=MUX1_to_adder+MUX2_to_adder;
+
+mux2to1 ADDER1_MUX(.data0(PC),.data1(SR1_OUT),.select(ADDER1MUX),.out(MUX1_to_adder));
+mux4to1 ADDER2_MUX(.data0(16'b0),.data1({{10{IR[5]}},{IR[5:0]}}),.data2({{7{IR[8]}},{IR[8:0]}}),.data3({{5{IR[10]}},{IR[10:0]}}),.select(ADDER2MUX),.out(MUX2_to_adder));
+
+
+//reg_file
+reg_file REGUSE(.BUSRESULT(BUSRESULT), .Clk(Clk), .DR(MUX_to_DR), .SR1(MUX_to_SR1), .SR2(IR[1:0]),
+					 .Reset(Reset_ah), .LD(LD_REG), .SR1_OUT(SR1_OUT), .SR2_OUT(SR2_OUT));
+					 
+mux2to1 MUX_SR1(.data0(IR[11:9]),.data1(IR[8:6]),.select(SR1MUX),.out(MUX_to_SR1));
+mux2to1 MUX_DR(.data0(IR[11:9]),.data1(3'b111),.select(SR1MUX),.out(MUX_to_DR));
+
+
+//ALU part
+mux2to1 MUX_SR2(.data0(SR2_OUT),.data1({{11{IR[4]}},IR[4:0]}), .select(SR2MUX),.out(MUX_to_ALU));
+ALU ALU(.A(SR1_OUT), .B(MUX_to_ALU), .ALUK(ALUK), .ALU_OUT(ALU_OUT));
+
+
+
+
+//MDR part
+mux2to1 MEMORYOUT(.data0(BUSRESULT), .data1(MDR_IN), .select(LD_MDR), .out(MUX_to_MDR));
+always_ff @(posedge Clk) 
+	begin 
+		if (Reset_ah)
+			MDR<=16'b0;
+		else if(LD_IR)
+			MDR<=MUX_to_MDR;
+	end
+
+//MAR part
+always_ff @(posedge Clk) 
+	begin
+    if (Reset_ah)
+        MAR <= 16'b0;
+    else if (LD_MAR)
+        MAR <= BUSRESULT;
+	end
+
+//NZP part
+NZP_LOGIC NZP(.BUSRESULT(BUSRESULT),.N(Nin),.Z(Zin),.P(Pin));
+always_ff @(posedge Clk)
+	begin
+		if(Reset_ah) 
+		begin
+			N<=1'b0;
+			Z<=1'b0;
+			P<=1'b0;
+		end
+		else if(LD_CC)
+		begin
+			N<=Nin;
+			Z<=Zin;
+			P<=Pin;
+		end
+	end
+	
+BEN_LOGIC BENLIG(.N(N),.Z(Z),.P(P),.c(IR[11:9]),.BENRESULT(BENin));
+always_ff @(posedge Clk) begin
+    if (Reset_ah)
+        BEN <= 1'b0;
+    else if (LD_BEN)
+        BEN <= BENin;
+end
+//design end
+
 // Our SRAM and I/O controller
 Mem2IO memory_subsystem(
     .*, .Reset(Reset_ah), .ADDR(ADDR), .Switches(S),
