@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lab6
-Thu Oct 22 22:40:52 2020
+Sat Oct 24 15:32:37 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -63,7 +63,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Oct 22 22:40:52 2020       ;
+; Analysis & Synthesis Status        ; Successful - Sat Oct 24 15:32:37 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab6                                        ;
 ; Top-level Entity Name              ; lab6_toplevel                               ;
@@ -85,7 +85,7 @@ refer to the applicable agreement for further details.
 +------------------------------------------------------------------+--------------------+--------------------+
 ; Option                                                           ; Setting            ; Default Value      ;
 +------------------------------------------------------------------+--------------------+--------------------+
-; Device                                                           ; EP4CE115F23C7      ;                    ;
+; Device                                                           ; EP4CE115F29C7      ;                    ;
 ; Top-level entity name                                            ; lab6_toplevel      ; lab6               ;
 ; Family name                                                      ; Cyclone IV E       ; Cyclone V          ;
 ; Use smart compilation                                            ; Off                ; Off                ;
@@ -673,14 +673,14 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Oct 22 22:40:40 2020
+    Info: Processing started: Sat Oct 24 15:32:26 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lab6 -c lab6
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file hexdriver.sv
-    Info (12023): Found entity 1: HexDriver File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/HexDriver.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file testbench_week1.sv
     Info (12023): Found entity 1: testbench_week1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/testbench_week1.sv Line: 10
+Info (12021): Found 1 design units, including 1 entities, in source file hexdriver.sv
+    Info (12023): Found entity 1: HexDriver File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/HexDriver.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tristate.sv
     Info (12023): Found entity 1: tristate File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/tristate.sv Line: 16
 Info (12021): Found 1 design units, including 1 entities, in source file test_memory.sv
@@ -703,12 +703,8 @@ Info (12021): Found 3 design units, including 3 entities, in source file mux.sv
     Info (12023): Found entity 1: mux2to1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv Line: 1
     Info (12023): Found entity 2: mux4to1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv Line: 14
     Info (12023): Found entity 3: mux8to1 File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/MUX.sv Line: 28
-Info (12021): Found 5 design units, including 5 entities, in source file datapath.sv
+Info (12021): Found 1 design units, including 1 entities, in source file datapath.sv
     Info (12023): Found entity 1: datapath File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv Line: 2
-    Info (12023): Found entity 2: MUXIR File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv Line: 20
-    Info (12023): Found entity 3: MUXPC File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv Line: 32
-    Info (12023): Found entity 4: MUXMDR File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv Line: 43
-    Info (12023): Found entity 5: MUXMAR File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv Line: 53
 Info (12021): Found 2 design units, including 2 entities, in source file reg_file.sv
     Info (12023): Found entity 1: reg_file File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv Line: 1
     Info (12023): Found entity 2: register File: D:/ece385/lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/reg_file.sv Line: 55
@@ -773,10 +769,10 @@ Info (21057): Implemented 329 device resources after synthesis - the final resou
     Info (21060): Implemented 16 bidirectional pins
     Info (21061): Implemented 200 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 29 warnings
-    Info: Peak virtual memory: 4822 megabytes
-    Info: Processing ended: Thu Oct 22 22:40:52 2020
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:23
+    Info: Peak virtual memory: 4821 megabytes
+    Info: Processing ended: Sat Oct 24 15:32:37 2020
+    Info: Elapsed time: 00:00:11
+    Info: Total CPU time (on all processors): 00:00:24
 
 
 +------------------------------------------+

@@ -1,5 +1,5 @@
 Flow report for lab6
-Thu Oct 22 22:40:52 2020
+Sat Oct 24 15:32:37 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,12 +40,12 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Thu Oct 22 22:40:52 2020       ;
+; Flow Status                        ; Successful - Sat Oct 24 15:32:37 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab6                                        ;
 ; Top-level Entity Name              ; lab6_toplevel                               ;
 ; Family                             ; Cyclone IV E                                ;
-; Device                             ; EP4CE115F23C7                               ;
+; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
 ; Total logic elements               ; 184                                         ;
 ;     Total combinational functions  ; 136                                         ;
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/22/2020 22:40:41 ;
+; Start date & time ; 10/24/2020 15:32:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab6                ;
 +-------------------+---------------------+
@@ -75,20 +75,20 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+---------------+-----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name   ; Section Id      ;
 +--------------------------------------+----------------------------------------+---------------+---------------+-----------------+
-; COMPILER_SIGNATURE_ID                ; 198696037295579.160337764111716        ; --            ; --            ; --              ;
+; COMPILER_SIGNATURE_ID                ; 198696037295579.160352474619668        ; --            ; --            ; --              ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --            ; testbench_week1 ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench_week1                        ; --            ; --            ; eda_simulation  ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Systemverilog Hdl                      ; --            ; --            ; eda_simulation  ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (SystemVerilog)        ; <None>        ; --            ; --              ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --            ; eda_simulation  ;
 ; EDA_TEST_BENCH_FILE                  ; testbench_week1.sv                     ; --            ; --            ; testbench_week1 ;
+; EDA_TEST_BENCH_FILE                  ; testbench_week0.sv                     ; --            ; --            ; testbench_week1 ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; testbench_week1                        ; --            ; --            ; testbench_week1 ;
 ; EDA_TEST_BENCH_NAME                  ; testbench_week1                        ; --            ; --            ; eda_simulation  ;
 ; EDA_TEST_BENCH_RUN_SIM_FOR           ; 5000 ns                                ; --            ; --            ; testbench_week1 ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --            ; eda_simulation  ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --            ; --              ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --            ; --              ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE          ; 1.2V                                   ; --            ; --            ; --              ;
 ; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; lab6_toplevel ; Top             ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; lab6_toplevel ; Top             ;
 ; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; lab6_toplevel ; Top             ;
@@ -104,8 +104,8 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4822 MB             ; 00:00:23                           ;
-; Total                ; 00:00:12     ; --                      ; --                  ; 00:00:23                           ;
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4821 MB             ; 00:00:24                           ;
+; Total                ; 00:00:11     ; --                      ; --                  ; 00:00:24                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
