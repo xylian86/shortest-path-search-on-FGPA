@@ -1,0 +1,14 @@
+module datapath(  input logic [15:0] PC, ADDER_OUT, ALU_OUT, MDR_OUT,
+						input logic GatePC, GateMDR, GateALU, GateMARMUX,
+						output logic [15:0] BUSRESULT);
+logic [3:0] select;
+assign select={GatePC, GateMDR, GateALU, GateMARMUX};
+always_comb 
+	begin
+		case(select)
+		4'd1000: BUSRESULT=PC;
+		4'd0100: BUSRESULT=PC;
+		4'd0010: BUSRESULT=PC;
+		4'd0001: BUSRESULT=PC;
+	end
+endmodule
