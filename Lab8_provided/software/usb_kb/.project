@@ -3,6 +3,7 @@
 	<name>usb_kb</name>
 	<comment></comment>
 	<projects>
+		<project>RemoteSystemsTempFiles</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

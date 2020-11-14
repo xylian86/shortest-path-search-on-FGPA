@@ -1,5 +1,5 @@
 Flow report for lab8
-Wed Nov 11 22:23:32 2020
+Sat Nov 14 19:30:58 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,22 +40,22 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Flow Failed - Wed Nov 11 22:23:32 2020      ;
+; Flow Status                        ; Successful - Sat Nov 14 19:30:53 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; lab8                                        ;
 ; Top-level Entity Name              ; lab8                                        ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; N/A until Partition Merge                   ;
-;     Total combinational functions  ; N/A until Partition Merge                   ;
-;     Dedicated logic registers      ; N/A until Partition Merge                   ;
-; Total registers                    ; N/A until Partition Merge                   ;
-; Total pins                         ; N/A until Partition Merge                   ;
-; Total virtual pins                 ; N/A until Partition Merge                   ;
-; Total memory bits                  ; N/A until Partition Merge                   ;
-; Embedded Multiplier 9-bit elements ; N/A until Partition Merge                   ;
-; Total PLLs                         ; N/A until Partition Merge                   ;
+; Total logic elements               ; 4,830 / 114,480 ( 4 % )                     ;
+;     Total combinational functions  ; 3,251 / 114,480 ( 3 % )                     ;
+;     Dedicated logic registers      ; 3,484 / 114,480 ( 3 % )                     ;
+; Total registers                    ; 3603                                        ;
+; Total pins                         ; 128 / 529 ( 24 % )                          ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 212,096 / 3,981,312 ( 5 % )                 ;
+; Embedded Multiplier 9-bit elements ; 4 / 532 ( < 1 % )                           ;
+; Total PLLs                         ; 2 / 4 ( 50 % )                              ;
 +------------------------------------+---------------------------------------------+
 
 
@@ -64,47 +64,75 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/11/2020 22:23:23 ;
+; Start date & time ; 11/14/2020 19:29:34 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; lab8                ;
 +-------------------+---------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                                     ;
-+--------------------------------------+------------------------------------------------------------+---------------+-----------------+----------------+
-; Assignment Name                      ; Value                                                      ; Default Value ; Entity Name     ; Section Id     ;
-+--------------------------------------+------------------------------------------------------------+---------------+-----------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 198696037295579.160510460321324                            ; --            ; --              ; --             ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                                         ; --            ; --              ; testbench      ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                                                  ; --            ; --              ; eda_simulation ;
-; EDA_OUTPUT_DATA_FORMAT               ; None                                                       ; --            ; --              ; eda_simulation ;
-; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                            ; --            ; --              ; eda_simulation ;
-; EDA_TEST_BENCH_FILE                  ; testbench.sv                                               ; --            ; --              ; testbench      ;
-; EDA_TEST_BENCH_MODULE_NAME           ; testbench                                                  ; --            ; --              ; testbench      ;
-; EDA_TEST_BENCH_NAME                  ; testbench                                                  ; --            ; --              ; eda_simulation ;
-; EDA_TEST_BENCH_RUN_SIM_FOR           ; 10000 ns                                                   ; --            ; --              ; testbench      ;
-; ENABLE_SIGNALTAP                     ; On                                                         ; --            ; --              ; --             ;
-; MAX_CORE_JUNCTION_TEMP               ; 85                                                         ; --            ; --              ; --             ;
-; MIN_CORE_JUNCTION_TEMP               ; 0                                                          ; --            ; --              ; --             ;
-; MISC_FILE                            ; lab8_soc/synthesis/../lab8_soc.cmp                         ; --            ; --              ; --             ;
-; MISC_FILE                            ; lab8_soc/synthesis/../../lab8_soc.qsys                     ; --            ; --              ; --             ;
-; MISC_FILE                            ; vga_clk.ppf                                                ; --            ; --              ; --             ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family)                     ; --            ; DE2_115_Default ; Top            ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family)                     ; --            ; --              ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                     ; --            ; DE2_115_Default ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                     ; --            ; --              ; Top            ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                     ; --            ; DE2_115_Default ; Top            ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                     ; --            ; --              ; Top            ;
-; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                        ; --            ; --              ; --             ;
-; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                      ; --            ; --              ; --             ;
-; SLD_FILE                             ; lab8_soc/synthesis/lab8_soc.regmap                         ; --            ; --              ; --             ;
-; SLD_FILE                             ; lab8_soc/synthesis/lab8_soc.debuginfo                      ; --            ; --              ; --             ;
-; SLD_INFO                             ; QSYS_NAME lab8_soc HAS_SOPCINFO 1 GENERATION_ID 1605101859 ; --            ; lab8_soc        ; --             ;
-; SOPCINFO_FILE                        ; lab8_soc/synthesis/../../lab8_soc.sopcinfo                 ; --            ; --              ; --             ;
-; SYNTHESIS_ONLY_QIP                   ; On                                                         ; --            ; --              ; --             ;
-; USE_SIGNALTAP_FILE                   ; stp1.stp                                                   ; --            ; --              ; --             ;
-+--------------------------------------+------------------------------------------------------------+---------------+-----------------+----------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                                                                                                                                                                             ;
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+------------------+
+; Assignment Name                      ; Value                                                                                                                                                                                            ; Default Value ; Entity Name     ; Section Id       ;
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+------------------+
+; COMPILER_SIGNATURE_ID                ; 198696037295579.160535337319376                                                                                                                                                                  ; --            ; --              ; --               ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                                                                                                                                                                               ; --            ; --              ; testbench        ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; testbench                                                                                                                                                                                        ; --            ; --              ; eda_simulation   ;
+; EDA_OUTPUT_DATA_FORMAT               ; None                                                                                                                                                                                             ; --            ; --              ; eda_simulation   ;
+; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                                                                                                                                                                                  ; --            ; --              ; eda_simulation   ;
+; EDA_TEST_BENCH_FILE                  ; testbench.sv                                                                                                                                                                                     ; --            ; --              ; testbench        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; testbench                                                                                                                                                                                        ; --            ; --              ; testbench        ;
+; EDA_TEST_BENCH_NAME                  ; testbench                                                                                                                                                                                        ; --            ; --              ; eda_simulation   ;
+; EDA_TEST_BENCH_RUN_SIM_FOR           ; 10000 ns                                                                                                                                                                                         ; --            ; --              ; testbench        ;
+; ENABLE_SIGNALTAP                     ; On                                                                                                                                                                                               ; --            ; --              ; --               ;
+; MAX_CORE_JUNCTION_TEMP               ; 85                                                                                                                                                                                               ; --            ; --              ; --               ;
+; MIN_CORE_JUNCTION_TEMP               ; 0                                                                                                                                                                                                ; --            ; --              ; --               ;
+; MISC_FILE                            ; lab8_soc/synthesis/../lab8_soc.cmp                                                                                                                                                               ; --            ; --              ; --               ;
+; MISC_FILE                            ; lab8_soc/synthesis/../../lab8_soc.qsys                                                                                                                                                           ; --            ; --              ; --               ;
+; MISC_FILE                            ; vga_clk.ppf                                                                                                                                                                                      ; --            ; --              ; --               ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                                                                                                                                           ; --            ; DE2_115_Default ; Top              ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family)                                                                                                                                                           ; --            ; --              ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                                                                                                                                           ; --            ; DE2_115_Default ; Top              ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family)                                                                                                                                                           ; --            ; --              ; Top              ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                                                                                                                                                           ; --            ; DE2_115_Default ; Top              ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family)                                                                                                                                                           ; --            ; --              ; Top              ;
+; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                                                                                                                                                                              ; --            ; --              ; --               ;
+; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW                                                                                                                                                            ; --            ; --              ; --               ;
+; SLD_FILE                             ; lab8_soc/synthesis/lab8_soc.regmap                                                                                                                                                               ; --            ; --              ; --               ;
+; SLD_FILE                             ; lab8_soc/synthesis/lab8_soc.debuginfo                                                                                                                                                            ; --            ; --              ; --               ;
+; SLD_FILE                             ; db/lab8tutorial_auto_stripped.stp                                                                                                                                                                ; --            ; --              ; --               ;
+; SLD_INFO                             ; QSYS_NAME lab8_soc HAS_SOPCINFO 1 GENERATION_ID 1605262638                                                                                                                                       ; --            ; lab8_soc        ; --               ;
+; SLD_NODE_CREATOR_ID                  ; 110                                                                                                                                                                                              ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_ENTITY_NAME                 ; sld_signaltap                                                                                                                                                                                    ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_BLOCK_TYPE=AUTO                                                                                                                                                                          ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_NODE_INFO=805334528                                                                                                                                                                          ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_POWER_UP_TRIGGER=0                                                                                                                                                                           ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_INVERSION_MASK_LENGTH=0                                                                                                                                                    ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ATTRIBUTE_MEM_MODE=OFF                                                                                                                                                                       ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_FLOW_USE_GENERATED=0                                                                                                                                                                   ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STATE_BITS=11                                                                                                                                                                                ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_BUFFER_FULL_STOP=1                                                                                                                                                                           ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_CURRENT_RESOURCE_WIDTH=1                                                                                                                                                                     ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INCREMENTAL_ROUTING=1                                                                                                                                                                        ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL=1                                                                                                                                                                              ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_IN_ENABLED=0                                                                                                                                                                         ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_PIPELINE=0                                                                                                                                                                           ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_COUNTER_PIPELINE=0                                                                                                                                                                           ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ADVANCED_TRIGGER_ENTITY=basic,1,                                                                                                                                                             ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_LEVEL_PIPELINE=1                                                                                                                                                                     ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_ENABLE_ADVANCED_TRIGGER=0                                                                                                                                                                    ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SEGMENT_SIZE=4096                                                                                                                                                                            ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_SAMPLE_DEPTH=4096                                                                                                                                                                            ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_RAM_PIPELINE=5                                                                                                                                                                               ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_DATA_BITS=49                                                                                                                                                                                 ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_TRIGGER_BITS=49                                                                                                                                                                              ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_STORAGE_QUALIFIER_BITS=49                                                                                                                                                                    ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK=00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000 ; --            ; --              ; auto_signaltap_0 ;
+; SLD_NODE_PARAMETER_ASSIGNMENT        ; SLD_INVERSION_MASK_LENGTH=173                                                                                                                                                                    ; --            ; --              ; auto_signaltap_0 ;
+; SOPCINFO_FILE                        ; lab8_soc/synthesis/../../lab8_soc.sopcinfo                                                                                                                                                       ; --            ; --              ; --               ;
+; SYNTHESIS_ONLY_QIP                   ; On                                                                                                                                                                                               ; --            ; --              ; --               ;
+; USE_SIGNALTAP_FILE                   ; lab8tutorial.stp                                                                                                                                                                                 ; --            ; --              ; --               ;
++--------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------+-----------------+------------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -112,8 +140,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 4756 MB             ; 00:00:19                           ;
-; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:19                           ;
+; Analysis & Synthesis ; 00:00:42     ; 1.0                     ; 5006 MB             ; 00:00:59                           ;
+; Partition Merge      ; 00:00:02     ; 1.0                     ; 4781 MB             ; 00:00:02                           ;
+; Fitter               ; 00:00:23     ; 1.1                     ; 6016 MB             ; 00:00:37                           ;
+; Assembler            ; 00:00:04     ; 1.0                     ; 4731 MB             ; 00:00:04                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.2                     ; 4965 MB             ; 00:00:04                           ;
+; Total                ; 00:01:15     ; --                      ; --                  ; 00:01:46                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -123,6 +155,10 @@ refer to the applicable agreement for further details.
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
 ; Analysis & Synthesis ; LAPTOP-OHJK49M9  ; Windows 10 ; 10.0       ; x86_64         ;
+; Partition Merge      ; LAPTOP-OHJK49M9  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; LAPTOP-OHJK49M9  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; LAPTOP-OHJK49M9  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; LAPTOP-OHJK49M9  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
@@ -130,6 +166,10 @@ refer to the applicable agreement for further details.
 ; Flow Log ;
 ------------
 quartus_map --read_settings_files=on --write_settings_files=off lab8 -c lab8
+quartus_cdb --read_settings_files=off --write_settings_files=off lab8 -c lab8 --merge=on
+quartus_fit --read_settings_files=off --write_settings_files=off lab8 -c lab8
+quartus_asm --read_settings_files=off --write_settings_files=off lab8 -c lab8
+quartus_sta lab8 -c lab8
 
 
 

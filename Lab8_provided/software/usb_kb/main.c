@@ -193,7 +193,7 @@ int main(void)
 	while (usb_ctl_val != 0x03) // retries occurred
 	{
 		usb_ctl_val = UsbGetRetryCnt();
-
+		printf("Encountered Fatal Error");
 		goto USB_HOT_PLUG;
 	}
 
@@ -223,6 +223,9 @@ int main(void)
 	while (usb_ctl_val != 0x03)
 	{
 		usb_ctl_val = UsbGetRetryCnt();
+
+		printf("Encountered Fatal Error");
+		goto USB_HOT_PLUG;
 	}
 
 	printf("---------------[ENUM PROCESS]:get device descriptor-1 done!-----------------\n");
@@ -254,6 +257,9 @@ int main(void)
 	while (usb_ctl_val != 0x03)
 	{
 		usb_ctl_val = UsbGetRetryCnt();
+
+		printf("Encountered Fatal Error");
+		goto USB_HOT_PLUG;
 	}
 
 	printf("------------[ENUM PROCESS]:get device descriptor-2 done!--------------\n");
@@ -286,6 +292,9 @@ int main(void)
 	while (usb_ctl_val != 0x03)
 	{
 		usb_ctl_val = UsbGetRetryCnt();
+
+		printf("Encountered Fatal Error");
+		goto USB_HOT_PLUG;
 	}
 	printf("------------[ENUM PROCESS]:get configuration descriptor-1 pass------------\n");
 
@@ -315,6 +324,9 @@ int main(void)
 	while (usb_ctl_val != 0x03)
 	{
 		usb_ctl_val = UsbGetRetryCnt();
+
+		printf("Encountered Fatal Error");
+		goto USB_HOT_PLUG;
 	}
 
 
@@ -377,6 +389,9 @@ int main(void)
 	while (usb_ctl_val != 0x03)
 	{
 		usb_ctl_val = UsbGetRetryCnt();
+
+		printf("Encountered Fatal Error");
+		goto USB_HOT_PLUG;
 	}
 
 	printf("------------[ENUM PROCESS]:set configuration done!-------------------\n");
@@ -403,6 +418,9 @@ int main(void)
 	while (usb_ctl_val != 0x03)
 	{
 		usb_ctl_val = UsbGetRetryCnt();
+
+		printf("Encountered Fatal Error");
+		goto USB_HOT_PLUG;
 	}
 
 
@@ -431,6 +449,8 @@ int main(void)
 	while (usb_ctl_val != 0x03)
 	{
 		usb_ctl_val = UsbGetRetryCnt();
+		printf("Encountered Fatal Error");
+		goto USB_HOT_PLUG;
 	}
 
 	printf("------------[ENUM PROCESS]:get descriptor (class 0x21) done!-------------------\n");
@@ -458,6 +478,8 @@ int main(void)
 	while (usb_ctl_val != 0x03)
 	{
 		usb_ctl_val = UsbGetRetryCnt();
+		printf("Encountered Fatal Error");
+		goto USB_HOT_PLUG;
 	}
 
 	printf("---------------[ENUM PROCESS]:get descriptor (class 0x22) done!----------------\n");

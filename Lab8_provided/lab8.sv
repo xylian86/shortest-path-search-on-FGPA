@@ -57,6 +57,11 @@ module lab8( input               CLOCK_50,
     logic [1:0] hpi_addr;
     logic [15:0] hpi_data_in, hpi_data_out;
     logic hpi_r, hpi_w, hpi_cs, hpi_reset;
+	 
+	 //Using for color_mapper input
+	 logic [9:0] DrawX, DrawY;
+	 
+	 logic is_ball;
     
     // Interface between NIOS II and EZ-OTG chip
     hpi_io_intf hpi_io_inst(
@@ -80,7 +85,7 @@ module lab8( input               CLOCK_50,
     );
      
      // You need to make sure that the port names here match the ports in Qsys-generated codes.
-     nios_system nios_system(
+     lab8_soc nios_system(
                              .clk_clk(Clk),         
                              .reset_reset_n(1'b1),    // Never reset NIOS
                              .sdram_wire_addr(DRAM_ADDR), 
@@ -108,12 +113,13 @@ module lab8( input               CLOCK_50,
     vga_clk vga_clk_instance(.inclk0(Clk), .c0(VGA_CLK));
     
     // TODO: Fill in the connections for the rest of the modules 
-    VGA_controller vga_controller_instance();
+    VGA_controller vga_controller_instance(.Reset(Reset_h), .*);
     
     // Which signal should be frame_clk?
-    ball ball_instance();
+	 //VGA_VS. Because VGA_HS is Horizontal Timing with 25MHZ, not suitable for 60HZ signal.
+    ball ball_instance(.Reset(Reset_h), .frame_clk(VGA_VS), .*);
     
-    color_mapper color_instance();
+    color_mapper color_instance(.*);
     
     // Display keycode on hex display
     HexDriver hex_inst_0 (keycode[3:0], HEX0);
