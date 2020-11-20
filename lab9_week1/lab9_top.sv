@@ -7,7 +7,20 @@ Christine Chen, Fall 2013
 For use with ECE 385 Experiment 9
 University of Illinois ECE Department
 ************************************************************************/
-
+//	Used for aes module, in lab9.soc
+//	avalon_aes_interface aes (
+//		.CLK           (clk_clk),                                    //         CLK.clk
+//		.RESET         (rst_controller_reset_out_reset),             //       RESET.reset
+//		.AVL_BYTE_EN   (mm_interconnect_0_aes_aes_slave_byteenable), //   AES_Slave.byteenable
+//		.AVL_READDATA  (mm_interconnect_0_aes_aes_slave_readdata),   //            .readdata
+//		.AVL_WRITE     (mm_interconnect_0_aes_aes_slave_write),      //            .write
+//		.AVL_READ      (mm_interconnect_0_aes_aes_slave_read),       //            .read
+//		.AVL_CS        (mm_interconnect_0_aes_aes_slave_chipselect), //            .chipselect
+//		.AVL_ADDR      (mm_interconnect_0_aes_aes_slave_address),    //            .address
+//		.AVL_WRITEDATA (mm_interconnect_0_aes_aes_slave_writedata),  //            .writedata
+//		.EXPORT_DATA   (aes_export_export_data)                      // Export_Data.export_data
+//	);
+	
 module lab9_top (
 	input  logic        CLOCK_50,
 	input  logic [1:0]  KEY,
@@ -40,7 +53,7 @@ logic [31:0] AES_EXPORT_DATA;
 lab9_soc lab9_qsystem (
 	.clk_clk(CLOCK_50),								// Clock input
 	.reset_reset_n(KEY[0]),							// Reset key
-	.aes_export_EXPORT_DATA(AES_EXPORT_DATA),	// Exported data
+	.aes_export_export_data(AES_EXPORT_DATA),	// Exported data
 	.sdram_wire_addr(DRAM_ADDR),					// sdram_wire.addr
 	.sdram_wire_ba(DRAM_BA),						// sdram_wire.ba
 	.sdram_wire_cas_n(DRAM_CAS_N),				// sdram_wire.cas_n

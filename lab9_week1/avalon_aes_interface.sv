@@ -77,7 +77,7 @@ module avalon_aes_interface (
 					4'b1000:
 						Reg_list[AVL_ADDR]<={AVL_WRITEDATA[31:24],Reg_list[AVL_ADDR][23:0]};
 					4'b0011:
-						Reg_list[AVL_ADDR]<={Reg_list[AVL_ADDR][31:16]，AVL_WRITEDATA[15:0]};
+						Reg_list[AVL_ADDR]<={Reg_list[AVL_ADDR][31:16],AVL_WRITEDATA[15:0]};
 					4'b1100:
 						Reg_list[AVL_ADDR]<={AVL_WRITEDATA[31:16],Reg_list[AVL_ADDR][15:0]};
 					default:
@@ -95,17 +95,17 @@ module avalon_aes_interface (
 //			end
 						
 	end
-	always_comb
-		begin
-			if(AVL_READ&AVL_CS)
-				begin 
-					AVL_READDATA=Reg_list[AVL_ADDR];
-				end
-			else
-				begin
-					AVL_READDATA=32'hX;
-				end
-	   end
+//	always_comb
+//		begin
+//			if(AVL_READ&AVL_CS)
+//				begin 
+//					AVL_READDATA=Reg_list[AVL_ADDR];
+//				end
+//			else
+//				begin
+//					AVL_READDATA=32'hX;
+//				end
+//	   end
 		
 				
 
