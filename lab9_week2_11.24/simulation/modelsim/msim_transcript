@@ -1,4 +1,4 @@
-# Reading D:/quartus/modelsim_ase/tcl/vsim/pref.tcl
+# Reading D:/ece385/modelsim_ase/tcl/vsim/pref.tcl
 # do lab9_run_msim_rtl_systemverilog.do
 # if {[file exists rtl_work]} {
 # 	vdel -lib rtl_work -all
@@ -7,7 +7,7 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap work rtl_work 
-# Copying D:/quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying D:/ece385/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
 # vlib lab9_soc
@@ -16,90 +16,90 @@
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
 # vmap lab9_soc lab9_soc 
 # Modifying modelsim.ini
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/lab9_soc.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/lab9_soc.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:41 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/lab9_soc.v 
+# Start time: 10:50:13 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/lab9_soc.v 
 # -- Compiling module lab9_soc
 # 
 # Top level modules:
 # 	lab9_soc
-# End time: 09:51:41 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:13 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_reset_controller.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_controller.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:41 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_reset_controller.v 
+# Start time: 10:50:13 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_controller.v 
 # -- Compiling module altera_reset_controller
 # 
 # Top level modules:
 # 	altera_reset_controller
-# End time: 09:51:41 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:13 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:42 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v 
+# Start time: 10:50:13 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v 
 # -- Compiling module altera_reset_synchronizer
 # 
 # Top level modules:
 # 	altera_reset_synchronizer
-# End time: 09:51:42 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:13 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:42 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v 
+# Start time: 10:50:13 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v 
 # -- Compiling module lab9_soc_mm_interconnect_0
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0
-# End time: 09:51:42 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:13 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:42 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v 
+# Start time: 10:50:14 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v 
 # -- Compiling module lab9_soc_mm_interconnect_0_avalon_st_adapter
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_avalon_st_adapter
-# End time: 09:51:42 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:14 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:42 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v 
+# Start time: 10:50:14 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v 
 # -- Compiling module altera_avalon_sc_fifo
 # 
 # Top level modules:
 # 	altera_avalon_sc_fifo
-# End time: 09:51:42 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:14 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:43 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v 
+# Start time: 10:50:14 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v 
 # -- Compiling module lab9_soc_timer_0
 # 
 # Top level modules:
 # 	lab9_soc_timer_0
-# End time: 09:51:43 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:14 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:43 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v 
+# Start time: 10:50:14 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v 
 # -- Compiling module lab9_soc_sysid_qsys_0
 # 
 # Top level modules:
 # 	lab9_soc_sysid_qsys_0
-# End time: 09:51:43 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:14 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:43 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v 
+# Start time: 10:50:14 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v 
 # -- Compiling module lab9_soc_sdram_pll_dffpipe_l2c
 # -- Compiling module lab9_soc_sdram_pll_stdsync_sv6
 # -- Compiling module lab9_soc_sdram_pll_altpll_lqa2
@@ -107,43 +107,43 @@
 # 
 # Top level modules:
 # 	lab9_soc_sdram_pll
-# End time: 09:51:43 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:14 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_sdram.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:43 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_sdram.v 
+# Start time: 10:50:14 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram.v 
 # -- Compiling module lab9_soc_sdram_input_efifo_module
 # -- Compiling module lab9_soc_sdram
 # 
 # Top level modules:
 # 	lab9_soc_sdram
-# End time: 09:51:43 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:15 on Nov 24,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:44 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v 
+# Start time: 10:50:15 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v 
 # -- Compiling module lab9_soc_onchip_memory2_0
 # 
 # Top level modules:
 # 	lab9_soc_onchip_memory2_0
-# End time: 09:51:44 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:15 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:44 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v 
+# Start time: 10:50:15 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v 
 # -- Compiling module lab9_soc_nios2_gen2_0
 # 
 # Top level modules:
 # 	lab9_soc_nios2_gen2_0
-# End time: 09:51:44 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:15 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:44 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v 
+# Start time: 10:50:15 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v 
 # -- Compiling module lab9_soc_nios2_gen2_0_cpu_register_bank_a_module
 # -- Compiling module lab9_soc_nios2_gen2_0_cpu_register_bank_b_module
 # -- Compiling module lab9_soc_nios2_gen2_0_cpu_nios2_oci_debug
@@ -169,52 +169,52 @@
 # Top level modules:
 # 	lab9_soc_nios2_gen2_0_cpu_nios2_performance_monitors
 # 	lab9_soc_nios2_gen2_0_cpu
-# End time: 09:51:44 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:15 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:44 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v 
+# Start time: 10:50:15 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v 
 # -- Compiling module lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk
 # 
 # Top level modules:
 # 	lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk
-# End time: 09:51:45 on Nov 24,2020, Elapsed time: 0:00:01
+# End time: 10:50:15 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:45 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v 
+# Start time: 10:50:16 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v 
 # -- Compiling module lab9_soc_nios2_gen2_0_cpu_debug_slave_tck
 # 
 # Top level modules:
 # 	lab9_soc_nios2_gen2_0_cpu_debug_slave_tck
-# End time: 09:51:45 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:16 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:45 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v 
+# Start time: 10:50:16 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v 
 # -- Compiling module lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper
 # 
 # Top level modules:
 # 	lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper
-# End time: 09:51:45 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:16 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:45 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v 
+# Start time: 10:50:16 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v 
 # -- Compiling module lab9_soc_nios2_gen2_0_cpu_test_bench
 # 
 # Top level modules:
 # 	lab9_soc_nios2_gen2_0_cpu_test_bench
-# End time: 09:51:45 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:16 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:46 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v 
+# Start time: 10:50:16 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v 
 # -- Compiling module lab9_soc_jtag_uart_0_sim_scfifo_w
 # -- Compiling module lab9_soc_jtag_uart_0_scfifo_w
 # -- Compiling module lab9_soc_jtag_uart_0_sim_scfifo_r
@@ -223,612 +223,400 @@
 # 
 # Top level modules:
 # 	lab9_soc_jtag_uart_0
-# End time: 09:51:46 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:16 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Administrator/Desktop/lab9_week2 {C:/Users/Administrator/Desktop/lab9_week2/lab9_top.sv}
+# vlog -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24 {D:/ece385/common/ECE-385/lab9_week2_11.24/SubBytes.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:46 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Administrator/Desktop/lab9_week2" C:/Users/Administrator/Desktop/lab9_week2/lab9_top.sv 
+# Start time: 10:50:16 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24" D:/ece385/common/ECE-385/lab9_week2_11.24/SubBytes.sv 
+# -- Compiling module SubBytes
+# -- Compiling module InvSubBytes
+# 
+# Top level modules:
+# 	SubBytes
+# 	InvSubBytes
+# End time: 10:50:16 on Nov 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24 {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_top.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:50:16 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_top.sv 
 # -- Compiling module lab9_top
 # 
 # Top level modules:
 # 	lab9_top
-# End time: 09:51:46 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:16 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Administrator/Desktop/lab9_week2 {C:/Users/Administrator/Desktop/lab9_week2/hexdriver.sv}
+# vlog -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24 {D:/ece385/common/ECE-385/lab9_week2_11.24/InvShiftRows.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:46 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Administrator/Desktop/lab9_week2" C:/Users/Administrator/Desktop/lab9_week2/hexdriver.sv 
+# Start time: 10:50:17 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24" D:/ece385/common/ECE-385/lab9_week2_11.24/InvShiftRows.sv 
+# -- Compiling module InvShiftRows
+# 
+# Top level modules:
+# 	InvShiftRows
+# End time: 10:50:17 on Nov 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24 {D:/ece385/common/ECE-385/lab9_week2_11.24/InvMixColumns.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:50:17 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24" D:/ece385/common/ECE-385/lab9_week2_11.24/InvMixColumns.sv 
+# -- Compiling module InvMixColumns
+# -- Compiling package InvMixColumns_sv_unit
+# -- Compiling module GF_Mul_9
+# -- Compiling module GF_Mul_b
+# -- Compiling module GF_Mul_d
+# -- Compiling module GF_Mul_e
+# -- Compiling module decode
+# 
+# Top level modules:
+# 	InvMixColumns
+# 	decode
+# End time: 10:50:17 on Nov 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24 {D:/ece385/common/ECE-385/lab9_week2_11.24/hexdriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:50:17 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24" D:/ece385/common/ECE-385/lab9_week2_11.24/hexdriver.sv 
 # -- Compiling module hexdriver
 # 
 # Top level modules:
 # 	hexdriver
-# End time: 09:51:46 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:17 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Administrator/Desktop/lab9_week2 {C:/Users/Administrator/Desktop/lab9_week2/AES.sv}
+# vlog -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24 {D:/ece385/common/ECE-385/lab9_week2_11.24/AES.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:46 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Administrator/Desktop/lab9_week2" C:/Users/Administrator/Desktop/lab9_week2/AES.sv 
+# Start time: 10:50:17 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24" D:/ece385/common/ECE-385/lab9_week2_11.24/AES.sv 
 # -- Compiling module AES
 # 
 # Top level modules:
 # 	AES
-# End time: 09:51:46 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:17 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/Administrator/Desktop/lab9_week2 {C:/Users/Administrator/Desktop/lab9_week2/testbench.sv}
+# vlog -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24 {D:/ece385/common/ECE-385/lab9_week2_11.24/AddRoundKey.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:46 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Administrator/Desktop/lab9_week2" C:/Users/Administrator/Desktop/lab9_week2/testbench.sv 
+# Start time: 10:50:17 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24" D:/ece385/common/ECE-385/lab9_week2_11.24/AddRoundKey.sv 
+# -- Compiling module AddRoundKey
+# 
+# Top level modules:
+# 	AddRoundKey
+# End time: 10:50:17 on Nov 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24 {D:/ece385/common/ECE-385/lab9_week2_11.24/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:50:17 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24" D:/ece385/common/ECE-385/lab9_week2_11.24/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 09:51:46 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:17 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv}
+# vlog -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24 {D:/ece385/common/ECE-385/lab9_week2_11.24/KeyExpansion.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:47 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv 
+# Start time: 10:50:17 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24" D:/ece385/common/ECE-385/lab9_week2_11.24/KeyExpansion.sv 
+# -- Compiling module KeyExpansion
+# -- Compiling module KeyExpansionOne
+# 
+# Top level modules:
+# 	KeyExpansion
+# End time: 10:50:17 on Nov 24,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 10:50:17 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv 
 # -- Compiling module lab9_soc_irq_mapper
 # 
 # Top level modules:
 # 	lab9_soc_irq_mapper
-# End time: 09:51:47 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:17 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:47 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv 
+# Start time: 10:50:18 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0
-# End time: 09:51:47 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:18 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:47 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v 
+# Start time: 10:50:18 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v 
 # -- Compiling module altera_avalon_st_handshake_clock_crosser
 # 
 # Top level modules:
 # 	altera_avalon_st_handshake_clock_crosser
-# End time: 09:51:47 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:18 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:47 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v 
+# Start time: 10:50:18 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v 
 # -- Compiling module altera_avalon_st_clock_crosser
 # 
 # Top level modules:
 # 	altera_avalon_st_clock_crosser
-# End time: 09:51:47 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:18 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v}
+# vlog -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:48 on Nov 24,2020
-# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v 
+# Start time: 10:50:18 on Nov 24,2020
+# vlog -reportprogress 300 -vlog01compat -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v 
 # -- Compiling module altera_std_synchronizer_nocut
 # 
 # Top level modules:
 # 	altera_std_synchronizer_nocut
-# End time: 09:51:48 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:18 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:48 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv 
+# Start time: 10:50:18 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_rsp_mux_001
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_rsp_mux_001
-# End time: 09:51:48 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:18 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:48 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv 
+# Start time: 10:50:18 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv 
 # -- Compiling module altera_merlin_arbitrator
 # -- Compiling module altera_merlin_arb_adder
 # 
 # Top level modules:
 # 	altera_merlin_arbitrator
-# End time: 09:51:48 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:18 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:48 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv 
+# Start time: 10:50:19 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_rsp_mux
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_rsp_mux
-# End time: 09:51:48 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:19 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:49 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv 
+# Start time: 10:50:19 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_rsp_demux_002
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_rsp_demux_002
-# End time: 09:51:49 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:19 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:49 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv 
+# Start time: 10:50:19 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_rsp_demux
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_rsp_demux
-# End time: 09:51:49 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:19 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:49 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv 
+# Start time: 10:50:19 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_cmd_mux_002
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_cmd_mux_002
-# End time: 09:51:49 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:19 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:49 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv 
+# Start time: 10:50:19 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_cmd_mux
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_cmd_mux
-# End time: 09:51:49 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:19 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:50 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv 
+# Start time: 10:50:19 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_cmd_demux_001
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_cmd_demux_001
-# End time: 09:51:50 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:19 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:50 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv 
+# Start time: 10:50:20 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_cmd_demux
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_cmd_demux
-# End time: 09:51:50 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:20 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:50 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv 
+# Start time: 10:50:20 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_router_004_default_decode
 # -- Compiling module lab9_soc_mm_interconnect_0_router_004
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_router_004
-# End time: 09:51:50 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:20 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:50 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv 
+# Start time: 10:50:20 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_router_002_default_decode
 # -- Compiling module lab9_soc_mm_interconnect_0_router_002
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_router_002
-# End time: 09:51:50 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:20 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:50 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv 
+# Start time: 10:50:20 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_router_001_default_decode
 # -- Compiling module lab9_soc_mm_interconnect_0_router_001
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_router_001
-# End time: 09:51:50 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:20 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:51 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv 
+# Start time: 10:50:20 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv 
 # -- Compiling module lab9_soc_mm_interconnect_0_router_default_decode
 # -- Compiling module lab9_soc_mm_interconnect_0_router
 # 
 # Top level modules:
 # 	lab9_soc_mm_interconnect_0_router
-# End time: 09:51:51 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:20 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:51 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv 
+# Start time: 10:50:20 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv 
 # -- Compiling module altera_merlin_slave_agent
-# ** Warning: C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# ** Warning: D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
 # (randomization, coverage or assertion) detected in the design.
 # These features are only supported in Questasim.
-# ** Warning: C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-# ** Warning: C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-# ** Warning: C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-# ** Warning: C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-# ** Warning: C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# ** Warning: D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
 # (randomization, coverage or assertion) detected in the design.
 # These features are only supported in Questasim.
 # 
 # Top level modules:
 # 	altera_merlin_slave_agent
-# End time: 09:51:51 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:20 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 6
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:51 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv 
+# Start time: 10:50:21 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv 
 # -- Compiling module altera_merlin_burst_uncompressor
 # 
 # Top level modules:
 # 	altera_merlin_burst_uncompressor
-# End time: 09:51:51 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:21 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:52 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv 
+# Start time: 10:50:21 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv 
 # -- Compiling module altera_merlin_master_agent
 # 
 # Top level modules:
 # 	altera_merlin_master_agent
-# End time: 09:51:52 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:21 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:52 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv 
+# Start time: 10:50:21 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv 
 # -- Compiling module altera_merlin_slave_translator
 # 
 # Top level modules:
 # 	altera_merlin_slave_translator
-# End time: 09:51:52 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:21 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:52 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv 
+# Start time: 10:50:21 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv 
 # -- Compiling module altera_merlin_master_translator
 # 
 # Top level modules:
 # 	altera_merlin_master_translator
-# End time: 09:51:52 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:21 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules {C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/avalon_aes_interface.sv}
+# vlog -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules {D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/avalon_aes_interface.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:52 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules" C:/Users/Administrator/Desktop/lab9_week2/lab9_soc/synthesis/submodules/avalon_aes_interface.sv 
+# Start time: 10:50:21 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work lab9_soc "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules" D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/avalon_aes_interface.sv 
 # -- Compiling module avalon_aes_interface
 # 
 # Top level modules:
 # 	avalon_aes_interface
-# End time: 09:51:52 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:22 on Nov 24,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
-# vlog -sv -work work +incdir+C:/Users/Administrator/Desktop/lab9_week2 {C:/Users/Administrator/Desktop/lab9_week2/testbench.sv}
+# vlog -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24 {D:/ece385/common/ECE-385/lab9_week2_11.24/testbench.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:51:53 on Nov 24,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/Administrator/Desktop/lab9_week2" C:/Users/Administrator/Desktop/lab9_week2/testbench.sv 
+# Start time: 10:50:22 on Nov 24,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24" D:/ece385/common/ECE-385/lab9_week2_11.24/testbench.sv 
 # -- Compiling module testbench
 # 
 # Top level modules:
 # 	testbench
-# End time: 09:51:53 on Nov 24,2020, Elapsed time: 0:00:00
+# End time: 10:50:22 on Nov 24,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L lab9_soc -voptargs="+acc"  testbench
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -L lab9_soc -voptargs=""+acc"" testbench 
-# Start time: 09:51:53 on Nov 24,2020
+# Start time: 10:50:22 on Nov 24,2020
 # Loading sv_std.std
 # Loading work.testbench
 # Loading work.AES
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(29): Instantiation of 'KeyExpansion' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(58): Instantiation of 'mux11' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(72): Instantiation of 'mux2' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(80): Instantiation of 'InvMixColumns' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(83): Instantiation of 'dec2' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(87): Instantiation of 'mux3' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(98): Instantiation of 'AddRoundKey' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(103): Instantiation of 'InvShiftRows' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(106): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(107): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(108): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(109): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(110): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(111): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(112): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(113): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(114): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(115): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(116): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(117): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(118): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(119): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(120): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# ** Error: (vsim-3033) C:/Users/Administrator/Desktop/lab9_week2/AES.sv(121): Instantiation of 'InvSubBytes' failed. The design unit was not found.
-#    Time: 0 ps  Iteration: 0  Instance: /testbench/AES_lab9 File: C:/Users/Administrator/Desktop/lab9_week2/AES.sv
-#         Searched libraries:
-#             D:/quartus/modelsim_ase/altera/verilog/altera
-#             D:/quartus/modelsim_ase/altera/verilog/220model
-#             D:/quartus/modelsim_ase/altera/verilog/sgate
-#             D:/quartus/modelsim_ase/altera/verilog/altera_mf
-#             D:/quartus/modelsim_ase/altera/verilog/altera_lnsim
-#             D:/quartus/modelsim_ase/altera/verilog/cycloneive
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/rtl_work
-#             C:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim/lab9_soc
-# Error loading design
-# Error: Error loading design
-#        Pausing macro execution
-# MACRO ./lab9_run_msim_rtl_systemverilog.do PAUSED at line 59
-# End time: 09:56:34 on Nov 24,2020, Elapsed time: 0:04:41
-# Errors: 24, Warnings: 0
+# Loading work.KeyExpansion
+# Loading work.KeyExpansionOne
+# Loading work.SubBytes
+# Loading work.InvShiftRows
+# Loading work.InvSubBytes
+# Loading work.AddRoundKey
+# Loading work.InvMixColumns
+# Loading work.InvMixColumns_sv_unit
+# Loading work.GF_Mul_9
+# Loading work.GF_Mul_b
+# Loading work.GF_Mul_d
+# Loading work.GF_Mul_e
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 5000 ns
+# WARNING: No extended dataflow license exists
+# End time: 10:50:39 on Nov 24,2020, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 1

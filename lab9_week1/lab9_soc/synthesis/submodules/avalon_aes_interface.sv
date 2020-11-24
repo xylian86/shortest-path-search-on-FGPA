@@ -42,7 +42,8 @@ module avalon_aes_interface (
 	logic[3:0] [31:0] Reg_temp;
 	logic finish;//week2
 
-	assign EXPORT_DATA={Reg_list[4][31:16], Reg_list[7][15:0]};
+	//assign EXPORT_DATA={Reg_list[4][31:16], Reg_list[7][15:0]};
+	assign EXPORT_DATA={Reg_list[0][31:16], Reg_list[3][15:0]};
 	always_ff @ (posedge CLK)
 	begin
 		if (RESET)
@@ -67,6 +68,7 @@ module avalon_aes_interface (
 			 end
 		 if (AVL_WRITE && AVL_CS)
 			begin
+				//Details: See the instruction
 				case(AVL_BYTE_EN)
 					4'b0001:
 						Reg_list[AVL_ADDR]<={Reg_list[AVL_ADDR][31:8],AVL_WRITEDATA[7:0]};
@@ -84,28 +86,28 @@ module avalon_aes_interface (
 						Reg_list[AVL_ADDR]<=AVL_WRITEDATA[31:0];
 				endcase
 			end
-//		//WEEK2
-//		 if (finish)
-//			begin
-//				Reg_list[8][31:0] <=  Reg_temp[0];
-//				Reg_list[9][31:0] <=  Reg_temp[1];
-//				Reg_list[10][31:0] <=  Reg_temp[2];
-//				Reg_list[11][31:0] <=  Reg_temp[3];
-//				Reg_list[15][0] <= finish;
-//			end
+		//WEEK2
+		 if (finish)
+			begin
+				Reg_list[8][31:0] <=  Reg_temp[0];
+				Reg_list[9][31:0] <=  Reg_temp[1];
+				Reg_list[10][31:0] <=  Reg_temp[2];
+				Reg_list[11][31:0] <=  Reg_temp[3];
+				Reg_list[15][0] <= finish;
+			end
 						
 	end
-//	always_comb
-//		begin
-//			if(AVL_READ&AVL_CS)
-//				begin 
-//					AVL_READDATA=Reg_list[AVL_ADDR];
-//				end
-//			else
-//				begin
-//					AVL_READDATA=32'hX;
-//				end
-//	   end
+	always_comb
+		begin
+			if(AVL_READ&AVL_CS)
+				begin 
+					AVL_READDATA=Reg_list[AVL_ADDR];
+				end
+			else
+				begin
+					AVL_READDATA=32'hX;
+				end
+	   end
 		
 				
 

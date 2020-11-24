@@ -46,7 +46,6 @@ module mux11 #(parameter width =128) (input logic [width-1:0] a0,a1,a2,a3,a4,a5,
 
 always_comb 
 	begin 
-	out = a10;
 	unique case(select)
 		4'b0000:
 		out = a0;
@@ -68,6 +67,8 @@ always_comb
 		out = a8;
 		4'b1001:
 		out = a9;
+		default:
+		out = a10;
 		endcase
 	end	
 

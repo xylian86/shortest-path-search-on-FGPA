@@ -39,34 +39,23 @@ module avalon_aes_interface (
 );
 
 	logic[15:0][31:0] Reg_list;
-	logic[3:0] [31:0] Reg_temp;
+	logic[3:0] [31:0] Reg_temp;//week2
 	logic finish;//week2
 
-	assign EXPORT_DATA={Reg_list[4][31:16], Reg_list[7][15:0]};
+	//assign EXPORT_DATA={Reg_list[4][31:16], Reg_list[7][15:0]};
+	assign EXPORT_DATA={Reg_list[0][31:16], Reg_list[3][15:0]};
 	always_ff @ (posedge CLK)
 	begin
 		if (RESET)
 			begin
-				//Can use for loop.
-				Reg_list[0]<=32'b0;
-				Reg_list[1]<=32'b0;
-				Reg_list[2]<=32'b0;
-				Reg_list[3]<=32'b0;
-				Reg_list[4]<=32'b0;
-				Reg_list[5]<=32'b0;
-				Reg_list[6]<=32'b0;
-				Reg_list[7]<=32'b0;
-				Reg_list[8]<=32'b0;
-				Reg_list[9]<=32'b0;
-				Reg_list[10]<=32'b0;
-				Reg_list[11]<=32'b0;
-				Reg_list[12]<=32'b0;
-				Reg_list[13]<=32'b0;
-				Reg_list[14]<=32'b0;
-				Reg_list[15]<=32'b0;
-			 end
+				 for(int i=0;i<16;i++)
+					begin
+						Reg_list[i]<=32'b0;
+					end
+			end
 		 if (AVL_WRITE && AVL_CS)
 			begin
+				//Details: See the instruction
 				case(AVL_BYTE_EN)
 					4'b0001:
 						Reg_list[AVL_ADDR]<={Reg_list[AVL_ADDR][31:8],AVL_WRITEDATA[7:0]};
@@ -84,28 +73,28 @@ module avalon_aes_interface (
 						Reg_list[AVL_ADDR]<=AVL_WRITEDATA[31:0];
 				endcase
 			end
-//		//WEEK2
-//		 if (finish)
-//			begin
-//				Reg_list[8][31:0] <=  Reg_temp[0];
-//				Reg_list[9][31:0] <=  Reg_temp[1];
-//				Reg_list[10][31:0] <=  Reg_temp[2];
-//				Reg_list[11][31:0] <=  Reg_temp[3];
-//				Reg_list[15][0] <= finish;
-//			end
+		//WEEK2
+		 if (finish)
+			begin
+				Reg_list[8][31:0] <=  Reg_temp[0];
+				Reg_list[9][31:0] <=  Reg_temp[1];
+				Reg_list[10][31:0] <=  Reg_temp[2];
+				Reg_list[11][31:0] <=  Reg_temp[3];
+				Reg_list[15][0] <= finish;
+			end
 						
 	end
-//	always_comb
-//		begin
-//			if(AVL_READ&AVL_CS)
-//				begin 
-//					AVL_READDATA=Reg_list[AVL_ADDR];
-//				end
-//			else
-//				begin
-//					AVL_READDATA=32'hX;
-//				end
-//	   end
+	always_comb
+		begin
+			if(AVL_READ&AVL_CS)
+				begin 
+					AVL_READDATA=Reg_list[AVL_ADDR];
+				end
+			else
+				begin
+					AVL_READDATA=32'hX;
+				end
+	   end
 		
 				
 

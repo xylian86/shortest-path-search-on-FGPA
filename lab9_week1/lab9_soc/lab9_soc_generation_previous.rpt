@@ -4,6 +4,8 @@ Progress: Loading lab9_week1/lab9_soc.qsys
 Progress: Reading input file
 Progress: Adding AES [AES_Decryption_Core 1.0]
 Progress: Parameterizing module AES
+Progress: Adding TIMER [altera_avalon_timer 18.1]
+Progress: Parameterizing module TIMER
 Progress: Adding clk_0 [clock_source 18.1]
 Progress: Parameterizing module clk_0
 Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
@@ -36,6 +38,8 @@ Progress: Loading lab9_week1/lab9_soc.qsys
 Progress: Reading input file
 Progress: Adding AES [AES_Decryption_Core 1.0]
 Progress: Parameterizing module AES
+Progress: Adding TIMER [altera_avalon_timer 18.1]
+Progress: Parameterizing module TIMER
 Progress: Adding clk_0 [clock_source 18.1]
 Progress: Parameterizing module clk_0
 Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
@@ -61,17 +65,21 @@ Info: lab9_soc.sysid_qsys_0: System ID is not assigned automatically. Edit the S
 Info: lab9_soc.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
 Info: lab9_soc: Generating lab9_soc "lab9_soc" for QUARTUS_SYNTH
 Info: AES: "lab9_soc" instantiated AES_Decryption_Core "AES"
+Info: TIMER: Starting RTL generation for module 'lab9_soc_TIMER'
+Info: TIMER:   Generation command is [exec D:/ece385/quartus/bin64//perl/bin/perl.exe -I D:/ece385/quartus/bin64//perl/lib -I D:/ece385/quartus/sopc_builder/bin/europa -I D:/ece385/quartus/sopc_builder/bin/perl_lib -I D:/ece385/quartus/sopc_builder/bin -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/common -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer -- D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_timer/generate_rtl.pl --name=lab9_soc_TIMER --dir=C:/Users/HP/AppData/Local/Temp/alt8587_5490492730349041985.dir/0003_TIMER_gen/ --quartus_dir=D:/ece385/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt8587_5490492730349041985.dir/0003_TIMER_gen//lab9_soc_TIMER_component_configuration.pl  --do_build_sim=0  ]
+Info: TIMER: Done RTL generation for module 'lab9_soc_TIMER'
+Info: TIMER: "lab9_soc" instantiated altera_avalon_timer "TIMER"
 Info: jtag_uart_0: Starting RTL generation for module 'lab9_soc_jtag_uart_0'
-Info: jtag_uart_0:   Generation command is [exec D:/ece385/quartus/bin64/perl/bin/perl.exe -I D:/ece385/quartus/bin64/perl/lib -I D:/ece385/quartus/sopc_builder/bin/europa -I D:/ece385/quartus/sopc_builder/bin/perl_lib -I D:/ece385/quartus/sopc_builder/bin -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/common -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=lab9_soc_jtag_uart_0 --dir=C:/Users/HP/AppData/Local/Temp/alt8585_414619273969078513.dir/0031_jtag_uart_0_gen/ --quartus_dir=D:/ece385/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt8585_414619273969078513.dir/0031_jtag_uart_0_gen//lab9_soc_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
+Info: jtag_uart_0:   Generation command is [exec D:/ece385/quartus/bin64/perl/bin/perl.exe -I D:/ece385/quartus/bin64/perl/lib -I D:/ece385/quartus/sopc_builder/bin/europa -I D:/ece385/quartus/sopc_builder/bin/perl_lib -I D:/ece385/quartus/sopc_builder/bin -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/common -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=lab9_soc_jtag_uart_0 --dir=C:/Users/HP/AppData/Local/Temp/alt8587_5490492730349041985.dir/0004_jtag_uart_0_gen/ --quartus_dir=D:/ece385/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt8587_5490492730349041985.dir/0004_jtag_uart_0_gen//lab9_soc_jtag_uart_0_component_configuration.pl  --do_build_sim=0  ]
 Info: jtag_uart_0: Done RTL generation for module 'lab9_soc_jtag_uart_0'
 Info: jtag_uart_0: "lab9_soc" instantiated altera_avalon_jtag_uart "jtag_uart_0"
 Info: nios2_gen2_0: "lab9_soc" instantiated altera_nios2_gen2 "nios2_gen2_0"
 Info: onchip_memory2_0: Starting RTL generation for module 'lab9_soc_onchip_memory2_0'
-Info: onchip_memory2_0:   Generation command is [exec D:/ece385/quartus/bin64/perl/bin/perl.exe -I D:/ece385/quartus/bin64/perl/lib -I D:/ece385/quartus/sopc_builder/bin/europa -I D:/ece385/quartus/sopc_builder/bin/perl_lib -I D:/ece385/quartus/sopc_builder/bin -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/common -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=lab9_soc_onchip_memory2_0 --dir=C:/Users/HP/AppData/Local/Temp/alt8585_414619273969078513.dir/0032_onchip_memory2_0_gen/ --quartus_dir=D:/ece385/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt8585_414619273969078513.dir/0032_onchip_memory2_0_gen//lab9_soc_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
+Info: onchip_memory2_0:   Generation command is [exec D:/ece385/quartus/bin64/perl/bin/perl.exe -I D:/ece385/quartus/bin64/perl/lib -I D:/ece385/quartus/sopc_builder/bin/europa -I D:/ece385/quartus/sopc_builder/bin/perl_lib -I D:/ece385/quartus/sopc_builder/bin -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/common -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=lab9_soc_onchip_memory2_0 --dir=C:/Users/HP/AppData/Local/Temp/alt8587_5490492730349041985.dir/0005_onchip_memory2_0_gen/ --quartus_dir=D:/ece385/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt8587_5490492730349041985.dir/0005_onchip_memory2_0_gen//lab9_soc_onchip_memory2_0_component_configuration.pl  --do_build_sim=0  ]
 Info: onchip_memory2_0: Done RTL generation for module 'lab9_soc_onchip_memory2_0'
 Info: onchip_memory2_0: "lab9_soc" instantiated altera_avalon_onchip_memory2 "onchip_memory2_0"
 Info: sdram: Starting RTL generation for module 'lab9_soc_sdram'
-Info: sdram:   Generation command is [exec D:/ece385/quartus/bin64/perl/bin/perl.exe -I D:/ece385/quartus/bin64/perl/lib -I D:/ece385/quartus/sopc_builder/bin/europa -I D:/ece385/quartus/sopc_builder/bin/perl_lib -I D:/ece385/quartus/sopc_builder/bin -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/common -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=lab9_soc_sdram --dir=C:/Users/HP/AppData/Local/Temp/alt8585_414619273969078513.dir/0033_sdram_gen/ --quartus_dir=D:/ece385/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt8585_414619273969078513.dir/0033_sdram_gen//lab9_soc_sdram_component_configuration.pl  --do_build_sim=0  ]
+Info: sdram:   Generation command is [exec D:/ece385/quartus/bin64/perl/bin/perl.exe -I D:/ece385/quartus/bin64/perl/lib -I D:/ece385/quartus/sopc_builder/bin/europa -I D:/ece385/quartus/sopc_builder/bin/perl_lib -I D:/ece385/quartus/sopc_builder/bin -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/common -I D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller -- D:/ece385/quartus/../ip/altera/sopc_builder_ip/altera_avalon_new_sdram_controller/generate_rtl.pl --name=lab9_soc_sdram --dir=C:/Users/HP/AppData/Local/Temp/alt8587_5490492730349041985.dir/0006_sdram_gen/ --quartus_dir=D:/ece385/quartus --verilog --config=C:/Users/HP/AppData/Local/Temp/alt8587_5490492730349041985.dir/0006_sdram_gen//lab9_soc_sdram_component_configuration.pl  --do_build_sim=0  ]
 Info: sdram: Done RTL generation for module 'lab9_soc_sdram'
 Info: sdram: "lab9_soc" instantiated altera_avalon_new_sdram_controller "sdram"
 Info: sdram_pll: "lab9_soc" instantiated altpll "sdram_pll"
@@ -83,23 +91,24 @@ Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
 Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_007: Inserting error_adapter: error_adapter_0
 Info: mm_interconnect_0: "lab9_soc" instantiated altera_mm_interconnect "mm_interconnect_0"
 Info: irq_mapper: "lab9_soc" instantiated altera_irq_mapper "irq_mapper"
 Info: rst_controller: "lab9_soc" instantiated altera_reset_controller "rst_controller"
 Info: cpu: Starting RTL generation for module 'lab9_soc_nios2_gen2_0_cpu'
-Info: cpu:   Generation command is [exec D:/ece385/quartus/bin64//eperlcmd.exe -I D:/ece385/quartus/bin64//perl/lib -I D:/ece385/quartus/sopc_builder/bin/europa -I D:/ece385/quartus/sopc_builder/bin/perl_lib -I D:/ece385/quartus/sopc_builder/bin -I D:/ece385/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/ece385/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/ece385/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/ece385/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/ece385/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=lab9_soc_nios2_gen2_0_cpu --dir=C:/Users/HP/AppData/Local/Temp/alt8585_414619273969078513.dir/0039_cpu_gen/ --quartus_bindir=D:/ece385/quartus/bin64/ --verilog --config=C:/Users/HP/AppData/Local/Temp/alt8585_414619273969078513.dir/0039_cpu_gen//lab9_soc_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
-Info: cpu: # 2020.11.19 23:38:38 (*) Starting Nios II generation
-Info: cpu: # 2020.11.19 23:38:38 (*)   Checking for plaintext license.
-Info: cpu: # 2020.11.19 23:38:38 (*)   Couldn't query license setup in Quartus directory D:/ece385/quartus/bin64/
-Info: cpu: # 2020.11.19 23:38:38 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
-Info: cpu: # 2020.11.19 23:38:38 (*)   LM_LICENSE_FILE environment variable is empty
-Info: cpu: # 2020.11.19 23:38:38 (*)   Plaintext license not found.
-Info: cpu: # 2020.11.19 23:38:38 (*)   No license required to generate encrypted Nios II/e.
-Info: cpu: # 2020.11.19 23:38:38 (*)   Elaborating CPU configuration settings
-Info: cpu: # 2020.11.19 23:38:38 (*)   Creating all objects for CPU
-Info: cpu: # 2020.11.19 23:38:39 (*)   Generating RTL from CPU objects
-Info: cpu: # 2020.11.19 23:38:39 (*)   Creating plain-text RTL
-Info: cpu: # 2020.11.19 23:38:40 (*) Done Nios II generation
+Info: cpu:   Generation command is [exec D:/ece385/quartus/bin64//eperlcmd.exe -I D:/ece385/quartus/bin64//perl/lib -I D:/ece385/quartus/sopc_builder/bin/europa -I D:/ece385/quartus/sopc_builder/bin/perl_lib -I D:/ece385/quartus/sopc_builder/bin -I D:/ece385/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I D:/ece385/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I D:/ece385/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I D:/ece385/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- D:/ece385/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=lab9_soc_nios2_gen2_0_cpu --dir=C:/Users/HP/AppData/Local/Temp/alt8587_5490492730349041985.dir/0012_cpu_gen/ --quartus_bindir=D:/ece385/quartus/bin64/ --verilog --config=C:/Users/HP/AppData/Local/Temp/alt8587_5490492730349041985.dir/0012_cpu_gen//lab9_soc_nios2_gen2_0_cpu_processor_configuration.pl  --do_build_sim=0  ]
+Info: cpu: # 2020.11.21 13:00:46 (*) Starting Nios II generation
+Info: cpu: # 2020.11.21 13:00:46 (*)   Checking for plaintext license.
+Info: cpu: # 2020.11.21 13:00:58 (*)   Couldn't query license setup in Quartus directory D:/ece385/quartus/bin64/
+Info: cpu: # 2020.11.21 13:00:58 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2020.11.21 13:00:58 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2020.11.21 13:00:58 (*)   Plaintext license not found.
+Info: cpu: # 2020.11.21 13:00:58 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2020.11.21 13:00:58 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2020.11.21 13:00:58 (*)   Creating all objects for CPU
+Info: cpu: # 2020.11.21 13:00:59 (*)   Generating RTL from CPU objects
+Info: cpu: # 2020.11.21 13:00:59 (*)   Creating plain-text RTL
+Info: cpu: # 2020.11.21 13:00:59 (*) Done Nios II generation
 Info: cpu: Done RTL generation for module 'lab9_soc_nios2_gen2_0_cpu'
 Info: cpu: "nios2_gen2_0" instantiated altera_nios2_gen2_unit "cpu"
 Info: nios2_gen2_0_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "nios2_gen2_0_data_master_translator"
@@ -124,6 +133,6 @@ Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "r
 Info: Reusing file D:/ece385/lab/lab9/lab9_week1/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv
 Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
 Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
-Info: lab9_soc: Done "lab9_soc" with 31 modules, 44 files
+Info: lab9_soc: Done "lab9_soc" with 32 modules, 45 files
 Info: qsys-generate succeeded.
 Info: Finished: Create HDL design files for synthesis

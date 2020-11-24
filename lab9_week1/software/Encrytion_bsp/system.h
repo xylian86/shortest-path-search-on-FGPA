@@ -4,7 +4,7 @@
  * Machine generated for CPU 'nios2_gen2_0' in SOPC Builder design 'lab9_soc'
  * SOPC Builder design path: ../../lab9_soc.sopcinfo
  *
- * Generated: Thu Nov 19 23:50:00 GMT+08:00 2020
+ * Generated: Sat Nov 21 17:09:07 GMT+08:00 2020
  */
 
 /*
@@ -152,6 +152,7 @@
 #define __ALTERA_AVALON_NEW_SDRAM_CONTROLLER
 #define __ALTERA_AVALON_ONCHIP_MEMORY2
 #define __ALTERA_AVALON_SYSID_QSYS
+#define __ALTERA_AVALON_TIMER
 #define __ALTERA_NIOS2_GEN2
 #define __ALTPLL
 
@@ -172,24 +173,50 @@
 #define ALT_NUM_INTERNAL_INTERRUPT_CONTROLLERS 1
 #define ALT_NUM_INTERRUPT_CONTROLLERS 1
 #define ALT_STDERR "/dev/jtag_uart_0"
-#define ALT_STDERR_BASE 0x80
+#define ALT_STDERR_BASE 0xa0
 #define ALT_STDERR_DEV jtag_uart_0
 #define ALT_STDERR_IS_JTAG_UART
 #define ALT_STDERR_PRESENT
 #define ALT_STDERR_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDIN "/dev/jtag_uart_0"
-#define ALT_STDIN_BASE 0x80
+#define ALT_STDIN_BASE 0xa0
 #define ALT_STDIN_DEV jtag_uart_0
 #define ALT_STDIN_IS_JTAG_UART
 #define ALT_STDIN_PRESENT
 #define ALT_STDIN_TYPE "altera_avalon_jtag_uart"
 #define ALT_STDOUT "/dev/jtag_uart_0"
-#define ALT_STDOUT_BASE 0x80
+#define ALT_STDOUT_BASE 0xa0
 #define ALT_STDOUT_DEV jtag_uart_0
 #define ALT_STDOUT_IS_JTAG_UART
 #define ALT_STDOUT_PRESENT
 #define ALT_STDOUT_TYPE "altera_avalon_jtag_uart"
 #define ALT_SYSTEM_NAME "lab9_soc"
+
+
+/*
+ * TIMER configuration
+ *
+ */
+
+#define ALT_MODULE_CLASS_TIMER altera_avalon_timer
+#define TIMER_ALWAYS_RUN 0
+#define TIMER_BASE 0x20
+#define TIMER_COUNTER_SIZE 32
+#define TIMER_FIXED_PERIOD 0
+#define TIMER_FREQ 50000000
+#define TIMER_IRQ 1
+#define TIMER_IRQ_INTERRUPT_CONTROLLER_ID 0
+#define TIMER_LOAD_VALUE 49999
+#define TIMER_MULT 0.001
+#define TIMER_NAME "/dev/TIMER"
+#define TIMER_PERIOD 1
+#define TIMER_PERIOD_UNITS "ms"
+#define TIMER_RESET_OUTPUT 0
+#define TIMER_SNAPSHOT 1
+#define TIMER_SPAN 32
+#define TIMER_TICKS_PER_SEC 1000
+#define TIMER_TIMEOUT_PULSE_OUTPUT 0
+#define TIMER_TYPE "altera_avalon_timer"
 
 
 /*
@@ -199,7 +226,7 @@
 
 #define ALT_INCLUDE_INSTRUCTION_RELATED_EXCEPTION_API
 #define ALT_MAX_FD 32
-#define ALT_SYS_CLK none
+#define ALT_SYS_CLK TIMER
 #define ALT_TIMESTAMP_CLK none
 
 
@@ -209,7 +236,7 @@
  */
 
 #define ALT_MODULE_CLASS_jtag_uart_0 altera_avalon_jtag_uart
-#define JTAG_UART_0_BASE 0x80
+#define JTAG_UART_0_BASE 0xa0
 #define JTAG_UART_0_IRQ 0
 #define JTAG_UART_0_IRQ_INTERRUPT_CONTROLLER_ID 0
 #define JTAG_UART_0_NAME "/dev/jtag_uart_0"
@@ -295,7 +322,7 @@
  */
 
 #define ALT_MODULE_CLASS_sdram_pll altpll
-#define SDRAM_PLL_BASE 0x20
+#define SDRAM_PLL_BASE 0x80
 #define SDRAM_PLL_IRQ -1
 #define SDRAM_PLL_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SDRAM_PLL_NAME "/dev/sdram_pll"
@@ -309,13 +336,13 @@
  */
 
 #define ALT_MODULE_CLASS_sysid_qsys_0 altera_avalon_sysid_qsys
-#define SYSID_QSYS_0_BASE 0x38
+#define SYSID_QSYS_0_BASE 0x98
 #define SYSID_QSYS_0_ID 0
 #define SYSID_QSYS_0_IRQ -1
 #define SYSID_QSYS_0_IRQ_INTERRUPT_CONTROLLER_ID -1
 #define SYSID_QSYS_0_NAME "/dev/sysid_qsys_0"
 #define SYSID_QSYS_0_SPAN 8
-#define SYSID_QSYS_0_TIMESTAMP 1605800802
+#define SYSID_QSYS_0_TIMESTAMP 1605946569
 #define SYSID_QSYS_0_TYPE "altera_avalon_sysid_qsys"
 
 #endif /* __SYSTEM_H_ */

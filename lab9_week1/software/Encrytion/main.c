@@ -58,21 +58,47 @@ char charsToHex(char c1, char c2)
 	return (hex1 << 4) + hex2;
 }
 
+/** printMat
+ *	This function is used to show the result matrix created by other functions,
+ *	such as AddRoundKey, or KeyEpansion. It uses to loops to show the content in one matrix.
+ *
+ *
+ *	Input: a byte matrix whose size is 4*4.
+ *	Output: a byte matrix whose size is 4*4.
+ */
 void printMat(unsigned char (*w)[4]){
 	int i;
 	for(i=0;i<4;i++){
-		printf("%2x  %2x %2x %2x\n", w[i][0],w[i][1],w[i][2],w[i][3]);
+		printf("%2x  %2x %2x %2x\n", w[0][i],w[1][i],w[2][i],w[3][i]);
 	}
 }
 
+/** AddRoundKey
+ *	This function will update the state using XOR method with the corresponding byte.
+ *
+ *
+ *	Input: a state matrix whose size is 4*4, input byte whose size is 4*4.
+ *	Output: a state matrix whose size is 4*4.
+ */
 void AddRoundKey(unsigned char(*state)[4], unsigned char(*w)[4])
 {
 	for(int i=0;i<4;i++){
 		for(int j=0;j<4;j++){
-			state[i][j]=state[i][j]^w[i][j];
+			state[i][j]^=w[i][j];
 		}
 	}
+	printf("Roundkey\n");
+	printMat(w);
 }
+
+/** SubBytes
+ *	This function working as an affine change for the data in the state,
+ *	and it will assign new value, the map result for SBox using the original value in the state as the index, to the state.
+ *
+ *
+ *	Input: a state matrix whose size is 4*4.
+ *	Output: a state matrix whose size is 4*4.
+ */
 
 void SubBytes(unsigned char(*state)[4])
 {
@@ -82,6 +108,15 @@ void SubBytes(unsigned char(*state)[4])
 		}
 	}
 }
+
+
+/** ShiftRows
+ *	This function will update the state by shifting some offsets of the rows in the state.
+ *
+ *
+ *	Input: a state matrix whose size is 4*4.
+ *	Output: a state matrix whose size is 4*4.
+ */
 
 void ShiftRows(unsigned char(*state)[4])
 {
@@ -112,6 +147,14 @@ void ShiftRows(unsigned char(*state)[4])
 	}
 }
 
+/** MixColumns
+ *	This function will update the words in the state by using invertible linear transformations over Galois field
+ *	such that the four bytes of each word are linearly combined to form a new word.
+ *
+ *
+ *	Input: a state matrix whose size is 4*4.
+ *	Output: a state matrix whose size is 4*4.
+ */
 void MixColumns(unsigned char(*state)[4])
 {
 	unsigned char Col[4];
@@ -136,13 +179,63 @@ void MixColumns(unsigned char(*state)[4])
 	}
 }
 
+/** rotword
+ *	This function will rotate the word, such as [a_0,a_1,a_2,a_3] into [a_1,a_2,a_3,a_0]
+ *
+ *
+ *	Input:  a byte matrix whose size is 11*4*4, a vector whose size is 4, and one integer key.
+ *	Output: a vector whose size is 4 (after rotation).
+ */
+
+void rotword(unsigned char (*w)[4][4], unsigned char *temp, int key)
+{
+	int byte;
+	unsigned char tempbyte;
+	for(byte=0;byte<4;byte++){
+		temp[byte]=w[key-1][3][byte];
+	}
+
+	tempbyte=temp[0];
+
+	for(byte=0;byte<3;byte++){
+		temp[byte]=temp[byte+1];
+	}
+	temp[3]=tempbyte;
+
+}
+
+/** subword
+ *	This function will work same as SubByte function, but we reduce one dimension for this function.
+ *
+ *
+ *	Input:  a vector whose size is 4.
+ *	Output: a vector whose size is 4.
+ */
+void subword(unsigned char *temp)
+{
+	int byte;
+	for(byte=0;byte<4;byte++)
+	{
+		temp[byte]=aes_sbox[temp[byte]];
+	}
+}
+
+/** KeyExpansion
+ *	This function will take the key from input and perform a key expansion to
+ *	generate a series of round keys (as a 4-word matrix) and store them in a key schedule.
+ *	In addition, this is much more complex than the above methods since it contains sub functions in its body part.
+ *
+ *
+ *	Input: a byte matrix whose size is 11*4*4.
+ *	Output: a byte matrix whose size is 11*4*4.
+ */
 void KeyExpansion(unsigned char(*w)[4][4])
 {
 	int key;
 	int word;
 	int byte;
 	unsigned char temp[4];
-	unsigned char tempbyte;
+	//unsigned char tempbyte;
 	unsigned char tempvalue[11][4][4];
 	int Nr=11;
 	for (key=1;key<Nr;key++)
@@ -150,21 +243,24 @@ void KeyExpansion(unsigned char(*w)[4][4])
 		for(word=0;word<4;word++){
 			//rotword
 			if(word==0){
-				for(byte=0;byte<4;byte++){
-					temp[byte]=w[key-1][3][byte];
-				}
+//				for(byte=0;byte<4;byte++){
+//					temp[byte]=w[key-1][3][byte];
+//				}
+//
+//				tempbyte=temp[0];
+//
+//				for(byte=0;byte<3;byte++){
+//					temp[byte]=temp[byte+1];
+//				}
+//
+//				temp[3]=tempbyte;
 
-				tempbyte=temp[0];
-
-				for(byte=0;byte<3;byte++){
-					temp[byte]=temp[byte+1];
-				}
-
-				temp[3]=tempbyte;
+				rotword(w,temp,key);
 				//subword
-				for(byte=0;byte<4;byte++){
-					temp[byte]=aes_sbox[temp[byte]];
-				}
+//				for(byte=0;byte<4;byte++){
+//					temp[byte]=aes_sbox[temp[byte]];
+//				}
+				subword(temp);
 				
 				//XOR step
 				temp[0]=temp[0]^(Rcon[key]>>24);
@@ -214,6 +310,7 @@ void encrypt(unsigned char * msg_ascii, unsigned char * key_ascii, unsigned int 
 	int i,j,k;
 	unsigned char w[11][4][4];
 	unsigned char state[4][4];
+	//assign the word to state and key.
 	for(i=0;i<4;i++){
 		for(j=0;j<4;j++){
 			k=i*2+j*8;
@@ -237,8 +334,8 @@ void encrypt(unsigned char * msg_ascii, unsigned char * key_ascii, unsigned int 
 	AddRoundKey(state, w[10]);
 
 	for(i=0;i<4;i++){
-		msg_enc[i] = (state[0][i]<<24) ^ (state[1][i]<<16) ^ (state[2][i]<<8) ^ (state[3][i]);
-		key[i] = (w[0][0][i]<<24) ^ (w[0][1][i]<<16) ^ (w[0][2][i]<<8) ^ (w[0][3][i]);
+		msg_enc[i] = (state[0][i]<<24) | (state[1][i]<<16) | (state[2][i]<<8) | (state[3][i]);
+		key[i] = (w[0][0][i]<<24) | (w[0][1][i]<<16) | (w[0][2][i]<<8) | (w[0][3][i]);
 	}
 }
 

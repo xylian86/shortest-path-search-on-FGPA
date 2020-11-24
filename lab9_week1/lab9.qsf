@@ -582,6 +582,7 @@ set_location_assignment PIN_E10 -to EXT_IO[5]
 set_location_assignment PIN_D9 -to EXT_IO[6]
 set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name SDC_FILE lab9.sdc
 set_global_assignment -name QIP_FILE lab9_soc/synthesis/lab9_soc.qip
 set_global_assignment -name SOURCE_FILE main.c
 set_global_assignment -name SYSTEMVERILOG_FILE SubBytes.sv
