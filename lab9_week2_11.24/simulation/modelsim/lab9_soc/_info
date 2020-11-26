@@ -9,286 +9,286 @@ z2
 cModel Technology
 dC:/Users/Administrator/Desktop/lab9_week2/simulation/modelsim
 valtera_avalon_sc_fifo
-Z0 !s110 1606186214
+Z0 !s110 1606403235
 !i10b 1
 !s100 4mK@em][G=j]om3zJIhOc0
-IbCI6TXhS966zHSQZb]JWV3
+Ie;B>Lno9DfFl>HB;<c@EJ2
 Z1 VDg1SIo80bB@j0V0VzS_@n1
-Z2 dD:/ece385/common/ECE-385/lab9_week2_11.24/simulation/modelsim
-Z3 w1606183498
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+Z2 dC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/simulation/modelsim
+Z3 w1606361394
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v
 Z4 L0 21
 Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1606186214.000000
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+Z6 !s108 1606403235.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_sc_fifo.v|
 !i113 1
 Z7 o-vlog01compat -work lab9_soc
-Z8 !s92 -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules
+Z8 !s92 -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules
 Z9 tCvgOpt 0
 valtera_avalon_st_clock_crosser
-Z10 !s110 1606186218
+Z10 !s110 1606403241
 !i10b 1
 !s100 YbU`iK^TYJ_9Hz`CZekjQ3
-IN_?I]WN5XC`Wk^z3B44:90
+I7`[h8jZV`GZ5I_79RhHCV0
 R1
 R2
-Z11 w1606183499
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+R3
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v
 L0 22
 R5
 r1
 !s85 0
 31
-Z12 !s108 1606186218.000000
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+Z11 !s108 1606403241.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_clock_crosser.v|
 !i113 1
 R7
 R8
 R9
 valtera_avalon_st_handshake_clock_crosser
-R10
+Z12 !s110 1606403240
 !i10b 1
 !s100 3f<J9K;e[9FU@JKn0^PK?0
-I9j6Cg[k>:aAFAiVMLBS9>3
+IFn:L?ZoX;;PO@LA7EHU:K0
 R1
 R2
-R11
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+R3
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
 Z13 L0 24
 R5
 r1
 !s85 0
 31
-R12
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+Z14 !s108 1606403240.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v|
 !i113 1
 R7
 R8
 R9
 valtera_merlin_arb_adder
-Z14 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-R10
+Z15 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z16 !s110 1606403242
 !i10b 1
 !s100 1Jn[a;@5nZmTN?DFKQNzj2
-IL0]jiFBV@TT7eL]GeWEeW3
+IGYzj2;919XfBETaeOBKmb3
 R1
-Z15 !s105 altera_merlin_arbitrator_sv_unit
+Z17 !s105 altera_merlin_arbitrator_sv_unit
 S1
 R2
 R3
-Z16 8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv
-Z17 FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Z18 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv
+Z19 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv
 L0 228
 R5
 r1
 !s85 0
 31
-R12
-Z18 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
-Z19 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z20 !s108 1606403242.000000
+Z21 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
+Z22 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_arbitrator.sv|
 !i113 1
-Z20 o-sv -work lab9_soc
-Z21 !s92 -sv -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules
+Z23 o-sv -work lab9_soc
+Z24 !s92 -sv -work lab9_soc +incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules
 R9
 valtera_merlin_arbitrator
-R14
-R10
+R15
+R16
 !i10b 1
 !s100 NQTehjm2fNQROUMUzShGa1
-IBZRXW`5HUjBlhh]MQH7]70
+IabkPI[GLH_dcZ1_W`oz962
 R1
-R15
+R17
 S1
 R2
 R3
-R16
-R17
+R18
+R19
 L0 103
 R5
 r1
 !s85 0
 31
-R12
-R18
-R19
-!i113 1
 R20
 R21
+R22
+!i113 1
+R23
+R24
 R9
 valtera_merlin_burst_uncompressor
-R14
-Z22 !s110 1606186221
+R15
+Z25 !s110 1606403245
 !i10b 1
 !s100 f1?Rb<=9U?R9LJoHl;7>T3
-IUilizSjaA=8BlH>NOe8=;2
+IeK43ooMlTUNQQdikdLAN>1
 R1
 !s105 altera_merlin_burst_uncompressor_sv_unit
 S1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv
 L0 40
 R5
 r1
 !s85 0
 31
-Z23 !s108 1606186221.000000
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+Z26 !s108 1606403245.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_burst_uncompressor.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 valtera_merlin_master_agent
-R14
-R22
+R15
+R25
 !i10b 1
 !s100 _CJm:YX=>U2LQKH;8=@cb0
-IL66Hk=EXcL^HNmcQKjW]@1
+INXoR2m12kgXQPEb4z9_lU2
 R1
 !s105 altera_merlin_master_agent_sv_unit
 S1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv
 L0 28
 R5
 r1
 !s85 0
 31
-R23
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+R26
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_agent.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 valtera_merlin_master_translator
-R14
-R22
+R15
+Z27 !s110 1606403246
 !i10b 1
 !s100 NdRk@]3fC2C@V7Rm;dQM31
-IKn[D_[?CajCH4adHb;;[T2
+I_8K1^mFIX<d<_dPL]4Ghf2
 R1
 !s105 altera_merlin_master_translator_sv_unit
 S1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv
 L0 32
 R5
 r1
 !s85 0
 31
-R23
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+Z28 !s108 1606403246.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_master_translator.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 valtera_merlin_slave_agent
-R14
-Z24 !s110 1606186220
+R15
+R25
 !i10b 1
 !s100 ePZN1d?B062J`OBb?blff3
-Ib5IjR40n6_bNXgDKK>nS63
+I5ULP<19lo5M3XW<9VE;=M2
 R1
 !s105 altera_merlin_slave_agent_sv_unit
 S1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv
-Z25 L0 34
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv
+Z29 L0 34
 R5
 r1
 !s85 0
 31
-Z26 !s108 1606186220.000000
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+R26
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_agent.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 valtera_merlin_slave_translator
-R14
-R22
+R15
+R27
 !i10b 1
 !s100 k`9[YAn_dLTkg;GE`mOb61
-I>PEb^OCjMEL9RAbAk?5Q>1
+I^7camkL[@AiTYDoX8deZY0
 R1
 !s105 altera_merlin_slave_translator_sv_unit
 S1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv
 L0 35
 R5
 r1
 !s85 0
 31
-R23
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+R28
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_merlin_slave_translator.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 valtera_reset_controller
-Z27 !s110 1606186213
+Z30 !s110 1606403234
 !i10b 1
 !s100 z[H_hRO9gO=:^2E3_jWH03
-I;iR@boA?@e31Nm2>^Di?^3
+IWO@_=<T<^KgEe1`QcQW=U2
 R1
 R2
-Z28 w1606183496
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_controller.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_controller.v
+Z31 w1606361389
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_controller.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_controller.v
 L0 42
 R5
 r1
 !s85 0
 31
-Z29 !s108 1606186213.000000
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_controller.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_controller.v|
+Z32 !s108 1606403233.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_controller.v|
 !i113 1
 R7
 R8
 R9
 valtera_reset_synchronizer
-R27
+R30
 !i10b 1
 !s100 oWLYmSO[EOX[G0PgQhZ2=0
-IfJh3`B[<M39>VlVRJojf?3
+IVg1S`0le9;Mz]9c[F<FGO1
 R1
 R2
-R28
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v
+R31
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v
 R13
 R5
 r1
 !s85 0
 31
-R29
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v|
+Z33 !s108 1606403234.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_reset_synchronizer.v|
 !i113 1
 R7
 R8
@@ -297,481 +297,431 @@ valtera_std_synchronizer_nocut
 R10
 !i10b 1
 !s100 b8zV2<79GgkNg0GC<P[GJ2
-I?K6fPbFV;fJHgO9Le9G?^2
+IVPD8lRP53T`;JlmU7]ZfS0
 R1
 R2
-R11
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+R3
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v
 L0 44
 R5
 r1
 !s85 0
 31
-R12
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
+R11
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/altera_std_synchronizer_nocut.v|
 !i113 1
 R7
 R8
 R9
 vavalon_aes_interface
-R14
-!s110 1606186222
+R15
+R27
 !i10b 1
 !s100 kQz6T;IBOZfXh99NWKEU>1
-I26T3kSd0J6Ue>I`ZJE<_<2
+IOBCmS>68On;Yc0h1BW@Pb0
 R1
 !s105 avalon_aes_interface_sv_unit
 S1
 R2
-Z30 w1606183474
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/avalon_aes_interface.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/avalon_aes_interface.sv
+Z34 w1606361335
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/avalon_aes_interface.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/avalon_aes_interface.sv
 R4
 R5
 r1
 !s85 0
 31
-R23
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/avalon_aes_interface.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/avalon_aes_interface.sv|
+R28
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/avalon_aes_interface.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/avalon_aes_interface.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 vlab9_soc
-R27
+!s110 1606403233
 !i10b 1
-!s100 L`WHjh:n5LY87WE:_ELeM0
-IbKFz@TZ9F:A_86oojA]@h1
+!s100 ^bf<aWb[<_GzJjc@];E`:1
+If[2<]lkNMOD:L=S5Oo;hg3
 R1
 R2
-w1606183714
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/lab9_soc.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/lab9_soc.v
+w1606364095
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/lab9_soc.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/lab9_soc.v
 L0 6
 R5
 r1
 !s85 0
 31
-R29
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/lab9_soc.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/lab9_soc.v|
+R32
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/lab9_soc.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/lab9_soc.v|
 !i113 1
 R7
-!s92 -vlog01compat -work lab9_soc +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis
+!s92 -vlog01compat -work lab9_soc +incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis
 R9
 vlab9_soc_irq_mapper
-R14
-!s110 1606186217
+R15
+R12
 !i10b 1
 !s100 HZLVEzNVRMS7G;EVzg>dZ0
-I8R4QFmKL]07;FeD=z2Ti53
+IQhjbEf`Km^?H]_KGV:?3@1
 R1
 !s105 lab9_soc_irq_mapper_sv_unit
 S1
 R2
-R28
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv
+R31
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv
 L0 31
 R5
 r1
 !s85 0
 31
-!s108 1606186217.000000
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv|
+R14
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_irq_mapper.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 vlab9_soc_jtag_uart_0
-Z31 !s110 1606186216
+Z35 !s110 1606403238
 !i10b 1
 !s100 ezVSi?KNgjj1inz:5?g7f0
-IhGKZKF0UmaW3O8k0a9[7o2
+IbG@oH^hRE4fJ9QU9c?7eJ0
 R1
 R2
-R30
-Z32 8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v
-Z33 FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v
+R34
+Z36 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v
+Z37 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v
 L0 331
 R5
 r1
 !s85 0
 31
-Z34 !s108 1606186216.000000
-Z35 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v|
-Z36 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v|
+Z38 !s108 1606403238.000000
+Z39 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v|
+Z40 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_jtag_uart_0.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_jtag_uart_0_scfifo_r
-R31
+R35
 !i10b 1
 !s100 BmB_Tf;OzaPCM2h4gJ8zT0
-I^Ya_fVfE7;cU7nhjO<]K[2
+I`=0;LHYSH>X]DEWfgYh4h1
 R1
 R2
-R30
-R32
-R33
+R34
+R36
+R37
 L0 243
 R5
 r1
 !s85 0
 31
-R34
-R35
-R36
+R38
+R39
+R40
 !i113 1
 R7
 R8
 R9
 vlab9_soc_jtag_uart_0_scfifo_w
-R31
+R35
 !i10b 1
 !s100 idS<A>ZjX@Zh76M3e`X`02
-Izbe0CWOkG]KT_dH4g5o=b1
+ISVEXT_L4fkZ<@>=L>gofc0
 R1
 R2
-R30
-R32
-R33
+R34
+R36
+R37
 L0 78
 R5
 r1
 !s85 0
 31
-R34
-R35
-R36
+R38
+R39
+R40
 !i113 1
 R7
 R8
 R9
 vlab9_soc_jtag_uart_0_sim_scfifo_r
-R31
+R35
 !i10b 1
 !s100 o@J@FUBEXW8W<b@oHU2KY2
-IM5Vd^0hS1]PUAoLd;_LGb2
+IcUaD?Vl4Ma47PP`l4<B@L2
 R1
 R2
-R30
-R32
-R33
+R34
+R36
+R37
 L0 164
 R5
 r1
 !s85 0
 31
-R34
-R35
-R36
+R38
+R39
+R40
 !i113 1
 R7
 R8
 R9
 vlab9_soc_jtag_uart_0_sim_scfifo_w
-R31
+R35
 !i10b 1
 !s100 aSUg]mzQ?HEQQ:4m=9K8?3
-I8:P[ZhFDTM]aebGHoHU8N1
+I?Ma6ZY3VUY1^?d:7=>_Ka3
 R1
 R2
-R30
-R32
-R33
+R34
+R36
+R37
 R4
 R5
 r1
 !s85 0
 31
-R34
-R35
-R36
+R38
+R39
+R40
 !i113 1
 R7
 R8
 R9
 vlab9_soc_mm_interconnect_0
-R27
+R30
 !i10b 1
 !s100 zzRWWJ<kZZUZA3jcCGiSk0
-I8>WbiMnfhkB8Y6>2A:T4>0
+Iobn^OfKojJMKlOUEgkgCI0
 R1
 R2
-R28
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v
+R31
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v
 L0 9
 R5
 r1
 !s85 0
 31
-R29
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v|
+R33
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_mm_interconnect_0_avalon_st_adapter
-R0
+R30
 !i10b 1
 !s100 i6:YS24AmzoP9amOA4RVA0
-IYW_:[KGKN_LPnU`fhZo:P2
+I<D0k8f?N<m7WCAT^LgN`90
 R1
 R2
-Z37 w1606183500
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v
+Z41 w1606361398
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v
 L0 9
 R5
 r1
 !s85 0
 31
-R6
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v|
+R33
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0
-R14
-R10
+R15
+R12
 !i10b 1
 !s100 PLS>hHl5EjHIHCQdcMhT^2
-IcYM2DN8i7^dC@[nn4OAok2
+IDae]>Q_U:TDzZ0^Hi@TAI3
 R1
 !s105 lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0_sv_unit
 S1
 R2
-R37
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+R41
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
 L0 66
 R5
 r1
 !s85 0
 31
-R12
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+R14
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 vlab9_soc_mm_interconnect_0_cmd_demux
-R14
-R24
+R15
+Z42 !s110 1606403243
 !i10b 1
 !s100 XK7WXc`^QG3YoKX0E0_7:3
-IXd]THgL=?9eLMBK_1Z^>:3
+I^l89PCa6FM^2Ng`<EK9F83
 R1
 !s105 lab9_soc_mm_interconnect_0_cmd_demux_sv_unit
 S1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv
-Z38 L0 43
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv
+Z43 L0 43
 R5
 r1
 !s85 0
 31
-R26
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv|
+Z44 !s108 1606403243.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 vlab9_soc_mm_interconnect_0_cmd_demux_001
-R14
-Z39 !s110 1606186219
+R15
+R42
 !i10b 1
 !s100 [Sh2e>OLcD41V3_>4510m2
-In0h6;V_@ob7`h;bUGg:I93
+IS@lBD7KCHQ02@SNd`IPz92
 R1
 !s105 lab9_soc_mm_interconnect_0_cmd_demux_001_sv_unit
 S1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv
-R38
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv
+R43
 R5
 r1
 !s85 0
 31
-Z40 !s108 1606186219.000000
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv|
+R44
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_demux_001.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 vlab9_soc_mm_interconnect_0_cmd_mux
-R14
-R39
+R15
+R42
 !i10b 1
 !s100 QQ11@[<5WDBhbL_=9:;@J0
-IR4NCXgEJ_nf>QbO9@zamV1
+IGjjf@]C941E[I[P8m@]K30
 R1
 !s105 lab9_soc_mm_interconnect_0_cmd_mux_sv_unit
 S1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv
-Z41 L0 51
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv
+Z45 L0 51
 R5
 r1
 !s85 0
 31
-R40
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv|
+R44
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 vlab9_soc_mm_interconnect_0_cmd_mux_002
-R14
-R39
+R15
+R42
 !i10b 1
 !s100 c9dhb6<aT8@6GhB3@FkTa0
-I@]cPzn0Bg^W71<]hiX]UP2
+I`<@OfYIS=no_oY6J`i@L:2
 R1
 !s105 lab9_soc_mm_interconnect_0_cmd_mux_002_sv_unit
 S1
 R2
-R11
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv
-R41
+R3
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv
+R45
 R5
 r1
 !s85 0
 31
-R40
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv|
-!i113 1
 R20
-R21
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_cmd_mux_002.sv|
+!i113 1
+R23
+R24
 R9
 vlab9_soc_mm_interconnect_0_router
-R14
-R24
+R15
+Z46 !s110 1606403244
 !i10b 1
 !s100 <9aln;m2L>a2bGQgRH[;g0
-IXMj24eE<`DLFSgCBH<jM>0
+I?`5ERKDgUV1T1ilK3JQZ21
 R1
-Z42 !s105 lab9_soc_mm_interconnect_0_router_sv_unit
+Z47 !s105 lab9_soc_mm_interconnect_0_router_sv_unit
 S1
 R2
 R3
-Z43 8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv
-Z44 FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv
-Z45 L0 84
+Z48 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv
+Z49 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv
+Z50 L0 84
 R5
 r1
 !s85 0
 31
-R26
-Z46 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv|
-Z47 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv|
+Z51 !s108 1606403244.000000
+Z52 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv|
+Z53 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 vlab9_soc_mm_interconnect_0_router_001
-R14
-R24
+R15
+R46
 !i10b 1
 !s100 T92dnPeJ_^3][8]XzVf2=1
-IWilcTd<N[nVGF2EJC4a6C2
+I?N2O<9IZMLCOPg6f:9LIT0
 R1
-Z48 !s105 lab9_soc_mm_interconnect_0_router_001_sv_unit
+Z54 !s105 lab9_soc_mm_interconnect_0_router_001_sv_unit
 S1
 R2
 R3
-Z49 8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv
-Z50 FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv
-R45
+Z55 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv
+Z56 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv
+R50
 R5
 r1
 !s85 0
 31
-R26
-Z51 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv|
-Z52 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv|
+R51
+Z57 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv|
+Z58 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_001.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 vlab9_soc_mm_interconnect_0_router_001_default_decode
-R14
-R24
+R15
+R46
 !i10b 1
 !s100 7M;UVo@eO=Sm`_MFC0G>S2
-I`Sl5gV[HzL2anf25=bzn=2
-R1
-R48
-S1
-R2
-R3
-R49
-R50
-Z53 L0 45
-R5
-r1
-!s85 0
-31
-R26
-R51
-R52
-!i113 1
-R20
-R21
-R9
-vlab9_soc_mm_interconnect_0_router_002
-R14
-R24
-!i10b 1
-!s100 iGJaHaIQOPJIiadWP<KIj3
-I6lEN?KHBVNlUl:?<GY5ZS1
-R1
-Z54 !s105 lab9_soc_mm_interconnect_0_router_002_sv_unit
-S1
-R2
-R3
-Z55 8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv
-Z56 FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv
-R45
-R5
-r1
-!s85 0
-31
-R26
-Z57 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv|
-Z58 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv|
-!i113 1
-R20
-R21
-R9
-vlab9_soc_mm_interconnect_0_router_002_default_decode
-R14
-R24
-!i10b 1
-!s100 GD221TS7[iTcZ9XBHA=R53
-I?T74^WgUmn>ccc`ZOP]052
+IY40:`PSXT^H=kj33hCAFY1
 R1
 R54
 S1
@@ -779,827 +729,877 @@ R2
 R3
 R55
 R56
-R53
+Z59 L0 45
 R5
 r1
 !s85 0
 31
-R26
+R51
 R57
 R58
 !i113 1
-R20
-R21
-R9
-vlab9_soc_mm_interconnect_0_router_004
-R14
+R23
 R24
+R9
+vlab9_soc_mm_interconnect_0_router_002
+R15
+R46
 !i10b 1
-!s100 Oi[`ojRIF=3@]bCGG1obj1
-Ic_RY<Y8a@8iYGE37KeVnK1
+!s100 iGJaHaIQOPJIiadWP<KIj3
+IMA7YJi1<dTgGNgXIYdPfF2
 R1
-Z59 !s105 lab9_soc_mm_interconnect_0_router_004_sv_unit
+Z60 !s105 lab9_soc_mm_interconnect_0_router_002_sv_unit
 S1
 R2
 R3
-Z60 8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv
-Z61 FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv
+Z61 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv
+Z62 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv
+R50
+R5
+r1
+!s85 0
+31
+R51
+Z63 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv|
+Z64 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_002.sv|
+!i113 1
+R23
+R24
+R9
+vlab9_soc_mm_interconnect_0_router_002_default_decode
+R15
+R46
+!i10b 1
+!s100 GD221TS7[iTcZ9XBHA=R53
+I>W=MKB>]YjiYaOgdoAzz81
+R1
+R60
+S1
+R2
+R3
+R61
+R62
+R59
+R5
+r1
+!s85 0
+31
+R51
+R63
+R64
+!i113 1
+R23
+R24
+R9
+vlab9_soc_mm_interconnect_0_router_004
+R15
+R46
+!i10b 1
+!s100 Oi[`ojRIF=3@]bCGG1obj1
+IPi5F4PG^aFZ_BRV;AdfmJ3
+R1
+Z65 !s105 lab9_soc_mm_interconnect_0_router_004_sv_unit
+S1
+R2
+R3
+Z66 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv
+Z67 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv
+R50
+R5
+r1
+!s85 0
+31
+R51
+Z68 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv|
+Z69 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv|
+!i113 1
+R23
+R24
+R9
+vlab9_soc_mm_interconnect_0_router_004_default_decode
+R15
+R46
+!i10b 1
+!s100 W`ah4mhH_c[HCgYYV7ZTl0
+IfhMjTTKU6oXhYU;F00>ze2
+R1
+R65
+S1
+R2
+R3
+R66
+R67
+R59
+R5
+r1
+!s85 0
+31
+R51
+R68
+R69
+!i113 1
+R23
+R24
+R9
+vlab9_soc_mm_interconnect_0_router_default_decode
+R15
+R46
+!i10b 1
+!s100 >F2VHYhDF:_I1ZLP^EMHK1
+I@_;m=d5;dj45]jC3kzB9a3
+R1
+R47
+S1
+R2
+R3
+R48
+R49
+R59
+R5
+r1
+!s85 0
+31
+R51
+R52
+R53
+!i113 1
+R23
+R24
+R9
+vlab9_soc_mm_interconnect_0_rsp_demux
+R15
+R16
+!i10b 1
+!s100 fEbO93O`81zC3Yo]H>61@1
+IR3^:SdnWYBRV;]nB[S10A0
+R1
+!s105 lab9_soc_mm_interconnect_0_rsp_demux_sv_unit
+S1
+R2
+R3
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv
+R43
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv|
+!i113 1
+R23
+R24
+R9
+vlab9_soc_mm_interconnect_0_rsp_demux_002
+R15
+R16
+!i10b 1
+!s100 ]K<L[4GMTgnPZRUN0`c482
+IZzKna@Yg8h[QXbo1Q[AML3
+R1
+!s105 lab9_soc_mm_interconnect_0_rsp_demux_002_sv_unit
+S1
+R2
+R3
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv
+R43
+R5
+r1
+!s85 0
+31
+R20
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv|
+!i113 1
+R23
+R24
+R9
+vlab9_soc_mm_interconnect_0_rsp_mux
+R15
+R16
+!i10b 1
+!s100 QZT5X:<m@fMi`VMGYB4hm2
+IAV8b?J`P0]M<J9HMm?;7A1
+R1
+!s105 lab9_soc_mm_interconnect_0_rsp_mux_sv_unit
+S1
+R2
+R3
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv
 R45
 R5
 r1
 !s85 0
 31
-R26
-Z62 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv|
-Z63 !s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_router_004.sv|
-!i113 1
 R20
-R21
-R9
-vlab9_soc_mm_interconnect_0_router_004_default_decode
-R14
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv|
+!i113 1
+R23
 R24
-!i10b 1
-!s100 W`ah4mhH_c[HCgYYV7ZTl0
-IQ>hZ[Z<Q?[Nja@Sa@g[`W1
-R1
-R59
-S1
-R2
-R3
-R60
-R61
-R53
-R5
-r1
-!s85 0
-31
-R26
-R62
-R63
-!i113 1
-R20
-R21
-R9
-vlab9_soc_mm_interconnect_0_router_default_decode
-R14
-R24
-!i10b 1
-!s100 >F2VHYhDF:_I1ZLP^EMHK1
-IC68jGzXDGZa5_`0;T=4Qz2
-R1
-R42
-S1
-R2
-R3
-R43
-R44
-R53
-R5
-r1
-!s85 0
-31
-R26
-R46
-R47
-!i113 1
-R20
-R21
-R9
-vlab9_soc_mm_interconnect_0_rsp_demux
-R14
-R39
-!i10b 1
-!s100 fEbO93O`81zC3Yo]H>61@1
-IaQmSRddYTd<Hn3<X3RX4c0
-R1
-!s105 lab9_soc_mm_interconnect_0_rsp_demux_sv_unit
-S1
-R2
-R11
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv
-R38
-R5
-r1
-!s85 0
-31
-R40
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux.sv|
-!i113 1
-R20
-R21
-R9
-vlab9_soc_mm_interconnect_0_rsp_demux_002
-R14
-R39
-!i10b 1
-!s100 ]K<L[4GMTgnPZRUN0`c482
-IPMnz5[mdGzd[oiJjAJXc80
-R1
-!s105 lab9_soc_mm_interconnect_0_rsp_demux_002_sv_unit
-S1
-R2
-R11
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv
-R38
-R5
-r1
-!s85 0
-31
-R40
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_demux_002.sv|
-!i113 1
-R20
-R21
-R9
-vlab9_soc_mm_interconnect_0_rsp_mux
-R14
-R39
-!i10b 1
-!s100 QZT5X:<m@fMi`VMGYB4hm2
-IamOKn:e@K;]hlLIWalCbJ1
-R1
-!s105 lab9_soc_mm_interconnect_0_rsp_mux_sv_unit
-S1
-R2
-R11
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv
-R41
-R5
-r1
-!s85 0
-31
-R40
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux.sv|
-!i113 1
-R20
-R21
 R9
 vlab9_soc_mm_interconnect_0_rsp_mux_001
-R14
+R15
 R10
 !i10b 1
 !s100 d2A?eT2gL3kGNMz3Ab:T50
-Icg1G<f?3cZ7>VEL2h`n^R1
+IA9LXK^iD=]NV^63?o`l>F0
 R1
 !s105 lab9_soc_mm_interconnect_0_rsp_mux_001_sv_unit
 S1
 R2
-R11
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv
-R41
+R3
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv
+R45
 R5
 r1
 !s85 0
 31
-R12
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv|
-!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv|
+R11
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv|
+!s90 -reportprogress|300|-sv|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_mm_interconnect_0_rsp_mux_001.sv|
 !i113 1
-R20
-R21
+R23
+R24
 R9
 vlab9_soc_nios2_gen2_0
-Z64 !s110 1606186215
+Z70 !s110 1606403236
 !i10b 1
 !s100 a=JRPj]lJFWbfh3Jn46EA2
-Ij:Mo`VZKX6@nX;KUzNB_j2
+IQB9LCi8k[IeS9OZD^djQ30
 R1
 R2
-w1606183475
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v
+Z71 w1606361339
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v
 L0 9
 R5
 r1
 !s85 0
 31
-Z65 !s108 1606186215.000000
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v|
+Z72 !s108 1606403236.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu
-R64
+R70
 !i10b 1
 !s100 oS^=:iP]Z>CcgcC_MWj`I1
-I9L<LhhfaKHc`SHOmBH4S@1
+I_c:hRO^HRcS:D]5R;:i8[2
 R1
 R2
 R3
-Z66 8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v
-Z67 FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v
+Z73 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v
+Z74 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v
 L0 2834
 R5
 r1
 !s85 0
 31
-R65
-Z68 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v|
-Z69 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v|
+R72
+Z75 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v|
+Z76 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk
-R64
+Z77 !s110 1606403237
 !i10b 1
 !s100 F?a^4aDdWkSNQQ4m6>n]23
-IhGJ7nKk@oNhW1FFfhbEmZ1
+I?;b_PiX@`dNOBK8L0df7K3
 R1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v
 R4
 R5
 r1
 !s85 0
 31
-R65
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+Z78 !s108 1606403237.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_sysclk.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_debug_slave_tck
-R31
+R77
 !i10b 1
 !s100 J@8E3Gd:>kc0DZFNVSTd[1
-IoJHbJ59BlASa8NkQYS4=c1
+ImJ6AgBnIFc6JV@ZMJjaVV1
 R1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v
 R4
 R5
 r1
 !s85 0
 31
-R34
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+R78
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_tck.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper
-R31
+R77
 !i10b 1
 !s100 P4:n3_Wo9MUIoT8bLG7oW1
-IAJ4=Pa]cg`be0YlNAE^V40
+I[@=CdO7G6ieV11H]d?<9d2
 R1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v
 R4
 R5
 r1
 !s85 0
 31
-R34
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+R78
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_debug_slave_wrapper.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_avalon_reg
-R64
+R70
 !i10b 1
 !s100 `o?5nSAejBH;Bf1AbXgUd1
-I_dk2MOUf7lN;hjTR:Bd:@0
+I3D_@lL=l?o[zai5zQKOTa3
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 2023
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci
-R64
+R70
 !i10b 1
 !s100 O4AE8?9S7TM[V?^0U>?oA2
-ILlc`MiLQYAP`OMIZ6[l[^0
+IWSggaJzIcccWg=dP0HV0W0
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 2362
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_break
-R64
+R70
 !i10b 1
 !s100 _c5_Sfied^UT4c>Bc9KUQ0
-Ic1:UQND]`D4>BaMfUfFO31
+IIgiT;OF5?zgiEL<?lTM3^1
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 295
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_compute_input_tm_cnt
-R64
+R70
 !i10b 1
 !s100 GCiJjBoKhF`PEfP]48Pbi2
-ISEbOdh8bU65Tli1AlDmHZ1
+I@WM<BzRbXA;_OQla;@mVO2
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 1265
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_dbrk
-R64
+R70
 !i10b 1
 !s100 Za`HeD^XUIRJJ<]>O=e=33
-I8QLaKfK]Alo8WYkD9OLOS3
+IiNFP8C>;[h?D@7K:53eSj3
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 795
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_debug
-R64
+R70
 !i10b 1
 !s100 [9LE1d?>m[oCSh3=fGcnI3
-IGA_eeUe_:F79lXZgmzS7L1
+IIgX3fA]8YM2ChW3=nVB:i1
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 153
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_dtrace
-R64
+R70
 !i10b 1
 !s100 hQo<O;3EY_N=Q6fa32dez2
-I3l29HOPk>5i^f2S;IEIbA2
+IlgZS3YO`VJN;3iLM0h]OV0
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 1183
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_fifo
-R64
+R70
 !i10b 1
 !s100 TPz1]D_KXAIIV4:6bl?KO1
-IjdWBE:=GikUUW=0HBnWR;1
+IW@iC^hV:7^0Zh99BP[eai3
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 1427
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_fifo_cnt_inc
-R64
+R70
 !i10b 1
 !s100 6DDhhHF_LR72]gH^2gQK42
-I0[g6h4;MkbaK0K8S@dg0B0
+Inalbg`c`lZ:l4HD8UYW;N0
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 1380
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_fifo_wrptr_inc
-R64
+R70
 !i10b 1
 !s100 EIIbamXlR>nLZ_1Uz<mdH0
-IV2M7ebn[iKI4Yk=Zml<bY1
+IE7h9?RMAIAM1MBUZ;HQl@0
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 1337
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_im
-R64
+R70
 !i10b 1
 !s100 _0P[@NIo?PU45O1<o_Td90
-I>0g0BL;P5e_^MRJ0NAb163
+IakAcL@O?T;zT`DBbineY`0
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 1936
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_itrace
-R64
+R70
 !i10b 1
 !s100 ?W9QzFim^^mfU;1n_52Zd0
-IALi;]RTKQXU>z[E_<FZ7N3
+IFDZ7TODAKEDB9SbH_Q<3Q3
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 982
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_pib
-R64
+R70
 !i10b 1
 !s100 k1KLN`f^z45@OEaPQPX]31
-I>PRA=M34?^L:Alb1Te9Ah3
+IK>ifL8ANVKATYVP=7VaC^1
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 1913
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_td_mode
-R64
+R70
 !i10b 1
 !s100 6LXVg6<S4CN?EgQc`JN8o0
-Iz@5b=JZV@`EQ9gaUVl:ki2
+ILV<;X1bZ=4Ijnbf444SU32
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 1115
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_oci_xbrk
-R64
+R70
 !i10b 1
 !s100 `]4Cezo=HKC924d3nziJi3
-IJa=2LzkaNWfK>ORXI<Ych2
+IV6hB[7IIN=MKPV9eXjMLz0
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 588
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_ocimem
-R64
+R70
 !i10b 1
 !s100 ZMjjoE?@?4mKLFnMVhXU`3
-I7ZURaZ^hjF<83`b:Pj:753
+Ia9SL_l]`YRbc2VIi4QoXN0
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 2181
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_nios2_performance_monitors
-R64
+R70
 !i10b 1
 !s100 Hj:?W__l`QjDg5zQ;=MLz0
-I0a=93QdM3I]7khWIB?;ad0
+I4EYH=[bJ3FH82Y1=P`=ZQ2
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 2006
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_ociram_sp_ram_module
-R64
+R70
 !i10b 1
 !s100 g1<?cGeg^M^_K7<mHM<^41
-I:1GWIJ8D?]g@YiSYGT=NC1
+I:a9AIOG@g;VUIk3JWBAD00
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 2116
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_register_bank_a_module
-R64
+R70
 !i10b 1
 !s100 [a=]FPb@FJR6finW8aT8Q1
-I?7fiKQ9dJKgd9Rjfi2MU32
+IKRio:J1CUz7;;?<DJ^<SJ3
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 R4
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_register_bank_b_module
-R64
+R70
 !i10b 1
 !s100 lT;Gi7KNIMAF?aWTZO4l31
-I?D2?Pa6e]Bi81UhO_oToJ2
+Ihn`_H?GMUGUFP?iljRkmn2
 R1
 R2
 R3
-R66
-R67
+R73
+R74
 L0 87
 R5
 r1
 !s85 0
 31
-R65
-R68
-R69
+R72
+R75
+R76
 !i113 1
 R7
 R8
 R9
 vlab9_soc_nios2_gen2_0_cpu_test_bench
-R31
+R35
 !i10b 1
 !s100 ahGEG2ne;2m:ao^<]B_9A2
-IlC_cIfDfPgEBf8;cI4:jz0
+Ik3HM`:HXb:NnMMoCE^eem2
 R1
 R2
 R3
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v
 R4
 R5
 r1
 !s85 0
 31
-R34
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v|
+R38
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_nios2_gen2_0_cpu_test_bench.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_onchip_memory2_0
-R64
+R70
 !i10b 1
 !s100 mc[fAEEk9LZ^Xf9]mXACf1
-In1NX4j=@:FXINQfb8D9_72
+IMVVmFo6nbBQmJGlOEX1a<2
 R1
 R2
-Z70 w1606183476
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v
+R71
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v
 R4
 R5
 r1
 !s85 0
 31
-R65
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v|
+R72
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_onchip_memory2_0.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_sdram
-R0
+R70
 !i10b 1
 !s100 2hzCSziEEH[[F]?SoM:[c3
-INEnUG8l`QMh7VoVg;A>6j1
+ICdJ`XYG?MG?>Hbk_Z8M9P1
 R1
 R2
-R70
-Z71 8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram.v
-Z72 FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram.v
+Z79 w1606361340
+Z80 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram.v
+Z81 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram.v
 L0 159
 R5
 r1
 !s85 0
 31
-R6
-Z73 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram.v|
-Z74 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram.v|
+R72
+Z82 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram.v|
+Z83 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram.v|
 !i113 1
 R7
 R8
 R9
 vlab9_soc_sdram_input_efifo_module
-R0
+R70
 !i10b 1
 !s100 k?[^OK7A=fF4]Ld2aRBc42
-Id>]O8JkDL42jFMfR<fVDO3
+I8U5258FQ3QnT4SNzJVW9Z0
 R1
 R2
-R70
-R71
-R72
+R79
+R80
+R81
 R4
 R5
 r1
 !s85 0
 31
-R6
-R73
-R74
+R72
+R82
+R83
 !i113 1
 R7
 R8
@@ -1608,20 +1608,20 @@ vlab9_soc_sdram_pll
 R0
 !i10b 1
 !s100 k1e?TIU`9iNGmaZ`FJ68X2
-IZDh@l0[fG7EP2lW_YEQ;N1
+INWmdY3S`]44X9Eg[ndHzV2
 R1
 R2
-Z75 w1606183477
-Z76 8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v
-Z77 FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v
+Z84 w1606361341
+Z85 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v
+Z86 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v
 L0 217
 R5
 r1
 !s85 0
 31
 R6
-Z78 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v|
-Z79 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v|
+Z87 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v|
+Z88 !s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sdram_pll.v|
 !i113 1
 R7
 R8
@@ -1630,20 +1630,20 @@ vlab9_soc_sdram_pll_altpll_lqa2
 R0
 !i10b 1
 !s100 15SFihDRG94=CMf=ZKbO`0
-IDm?><`6i^J;ne<1a@Y<7X1
+I2N79<kE7lZ`2?`olmL[U]3
 R1
 R2
-R75
-R76
-R77
+R84
+R85
+R86
 L0 130
 R5
 r1
 !s85 0
 31
 R6
-R78
-R79
+R87
+R88
 !i113 1
 R7
 R8
@@ -1652,20 +1652,20 @@ vlab9_soc_sdram_pll_dffpipe_l2c
 R0
 !i10b 1
 !s100 jh6FXUEYoRk6>Bed0M[O31
-IZibI>DlUc0h2<g9eC9jkZ0
+IKcmdAUh]P1aJ2ZcYTLlG20
 R1
 R2
-R75
-R76
-R77
+R84
+R85
+R86
 L0 37
 R5
 r1
 !s85 0
 31
 R6
-R78
-R79
+R87
+R88
 !i113 1
 R7
 R8
@@ -1674,20 +1674,20 @@ vlab9_soc_sdram_pll_stdsync_sv6
 R0
 !i10b 1
 !s100 Boa55hDb@o6_bBM8zGEKK1
-IJ?c83[Wi1MP6Oo^dZY;m10
+IG4=[RXglQNba_>A2ZQY9o2
 R1
 R2
-R75
-R76
-R77
+R84
+R85
+R86
 L0 98
 R5
 r1
 !s85 0
 31
 R6
-R78
-R79
+R87
+R88
 !i113 1
 R7
 R8
@@ -1695,21 +1695,21 @@ R9
 vlab9_soc_sysid_qsys_0
 R0
 !i10b 1
-!s100 RS_ei:cz?kFCYh@M^RB3e1
-IizU8:kP9cJfTV^9KITgl>2
+!s100 A?LL?KRj_JI1i10Zjz2HR2
+IbWePYm[2d:VFmdA48I3=^0
 R1
 R2
-R75
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v
-R25
+R84
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v
+R29
 R5
 r1
 !s85 0
 31
 R6
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v|
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_sysid_qsys_0.v|
 !i113 1
 R7
 R8
@@ -1718,20 +1718,20 @@ vlab9_soc_timer_0
 R0
 !i10b 1
 !s100 0PKk>>HdfIGbI=]36LD6P0
-IoRF:D5dDVcY=A:NMgAHaD0
+IQM?BSi`7]7[_P=lV[7AN11
 R1
 R2
-R75
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v
+w1606361342
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v
 R4
 R5
 r1
 !s85 0
 31
 R6
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v|
-!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v|
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v|
+!s90 -reportprogress|300|-vlog01compat|-work|lab9_soc|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_soc/synthesis/submodules/lab9_soc_timer_0.v|
 !i113 1
 R7
 R8

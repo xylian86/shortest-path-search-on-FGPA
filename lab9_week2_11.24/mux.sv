@@ -22,7 +22,6 @@ module mux3 #(parameter width =32) (input logic [width-1:0] a0,a1,a2,a3,a4,a5,
 
 always_comb 
 	begin 
-	out = a5;
 		case(select)
 		3'b000:
 		out = a0;
@@ -34,6 +33,10 @@ always_comb
 		out = a3;
 		3'b100:
 		out = a4;
+		3'b101:
+		out = a5;
+		default:
+		out = a0;
 		endcase
 	end
 

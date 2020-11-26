@@ -7,408 +7,483 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dD:/ece385/common/ECE-385/lab9_week2_11.24/simulation/modelsim
+Z0 dC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/simulation/modelsim
 vAddRoundKey
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1606186217
+Z2 !s110 1606403239
 !i10b 1
 !s100 nh^7A7n5581mibXC5YRQ90
-I`jI8XSn@C@Pn6YKA1o<>O1
+IPdE]d6QHl6U5Y=03gKJDH2
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 AddRoundKey_sv_unit
 S1
 R0
-Z4 w1606183307
-8D:/ece385/common/ECE-385/lab9_week2_11.24/AddRoundKey.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/AddRoundKey.sv
+w1606144102
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/AddRoundKey.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/AddRoundKey.sv
 L0 1
-Z5 OV;L;10.5b;63
+Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1606186217.000000
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/AddRoundKey.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24|D:/ece385/common/ECE-385/lab9_week2_11.24/AddRoundKey.sv|
+Z5 !s108 1606403239.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/AddRoundKey.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/AddRoundKey.sv|
 !i113 1
-Z7 o-sv -work work
-Z8 !s92 -sv -work work +incdir+D:/ece385/common/ECE-385/lab9_week2_11.24
-Z9 tCvgOpt 0
+Z6 o-sv -work work
+Z7 !s92 -sv -work work +incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24
+Z8 tCvgOpt 0
 n@add@round@key
 vAES
 R1
 R2
 !i10b 1
-!s100 d@hP1@niP3cZ0BT3mXk;<0
-IJ07BnNjMP>RmlgB8d^k3S2
+!s100 6f^JH0Oa[CKUMF=e>LFS40
+I5e_NQF>l?oDePz3^Pe3ZX3
 R3
 !s105 AES_sv_unit
 S1
 R0
-w1606186147
-8D:/ece385/common/ECE-385/lab9_week2_11.24/AES.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/AES.sv
-L0 345
-R5
+w1606403145
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/AES.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/AES.sv
+L0 7
+R4
 r1
 !s85 0
 31
-R6
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/AES.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24|D:/ece385/common/ECE-385/lab9_week2_11.24/AES.sv|
+R5
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/AES.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/AES.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@a@e@s
 vdecode
 R1
-Z10 DXx4 work 21 InvMixColumns_sv_unit 0 22 B>=Sj?]B1QARdN81L=4Yj3
+Z9 DXx4 work 21 InvMixColumns_sv_unit 0 22 fgGgG_^MS8[ThVCBnl>Ok1
 R3
 r1
 !s85 0
 31
 !i10b 1
 !s100 O255Vcz=?<H5RBkR:AJ1S3
-IF@Fk;ZnPX4?WF5;e3]3Xh1
-Z11 !s105 InvMixColumns_sv_unit
+I]CTENQS__?dRRBEzIMc210
+Z10 !s105 InvMixColumns_sv_unit
 S1
 R0
-Z12 w1606183922
-Z13 8D:/ece385/common/ECE-385/lab9_week2_11.24/InvMixColumns.sv
-Z14 FD:/ece385/common/ECE-385/lab9_week2_11.24/InvMixColumns.sv
+Z11 w1606151024
+Z12 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/InvMixColumns.sv
+Z13 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/InvMixColumns.sv
 L0 147
+R4
 R5
-R6
-Z15 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/InvMixColumns.sv|
-Z16 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24|D:/ece385/common/ECE-385/lab9_week2_11.24/InvMixColumns.sv|
+Z14 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/InvMixColumns.sv|
+Z15 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/InvMixColumns.sv|
 !i113 1
+R6
 R7
 R8
-R9
 vGF_Mul_9
 R1
-R10
+R9
 R3
 r1
 !s85 0
 31
 !i10b 1
 !s100 `>]4H4@iliSP?dl2@_DE82
-IP<dC[@PFAABQ[XcF51P?33
-R11
+I]bAUXBHIRGOiJT2ki8EkE1
+R10
 S1
 R0
+R11
 R12
 R13
-R14
 L0 74
+R4
 R5
-R6
+R14
 R15
-R16
 !i113 1
+R6
 R7
 R8
-R9
 n@g@f_@mul_9
 vGF_Mul_b
 R1
-R10
+R9
 R3
 r1
 !s85 0
 31
 !i10b 1
 !s100 LWUM_dc3_P74=OT`RzHoN1
-I;L0mQzfo?7Pm:7z8A3RC[1
-R11
+IZ67KU>BE^MJNWCJSFS`ik2
+R10
 S1
 R0
+R11
 R12
 R13
-R14
-Z17 L0 93
+Z16 L0 93
+R4
 R5
-R6
+R14
 R15
-R16
 !i113 1
+R6
 R7
 R8
-R9
 n@g@f_@mul_b
 vGF_Mul_d
 R1
-R10
+R9
 R3
 r1
 !s85 0
 31
 !i10b 1
 !s100 CPB;fC9?WAod]IM0<oISe0
-Ib@AJBA:3k1Vc9;eM7dFVn1
-R11
+IhHfF5PMMFoKcE8JAIfRf]2
+R10
 S1
 R0
+R11
 R12
 R13
-R14
 L0 112
+R4
 R5
-R6
+R14
 R15
-R16
 !i113 1
+R6
 R7
 R8
-R9
 n@g@f_@mul_d
 vGF_Mul_e
 R1
-R10
+R9
 R3
 r1
 !s85 0
 31
 !i10b 1
 !s100 8MSGaQX_X5X4HB0HA=_gj1
-IFcnb;E^hkaCGe5IGbIJZg0
-R11
+I1=cdZoBTzG?iWZF7_e;H43
+R10
 S1
 R0
+R11
 R12
 R13
-R14
 L0 131
+R4
 R5
-R6
+R14
 R15
-R16
 !i113 1
+R6
 R7
 R8
-R9
 n@g@f_@mul_e
 vhexdriver
 R1
 R2
 !i10b 1
 !s100 9aO?^i9QbIaBE;CD84;[50
-I9A[a0QZb@Zm4[0DfWlUg]0
+In[c8Wm1_STYli6<7`_0KO0
 R3
 !s105 hexdriver_sv_unit
 S1
 R0
-R4
-8D:/ece385/common/ECE-385/lab9_week2_11.24/hexdriver.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/hexdriver.sv
+Z17 w1605924475
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/hexdriver.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/hexdriver.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/hexdriver.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24|D:/ece385/common/ECE-385/lab9_week2_11.24/hexdriver.sv|
+R5
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/hexdriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/hexdriver.sv|
 !i113 1
+R6
 R7
 R8
-R9
 vInvMixColumns
 R1
 R2
 !i10b 1
 !s100 4o]QlL4?^EZ0IeL:kL;`V3
-IZo^B2c;TaYV?4XjCP[AgF2
+IV=9OkCfg6<dnUaJIeMCZ?2
 R3
-R11
+R10
 S1
 R0
+R11
 R12
 R13
-R14
 Z18 L0 14
-R5
+R4
 r1
 !s85 0
 31
-R6
+R5
+R14
 R15
-R16
 !i113 1
+R6
 R7
 R8
-R9
 n@inv@mix@columns
 XInvMixColumns_sv_unit
 R1
-VB>=Sj?]B1QARdN81L=4Yj3
+VfgGgG_^MS8[ThVCBnl>Ok1
 r1
 !s85 0
 31
 !i10b 1
 !s100 :]HB?ZU;Vm2a63f_ARaUg3
-IB>=Sj?]B1QARdN81L=4Yj3
+IfgGgG_^MS8[ThVCBnl>Ok1
 !i103 1
 S1
 R0
+R11
 R12
 R13
-R14
 L0 65
+R4
 R5
-R6
+R14
 R15
-R16
 !i113 1
+R6
 R7
 R8
-R9
 n@inv@mix@columns_sv_unit
 vInvShiftRows
 R1
 R2
 !i10b 1
 !s100 IGnkNoM>n=3VhTK>Jl2F=1
-I:^4mHo4KK^DBhdOOhcT5j1
+I]zb2lTB[lVSY;>4f]S5dV3
 R3
 !s105 InvShiftRows_sv_unit
 S1
 R0
-R4
-8D:/ece385/common/ECE-385/lab9_week2_11.24/InvShiftRows.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/InvShiftRows.sv
+R17
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/InvShiftRows.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/InvShiftRows.sv
 L0 2
-R5
+R4
 r1
 !s85 0
 31
-R6
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/InvShiftRows.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24|D:/ece385/common/ECE-385/lab9_week2_11.24/InvShiftRows.sv|
+R5
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/InvShiftRows.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/InvShiftRows.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@inv@shift@rows
 vInvSubBytes
 R1
-Z19 !s110 1606186216
+Z19 !s110 1606403238
 !i10b 1
 !s100 fYzzGZ]YiaT7z3;]GQMHB1
-I:6K;ERVZ]ee[1B3Za4QU_1
+IeWALjHh]la40WZHmN6oX90
 R3
 Z20 !s105 SubBytes_sv_unit
 S1
 R0
-R4
-Z21 8D:/ece385/common/ECE-385/lab9_week2_11.24/SubBytes.sv
-Z22 FD:/ece385/common/ECE-385/lab9_week2_11.24/SubBytes.sv
 R17
-R5
+Z21 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/SubBytes.sv
+Z22 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/SubBytes.sv
+R16
+R4
 r1
 !s85 0
 31
-Z23 !s108 1606186216.000000
-Z24 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/SubBytes.sv|
-Z25 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24|D:/ece385/common/ECE-385/lab9_week2_11.24/SubBytes.sv|
+Z23 !s108 1606403238.000000
+Z24 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/SubBytes.sv|
+Z25 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/SubBytes.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@inv@sub@bytes
 vKeyExpansion
 R1
-R2
+Z26 !s110 1606403240
 !i10b 1
 !s100 Bdiae<klOdVNS3GLcDzdF2
-Ij[a=hK75cL82Yb91?DjK<1
+Izo_d@M^V`mSz59QGMPa6Y0
 R3
-Z26 !s105 KeyExpansion_sv_unit
+Z27 !s105 KeyExpansion_sv_unit
 S1
 R0
-R4
-Z27 8D:/ece385/common/ECE-385/lab9_week2_11.24/KeyExpansion.sv
-Z28 FD:/ece385/common/ECE-385/lab9_week2_11.24/KeyExpansion.sv
+R17
+Z28 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/KeyExpansion.sv
+Z29 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/KeyExpansion.sv
 L0 13
-R5
+R4
 r1
 !s85 0
 31
-R6
-Z29 !s107 D:/ece385/common/ECE-385/lab9_week2_11.24/KeyExpansion.sv|
-Z30 !s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24|D:/ece385/common/ECE-385/lab9_week2_11.24/KeyExpansion.sv|
+Z30 !s108 1606403240.000000
+Z31 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/KeyExpansion.sv|
+Z32 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/KeyExpansion.sv|
 !i113 1
+R6
 R7
 R8
-R9
 n@key@expansion
 vKeyExpansionOne
 R1
-R2
+R26
 !i10b 1
 !s100 2i=U]i?z:7<e:gKRGRX`f2
-IBanAX2`]4TfE[5_bO8Nk@0
+I0CC347PNOhh=m;:8`8[ZB2
 R3
-R26
+R27
 S1
 R0
-R4
-R27
+R17
 R28
+R29
 L0 41
-R5
+R4
 r1
 !s85 0
 31
-R6
-R29
 R30
+R31
+R32
 !i113 1
+R6
 R7
 R8
-R9
 n@key@expansion@one
 vlab9_top
 R1
 R19
 !i10b 1
 !s100 ]lbJ1H0NCd>]89FFAjohn3
-I8KNRzhfnjD3OlL7M@RX^40
+I0da:j<zQ]QjLWd7<7]_Xh3
 R3
 !s105 lab9_top_sv_unit
 S1
 R0
-R4
-8D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_top.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/lab9_top.sv
+R17
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_top.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_top.sv
 L0 11
-R5
+R4
 r1
 !s85 0
 31
 R23
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_top.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24|D:/ece385/common/ECE-385/lab9_week2_11.24/lab9_top.sv|
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_top.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/lab9_top.sv|
 !i113 1
+R6
 R7
 R8
-R9
+vmux11
+R1
+R26
+!i10b 1
+!s100 @cSJFRoOLInZ>^4[BRMAB0
+IL?dSmC^I8`T[cLSWZ5AAe1
+R3
+Z33 !s105 mux_sv_unit
+S1
+R0
+Z34 w1606400234
+Z35 8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/mux.sv
+Z36 FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/mux.sv
+L0 46
+R4
+r1
+!s85 0
+31
+R5
+Z37 !s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/mux.sv|
+Z38 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/mux.sv|
+!i113 1
+R6
+R7
+R8
+vmux2
+R1
+R26
+!i10b 1
+!s100 W<Rm_`Zi[1e<zRlI<T@JG3
+IZT:HNnPom?ES3KQ84MgKE2
+R3
+R33
+S1
+R0
+R34
+R35
+R36
+L0 1
+R4
+r1
+!s85 0
+31
+R5
+R37
+R38
+!i113 1
+R6
+R7
+R8
+vmux3
+R1
+R26
+!i10b 1
+!s100 XZQhO>Ci:94G?VVR[6RUg1
+I]e<MfSijaBJRz5ZC6MoWK2
+R3
+R33
+S1
+R0
+R34
+R35
+R36
+L0 19
+R4
+r1
+!s85 0
+31
+R5
+R37
+R38
+!i113 1
+R6
+R7
+R8
 vSubBytes
 R1
 R19
 !i10b 1
 !s100 J7353OL5=^nSOQEV4PX_03
-IXKmFZH3_0:<>DRS=NE=Pl1
+I8TjB=Q@b]KTP:cbmOMK0e0
 R3
 R20
 S1
 R0
-R4
+R17
 R21
 R22
 R18
-R5
+R4
 r1
 !s85 0
 31
@@ -416,32 +491,32 @@ R23
 R24
 R25
 !i113 1
+R6
 R7
 R8
-R9
 n@sub@bytes
 vtestbench
 R1
-!s110 1606186222
+!s110 1606403246
 !i10b 1
 !s100 ]3GSAFh;R`6QA9MFgBXh@2
-IBEl=kmKVRKUk==g^HKX=12
+I`OgM9holIaChMMC7SFohJ3
 R3
 !s105 testbench_sv_unit
 S1
 R0
-w1606185709
-8D:/ece385/common/ECE-385/lab9_week2_11.24/testbench.sv
-FD:/ece385/common/ECE-385/lab9_week2_11.24/testbench.sv
+w1606179461
+8C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/testbench.sv
+FC:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/testbench.sv
 L0 1
-R5
+R4
 r1
 !s85 0
 31
-!s108 1606186222.000000
-!s107 D:/ece385/common/ECE-385/lab9_week2_11.24/testbench.sv|
-!s90 -reportprogress|300|-sv|-work|work|+incdir+D:/ece385/common/ECE-385/lab9_week2_11.24|D:/ece385/common/ECE-385/lab9_week2_11.24/testbench.sv|
+!s108 1606403246.000000
+!s107 C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24|C:/Users/Administrator/Desktop/Github/ECE-385/lab9_week2_11.24/testbench.sv|
 !i113 1
+R6
 R7
 R8
-R9

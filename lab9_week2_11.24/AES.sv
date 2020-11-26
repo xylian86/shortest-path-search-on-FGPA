@@ -1,10 +1,337 @@
+///************************************************************************
+//AES Decryption Core Logic
+//Dong Kai Wang, Fall 2017
+//For use with ECE 385 Experiment 9
+//University of Illinois ECE Department
+//************************************************************************/
+//module AES (
+//	input	 logic CLK,
+//	input  logic RESET,
+//	input  logic AES_START,
+//	output logic AES_DONE,
+//	input  logic [127:0] AES_KEY,
+//	input  logic [127:0] AES_MSG_ENC,
+//	output logic [127:0] AES_MSG_DEC
+//);
+//
+//
+////Define the variables
+//logic [1407:0] keySchedule;
+//logic [127:0]state;
+//logic [127:0]next_state;
+//logic [127:0]copy_state;
+//logic [127:0]shiftout;
+//logic [127:0]Sub_Out;
+//logic [127:0]roundkeyout;
+//logic [31:0]invin;
+//logic [31:0]invout;
+//logic [127:0]inputRoundKey;
+//logic [4:0]count1_cur;
+//logic [4:0]count1_next;
+//logic [4:0]count2_cur;
+//logic [4:0]count2_next;
+//logic [2:0]muxsignal;
+//logic [127:0]datastream;
+//logic [127:0]cache;
+////define the state
+//	enum logic [4:0]{
+//		WAIT,
+//		KEY_SCHEDULE,
+//		ADDROUNDKEY0,
+//
+//		INVSHIFTROWSLOOP,
+//		INVSUBBYTESLOOP,
+//		ADDROUNDKEYLOOP,
+//		INVMIXCOLUMNS1,
+//		INVMIXCOLUMNS2,
+//		INVMIXCOLUMNS3,
+//		INVMIXCOLUMNS4,
+//		INVMIXCOLUMNSfinish,
+//
+//		INVSHIFTROWS1,
+//		INVSUBBYTES1,
+//		ADDROUNDKEY1,
+//		DONE
+//	} MAINSTATE, NEXTSTATE;
+//
+//	
+//mux3 #(128) mainMux  (.a0(state),
+//							 .a1(roundkeyout),
+//							 .a2(shiftout),
+//							 .a3(Sub_Out),
+//							 .a4(AES_MSG_ENC),
+//							 .a5(cache),
+//							 .select(muxsignal), 
+//							 .out(datastream));
+//							 
+////module instances
+//KeyExpansion keyEx(.clk(CLK), 
+//					    .Cipherkey(AES_KEY), 
+//					    .KeySchedule(keySchedule));
+//
+//AddRoundKey roundMod(.state(state), 
+//							.key(inputRoundKey),
+//							.out(roundkeyout));
+//								
+//InvShiftRows shiftMod(.data_in(state), 
+//							 .data_out(shiftout));	
+//								  
+//InvMixColumns ColMod(.in(invin),
+//							.out(invout));
+//							
+//InvSubBytes sub0(.clk(CLK), .in(state[7:0]), .out(Sub_Out[7:0]));
+//InvSubBytes sub1(.clk(CLK), .in(state[15:8]), .out(Sub_Out[15:8]));
+//InvSubBytes sub2(.clk(CLK), .in(state[23:16]), .out(Sub_Out[23:16]));
+//InvSubBytes sub3(.clk(CLK), .in(state[31:24]), .out(Sub_Out[31:24]));
+//InvSubBytes sub4(.clk(CLK), .in(state[39:32]), .out(Sub_Out[39:32]));
+//InvSubBytes sub5(.clk(CLK), .in(state[47:40]), .out(Sub_Out[47:40]));
+//InvSubBytes sub6(.clk(CLK), .in(state[55:48]), .out(Sub_Out[55:48]));
+//InvSubBytes sub7(.clk(CLK), .in(state[63:56]), .out(Sub_Out[63:56]));
+//InvSubBytes sub8(.clk(CLK), .in(state[71:64]), .out(Sub_Out[71:64]));
+//InvSubBytes sub9(.clk(CLK), .in(state[79:72]), .out(Sub_Out[79:72]));
+//InvSubBytes sub10(.clk(CLK), .in(state[87:80]), .out(Sub_Out[87:80]));
+//InvSubBytes sub11(.clk(CLK), .in(state[95:88]), .out(Sub_Out[95:88]));
+//InvSubBytes sub12(.clk(CLK), .in(state[103:96]), .out(Sub_Out[103:96]));
+//InvSubBytes sub13(.clk(CLK), .in(state[111:104]), .out(Sub_Out[111:104]));
+//InvSubBytes sub14(.clk(CLK), .in(state[119:112]), .out(Sub_Out[119:112]));
+//InvSubBytes sub15(.clk(CLK), .in(state[127:120]), .out(Sub_Out[127:120]));
+//
+//
+//	always_ff @(posedge CLK)
+//	begin
+//		if (RESET) 
+//			begin
+//			MAINSTATE <= WAIT;
+//			state <= 8'b0;
+//			count1_cur <= 4'b0;
+//			count2_cur <= 4'b0;
+//			end
+//		
+//		else 
+//			begin
+//			state <= datastream;
+//			//state <= next_state;
+//			MAINSTATE <= NEXTSTATE;
+//			count1_cur <= count1_next;
+//			count2_cur <= count2_next;
+//			end
+//	end
+//
+//	
+//	always_comb begin
+//			count1_next = count1_cur;
+//			count2_next = count2_cur;
+//			NEXTSTATE = MAINSTATE;
+//			unique case (MAINSTATE)
+//			WAIT:
+//				begin
+//				if (AES_START ==1'b1)
+//					begin
+//					NEXTSTATE = KEY_SCHEDULE;
+//					end 
+//				else 
+//					begin
+//					NEXTSTATE = WAIT;
+//					end
+//				end
+//			
+//			// give ten clocks to generate keys
+//			KEY_SCHEDULE:
+//				begin
+//				if (count1_cur == 4'd10) 
+//					begin
+//					NEXTSTATE = ADDROUNDKEY0;
+//					end
+//				else 
+//					begin
+//					NEXTSTATE = KEY_SCHEDULE;
+//					count1_next = count1_cur + 4'b1;
+//					end
+//				end
+//			
+//			ADDROUNDKEY0: 
+//				NEXTSTATE = INVSHIFTROWSLOOP;		
+//			INVSHIFTROWSLOOP: 
+//				NEXTSTATE = INVSUBBYTESLOOP;	
+//			INVSUBBYTESLOOP: 
+//				NEXTSTATE = ADDROUNDKEYLOOP;
+//			ADDROUNDKEYLOOP:
+//				NEXTSTATE = INVMIXCOLUMNS1;
+//			INVMIXCOLUMNS1: 
+//				NEXTSTATE = INVMIXCOLUMNS2;		
+//			INVMIXCOLUMNS2: 
+//				NEXTSTATE = INVMIXCOLUMNS3;					
+//			INVMIXCOLUMNS3: 
+//				NEXTSTATE = INVMIXCOLUMNS4;
+//			INVMIXCOLUMNS4: 
+//				NEXTSTATE = INVMIXCOLUMNSfinish;
+//
+//			INVMIXCOLUMNSfinish:begin
+//				if (count2_cur == 4'd8)
+//					begin
+//					NEXTSTATE = INVSHIFTROWS1;
+//					end
+//				else 
+//					begin
+//					NEXTSTATE = INVSHIFTROWSLOOP;
+//					count2_next = count2_cur + 4'b1;
+//					end
+//				end
+//			
+//			INVSHIFTROWS1: 
+//				NEXTSTATE = INVSUBBYTES1;		
+//			INVSUBBYTES1:	
+//				NEXTSTATE = ADDROUNDKEY1;	
+//			ADDROUNDKEY1: 
+//				NEXTSTATE = DONE;
+//			
+//			DONE:
+//				begin
+//				if (AES_START==0) 
+//					begin
+//					NEXTSTATE = WAIT;
+//					end
+//				else 
+//					begin
+//					NEXTSTATE = DONE;
+//					end
+//				end
+//			
+//			default: 
+//				begin
+//				NEXTSTATE = WAIT;
+//				end
+//		endcase
+//		
+//		
+//		
+//		//next_state = state;		
+//		muxsignal = 3'b000;
+//		AES_DONE = 1'b0;
+//		AES_MSG_DEC = 128'b0;
+//		invin = 32'b0;
+//		inputRoundKey = 128'b0;
+//		cache = 8'b0;
+//		case (MAINSTATE)
+//			WAIT:
+//				begin
+//				end
+//			
+//			KEY_SCHEDULE:begin
+//				muxsignal = 3'b100;
+//				//next_state = AES_MSG_ENC;
+//			end
+//			
+//			ADDROUNDKEY0:
+//				begin
+//				inputRoundKey = keySchedule[127:0];
+//				muxsignal = 3'b001;
+//				//next_state = roundkeyout;
+//				end
+//			
+//			INVSHIFTROWSLOOP:
+//				begin
+//				muxsignal = 3'b010;
+//				//next_state = shiftout;
+//				end
+//			
+//			INVSUBBYTESLOOP:
+//				begin
+//				muxsignal = 3'b011;
+//				//next_state = Sub_Out;
+//				end
+//			
+//			ADDROUNDKEYLOOP:
+//				begin
+//				case (count2_cur)
+//					4'd8:inputRoundKey = keySchedule[1279:1152];
+//					4'd7:inputRoundKey = keySchedule[1151:1024];
+//					4'd6:inputRoundKey = keySchedule[1023:896];
+//					4'd5:inputRoundKey = keySchedule[895:768];
+//					4'd4:inputRoundKey = keySchedule[767:640];
+//					4'd3:inputRoundKey = keySchedule[639:512];
+//					4'd2:inputRoundKey = keySchedule[511:384];
+//					4'd1:inputRoundKey = keySchedule[383:256];
+//					4'd0:inputRoundKey = keySchedule[255:128];
+//					default: inputRoundKey = 128'b0;
+//				endcase
+//				muxsignal = 3'b001;
+//				//next_state = roundkeyout;
+//				end
+//			
+//			INVMIXCOLUMNS1:
+//				begin
+//				invin = state[31:0];
+//				//next_state[63:32] = invout;
+//				cache[31:0] = invout;
+//				muxsignal = 3'd0;
+//				end
+//			
+//			INVMIXCOLUMNS2:
+//				begin
+//				invin = state[63:32];
+//				cache[63:32] = invout;
+//				//next_state[63:32] = invout;
+//				muxsignal = 3'd0;
+//				end
+//			
+//			INVMIXCOLUMNS3:
+//				begin
+//				invin = state[95:64];
+//				cache[95:64] = invout;
+//				muxsignal = 3'd0;
+//				end
+//			
+//			INVMIXCOLUMNS4:
+//				begin
+//				invin = state[127:96];
+//				muxsignal = 3'd0;
+//				cache[127:96] = invout;
+//				end
+//			
+//			INVMIXCOLUMNSfinish:
+//				begin
+//				muxsignal = 3'b101;
+//				end
+//			
+//			INVSHIFTROWS1:
+//				begin
+//				muxsignal = 3'd2;
+//				//next_state = shiftout;
+//				end
+//			
+//			INVSUBBYTES1:
+//				begin
+//				muxsignal = 3'd3;
+//				//next_state = Sub_Out;				
+//				end
+//			
+//			ADDROUNDKEY1:
+//				begin
+//				inputRoundKey = keySchedule[1407:1280];
+//				muxsignal = 3'd1;
+//				//next_state = roundkeyout;
+//				end
+//			
+//			DONE:
+//				begin
+//				AES_MSG_DEC = datastream;
+//				AES_DONE = 1'b1;
+//				end
+//			
+//			default: 
+//				begin
+//				end
+//		endcase
+//	end
+//endmodule
+
 /************************************************************************
 AES Decryption Core Logic
 Dong Kai Wang, Fall 2017
 For use with ECE 385 Experiment 9
 University of Illinois ECE Department
 ************************************************************************/
-//reference
 module AES (
 	input	 logic CLK,
 	input  logic RESET,
@@ -15,253 +342,307 @@ module AES (
 	output logic [127:0] AES_MSG_DEC
 );
 
-	// 32bit 4 * (10+1)
-	logic [1407:0]w;
-	logic [127:0]state;
-	logic [127:0]next_state;
-	logic [127:0]copy_state;
-	logic [127:0]Shift_Out;
-	logic [127:0]Sub_Out;
-	logic [127:0]AddRoundKey_Out;
-	logic [31:0]MixColumns_In;
-	logic [31:0]MixColumns_Out;
-	logic [127:0]key;
-	logic [4:0]Loop_counter;
-	logic [4:0]Loop_counter_next;
-//	logic [127:0] result_save;
-	// FSM state
+
+//Define the variables
+logic [1407:0] keySchedule;
+logic [127:0]state;
+logic [127:0]next_state;
+logic [127:0]copy_state;
+logic [127:0]shiftout;
+logic [127:0]Sub_Out;
+logic [127:0]roundkeyout;
+logic [31:0]invin;
+logic [31:0]invout;
+logic [127:0]inputRoundKey;
+logic [4:0]count1_cur;
+logic [4:0]count1_next;
+logic [4:0]count2_cur;
+logic [4:0]count2_next;
+logic [2:0]muxsignal;
+logic [127:0]datastream;
+//define the state
 	enum logic [4:0]{
 		WAIT,
 		KEY_SCHEDULE,
-		ADDROUNDKEY_BEFORE,
-		// loop
-		INV_SHIFTROWS,
-		INV_SUBBYTES,
-		ADDROUNDKEY,
-		INV_MIXCOLUMNS1,
-		INV_MIXCOLUMNS2,
-		INV_MIXCOLUMNS3,
-		INV_MIXCOLUMNS4,
-		INV_MIXCOLUMNS_DONE,
-		// loop end
-		INV_SHIFTROWS_AFTER,
-		INV_SUBBYTES_AFTER,
-		ADDROUNDKEY_AFTER,
+		ADDROUNDKEY0,
+
+		INVSHIFTROWSLOOP,
+		INVSUBBYTESLOOP,
+		ADDROUNDKEYLOOP,
+		INVMIXCOLUMNS1,
+		INVMIXCOLUMNS2,
+		INVMIXCOLUMNS3,
+		INVMIXCOLUMNS4,
+		INVMIXCOLUMNSfinish,
+
+		INVSHIFTROWS1,
+		INVSUBBYTES1,
+		ADDROUNDKEY1,
 		DONE
-	} AES_STATE, AES_NEXT_STATE;
+	} MAINSTATE, NEXTSTATE;
 
+	
+//mux3 #(128) mainMux  (.a0(state),
+//							 .a1(roundkeyout),
+//							 .a2(shiftout),
+//							 .a3(Sub_Out),
+//							 .a4(AES_MSG_ENC),
+//							 .select(muxsignal), 
+//							 .out(datastream));
+							 
+//module instances
+KeyExpansion keyEx(.clk(CLK), 
+					    .Cipherkey(AES_KEY), 
+					    .KeySchedule(keySchedule));
 
-	// prepare the words for AddRoundKey
-	KeyExpansion ke(.clk(CLK), .Cipherkey(AES_KEY), .KeySchedule(w));
-
-
-
-	//-----------------------------loop-----------------------------
-	// InvShiftRows
-	InvShiftRows InvSR(.data_in(state), .data_out(Shift_Out));
-
-	// InvSubBytes
-	InvSubBytes sub0(.clk(CLK), .in(state[7:0]), .out(Sub_Out[7:0]));
-	InvSubBytes sub1(.clk(CLK), .in(state[15:8]), .out(Sub_Out[15:8]));
-	InvSubBytes sub2(.clk(CLK), .in(state[23:16]), .out(Sub_Out[23:16]));
-	InvSubBytes sub3(.clk(CLK), .in(state[31:24]), .out(Sub_Out[31:24]));
-	InvSubBytes sub4(.clk(CLK), .in(state[39:32]), .out(Sub_Out[39:32]));
-	InvSubBytes sub5(.clk(CLK), .in(state[47:40]), .out(Sub_Out[47:40]));
-	InvSubBytes sub6(.clk(CLK), .in(state[55:48]), .out(Sub_Out[55:48]));
-	InvSubBytes sub7(.clk(CLK), .in(state[63:56]), .out(Sub_Out[63:56]));
-	InvSubBytes sub8(.clk(CLK), .in(state[71:64]), .out(Sub_Out[71:64]));
-	InvSubBytes sub9(.clk(CLK), .in(state[79:72]), .out(Sub_Out[79:72]));
-	InvSubBytes sub10(.clk(CLK), .in(state[87:80]), .out(Sub_Out[87:80]));
-	InvSubBytes sub11(.clk(CLK), .in(state[95:88]), .out(Sub_Out[95:88]));
-	InvSubBytes sub12(.clk(CLK), .in(state[103:96]), .out(Sub_Out[103:96]));
-	InvSubBytes sub13(.clk(CLK), .in(state[111:104]), .out(Sub_Out[111:104]));
-	InvSubBytes sub14(.clk(CLK), .in(state[119:112]), .out(Sub_Out[119:112]));
-	InvSubBytes sub15(.clk(CLK), .in(state[127:120]), .out(Sub_Out[127:120]));
-
-	// AddRoundKey
-	AddRoundKey ark(.state(state), .key(key), .out(AddRoundKey_Out));
-
-	// InvMixColumns
-	InvMixColumns IMC(.in(MixColumns_In),.out(MixColumns_Out));
+AddRoundKey roundMod(.state(state), 
+							.key(inputRoundKey),
+							.out(roundkeyout));
+								
+InvShiftRows shiftMod(.data_in(state), 
+							 .data_out(shiftout));	
+								  
+InvMixColumns ColMod(.in(invin),
+							.out(invout));
+							
+InvSubBytes sub0(.clk(CLK), .in(state[7:0]), .out(Sub_Out[7:0]));
+InvSubBytes sub1(.clk(CLK), .in(state[15:8]), .out(Sub_Out[15:8]));
+InvSubBytes sub2(.clk(CLK), .in(state[23:16]), .out(Sub_Out[23:16]));
+InvSubBytes sub3(.clk(CLK), .in(state[31:24]), .out(Sub_Out[31:24]));
+InvSubBytes sub4(.clk(CLK), .in(state[39:32]), .out(Sub_Out[39:32]));
+InvSubBytes sub5(.clk(CLK), .in(state[47:40]), .out(Sub_Out[47:40]));
+InvSubBytes sub6(.clk(CLK), .in(state[55:48]), .out(Sub_Out[55:48]));
+InvSubBytes sub7(.clk(CLK), .in(state[63:56]), .out(Sub_Out[63:56]));
+InvSubBytes sub8(.clk(CLK), .in(state[71:64]), .out(Sub_Out[71:64]));
+InvSubBytes sub9(.clk(CLK), .in(state[79:72]), .out(Sub_Out[79:72]));
+InvSubBytes sub10(.clk(CLK), .in(state[87:80]), .out(Sub_Out[87:80]));
+InvSubBytes sub11(.clk(CLK), .in(state[95:88]), .out(Sub_Out[95:88]));
+InvSubBytes sub12(.clk(CLK), .in(state[103:96]), .out(Sub_Out[103:96]));
+InvSubBytes sub13(.clk(CLK), .in(state[111:104]), .out(Sub_Out[111:104]));
+InvSubBytes sub14(.clk(CLK), .in(state[119:112]), .out(Sub_Out[119:112]));
+InvSubBytes sub15(.clk(CLK), .in(state[127:120]), .out(Sub_Out[127:120]));
 
 
 	always_ff @(posedge CLK)
 	begin
-		if (RESET) begin
-			AES_STATE <= WAIT;
-//			state <= 128'b0;
-			Loop_counter <=4'b0;
-		end
+		if (RESET) 
+			begin
+			MAINSTATE <= WAIT;
+			count1_cur <= 4'b0;
+			count2_cur <= 4'b0;
+			end
 		
-		else begin
+		else 
+			begin
+			//state <= datastream;
 			state <= next_state;
-			AES_STATE <= AES_NEXT_STATE;
-			Loop_counter <= Loop_counter_next;
-		end
+			MAINSTATE <= NEXTSTATE;
+			count1_cur <= count1_next;
+			count2_cur <= count2_next;
+			end
 	end
+
 	
 	always_comb begin
-			Loop_counter_next = Loop_counter;
-			AES_NEXT_STATE = AES_STATE;
-			unique case (AES_STATE)
-			WAIT:begin
-				if (AES_START ==1'b1)begin
-					Loop_counter_next = 4'b0;
-					AES_NEXT_STATE = KEY_SCHEDULE;
-				end 
-				else begin
-					AES_NEXT_STATE = WAIT;
+			count1_next = count1_cur;
+			count2_next = count2_cur;
+			NEXTSTATE = MAINSTATE;
+			unique case (MAINSTATE)
+			WAIT:
+				begin
+				if (AES_START ==1'b1)
+					begin
+					NEXTSTATE = KEY_SCHEDULE;
+					end 
+				else 
+					begin
+					NEXTSTATE = WAIT;
+					end
 				end
-			end
 			
 			// give ten clocks to generate keys
-			KEY_SCHEDULE:begin
-				if (Loop_counter == 10) begin
-					AES_NEXT_STATE = ADDROUNDKEY_BEFORE;
-					Loop_counter_next = 0;
+			KEY_SCHEDULE:
+				begin
+				if (count1_cur == 4'd10) 
+					begin
+					NEXTSTATE = ADDROUNDKEY0;
+					end
+				else 
+					begin
+					NEXTSTATE = KEY_SCHEDULE;
+					count1_next = count1_cur + 4'b1;
+					end
 				end
-				else begin
-					AES_NEXT_STATE = KEY_SCHEDULE;
-					Loop_counter_next = Loop_counter + 4'b1;
-				end
-			end
 			
-			ADDROUNDKEY_BEFORE: AES_NEXT_STATE = INV_SHIFTROWS;
-			
-			INV_SHIFTROWS: AES_NEXT_STATE = INV_SUBBYTES;
-			
-			INV_SUBBYTES: AES_NEXT_STATE = ADDROUNDKEY;
+			ADDROUNDKEY0: 
+				NEXTSTATE = INVSHIFTROWSLOOP;		
+			INVSHIFTROWSLOOP: 
+				NEXTSTATE = INVSUBBYTESLOOP;	
+			INVSUBBYTESLOOP: 
+				NEXTSTATE = ADDROUNDKEYLOOP;
+			ADDROUNDKEYLOOP:
+				NEXTSTATE = INVMIXCOLUMNS1;
+			INVMIXCOLUMNS1: 
+				NEXTSTATE = INVMIXCOLUMNS2;		
+			INVMIXCOLUMNS2: 
+				NEXTSTATE = INVMIXCOLUMNS3;					
+			INVMIXCOLUMNS3: 
+				NEXTSTATE = INVMIXCOLUMNS4;
+			INVMIXCOLUMNS4: 
+				NEXTSTATE = INVMIXCOLUMNSfinish;
 
-			ADDROUNDKEY:AES_NEXT_STATE = INV_MIXCOLUMNS1;
-
-			INV_MIXCOLUMNS1: AES_NEXT_STATE = INV_MIXCOLUMNS2;
-			
-			INV_MIXCOLUMNS2: AES_NEXT_STATE = INV_MIXCOLUMNS3;
-						
-			INV_MIXCOLUMNS3: AES_NEXT_STATE = INV_MIXCOLUMNS4;
-			
-			INV_MIXCOLUMNS4: AES_NEXT_STATE = INV_MIXCOLUMNS_DONE;
-
-			INV_MIXCOLUMNS_DONE:begin
-				if (Loop_counter == 4'd8)begin
-					AES_NEXT_STATE = INV_SHIFTROWS_AFTER;
+			INVMIXCOLUMNSfinish:begin
+				if (count2_cur == 4'd8)
+					begin
+					NEXTSTATE = INVSHIFTROWS1;
+					end
+				else 
+					begin
+					NEXTSTATE = INVSHIFTROWSLOOP;
+					count2_next = count2_cur + 4'b1;
+					end
 				end
-				else begin
-					AES_NEXT_STATE = INV_SHIFTROWS;
-					Loop_counter_next = Loop_counter + 4'b1;
+			
+			INVSHIFTROWS1: 
+				NEXTSTATE = INVSUBBYTES1;		
+			INVSUBBYTES1:	
+				NEXTSTATE = ADDROUNDKEY1;	
+			ADDROUNDKEY1: 
+				NEXTSTATE = DONE;
+			
+			DONE:
+				begin
+				if (AES_START==0) 
+					begin
+					NEXTSTATE = WAIT;
+					end
+				else 
+					begin
+					NEXTSTATE = DONE;
+					end
 				end
-			end
 			
-			INV_SHIFTROWS_AFTER: AES_NEXT_STATE = INV_SUBBYTES_AFTER;
-			
-			INV_SUBBYTES_AFTER: AES_NEXT_STATE = ADDROUNDKEY_AFTER;
-	
-			ADDROUNDKEY_AFTER: AES_NEXT_STATE = DONE;
-			
-			DONE:begin
-				if (AES_START==0) begin
-					AES_NEXT_STATE = WAIT;
+			default: 
+				begin
+				NEXTSTATE = WAIT;
 				end
-				else begin
-					AES_NEXT_STATE = DONE;
-				end
-			end
-			
-			default: begin
-				AES_NEXT_STATE = WAIT;
-			end
 		endcase
 		
 		
 		
-		
-		next_state = state;
+		next_state = state;		
+		//muxsignal = 3'b0;
 		AES_DONE = 1'b0;
 		AES_MSG_DEC = 128'b0;
-		MixColumns_In = 32'b0;
-		key = 128'b0;
-		case (AES_STATE)
-			WAIT:begin
-			end
+		invin = 32'b0;
+		inputRoundKey = 128'b0;
+		case (MAINSTATE)
+			WAIT:
+				begin
+				end
 			
 			KEY_SCHEDULE:begin
+				//muxsignal = 3'd4;
 				next_state = AES_MSG_ENC;
 			end
 			
-			ADDROUNDKEY_BEFORE:begin
-				key = w[127:0];
-				next_state = AddRoundKey_Out;
-			end
+			ADDROUNDKEY0:
+				begin
+				inputRoundKey = keySchedule[127:0];
+				//muxsignal = 3'd1;
+				next_state = roundkeyout;
+				end
 			
-			INV_SHIFTROWS:begin
-				next_state = Shift_Out;
-			end
+			INVSHIFTROWSLOOP:
+				begin
+				//muxsignal = 3'd2;
+				next_state = shiftout;
+				end
 			
-			INV_SUBBYTES:begin
+			INVSUBBYTESLOOP:
+				begin
+				//muxsignal = 3'd3;
 				next_state = Sub_Out;
-			end
+				end
 			
-			ADDROUNDKEY:begin
-				case (Loop_counter)
-					4'd8:key = w[1279:1152];
-					4'd7:key = w[1151:1024];
-					4'd6:key = w[1023:896];
-					4'd5:key = w[895:768];
-					4'd4:key = w[767:640];
-					4'd3:key = w[639:512];
-					4'd2:key = w[511:384];
-					4'd1:key = w[383:256];
-					4'd0:key = w[255:128];
-					default: key = 128'b0;
+			ADDROUNDKEYLOOP:
+				begin
+				case (count2_cur)
+					4'd8:inputRoundKey = keySchedule[1279:1152];
+					4'd7:inputRoundKey = keySchedule[1151:1024];
+					4'd6:inputRoundKey = keySchedule[1023:896];
+					4'd5:inputRoundKey = keySchedule[895:768];
+					4'd4:inputRoundKey = keySchedule[767:640];
+					4'd3:inputRoundKey = keySchedule[639:512];
+					4'd2:inputRoundKey = keySchedule[511:384];
+					4'd1:inputRoundKey = keySchedule[383:256];
+					4'd0:inputRoundKey = keySchedule[255:128];
+					default: inputRoundKey = 128'b0;
 				endcase
-				next_state = AddRoundKey_Out;
-			end
+				//muxsignal = 3'd1;
+				next_state = roundkeyout;
+				end
 			
-			INV_MIXCOLUMNS1:begin
-				MixColumns_In = state[31:0];
-				next_state[31:0] = MixColumns_Out;
-			end
+			INVMIXCOLUMNS1:
+				begin
+				invin = state[31:0];
+				next_state[31:0] = invout;
+				//muxsignal = 3'd0;
+				end
 			
-			INV_MIXCOLUMNS2:begin
-				MixColumns_In = state[63:32];
-				next_state[63:32] = MixColumns_Out;
-			end
+			INVMIXCOLUMNS2:
+				begin
+				invin = state[63:32];
+				next_state[63:32] = invout;
+				//muxsignal = 3'd0;
+				end
 			
-			INV_MIXCOLUMNS3:begin
-				MixColumns_In = state[95:64];
-				next_state[95:64] = MixColumns_Out;
-			end
+			INVMIXCOLUMNS3:
+				begin
+				invin = state[95:64];
+				next_state[95:64] = invout;
+				//muxsignal = 3'd0;
+				end
 			
-			INV_MIXCOLUMNS4:begin
-				MixColumns_In = state[127:96];
-				next_state[127:96] = MixColumns_Out;
-			end
+			INVMIXCOLUMNS4:
+				begin
+				invin = state[127:96];
+				//muxsignal = 3'd0;
+				next_state[127:96] = invout;
+				end
 			
-			INV_MIXCOLUMNS_DONE:begin
-			end
+			INVMIXCOLUMNSfinish:
+				begin
+				end
 			
-			INV_SHIFTROWS_AFTER:begin
-				next_state = Shift_Out;
-			end
+			INVSHIFTROWS1:
+				begin
+				//muxsignal = 3'd2;
+				next_state = shiftout;
+				end
 			
-			INV_SUBBYTES_AFTER:begin
-				next_state = Sub_Out;
-			end
+			INVSUBBYTES1:
+				begin
+				//muxsignal = 3'd3;
+				next_state = Sub_Out;				
+				end
 			
-			ADDROUNDKEY_AFTER:begin
-				key = w[1407:1280];
-				next_state =AddRoundKey_Out;
-			end
+			ADDROUNDKEY1:
+				begin
+				inputRoundKey = keySchedule[1407:1280];
+				//muxsignal = 3'd1;
+				next_state = roundkeyout;
+				end
 			
-			DONE:begin
-				AES_MSG_DEC = AddRoundKey_Out;
-//				result_save = AddRoundKey_Out;
+			DONE:
+				begin
+				AES_MSG_DEC = roundkeyout;
 				AES_DONE = 1'b1;
-			end
+				end
 			
-			default: begin
-			end
+			default: 
+				begin
+				end
 		endcase
 	end
 endmodule
-
