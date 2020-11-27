@@ -1,0 +1,79 @@
+module mux2 #(parameter width =32) (input logic [width-1:0] d0,d1,d2,d3,
+												input logic [1:0] s, 
+												output logic [width-1:0] y);
+always_comb 
+	begin 
+		case(s)
+		2'b00:
+		y = d0;
+		2'b01:
+		y = d1;
+		2'b10:
+		y = d2;
+		default:
+		y = d3;
+		
+		endcase
+	end
+
+endmodule
+
+module mux3 #(parameter width =32) (input logic [width-1:0] d0,d1,d2,d3,d4,d5,
+												input logic [2:0] s, 
+												output logic [width-1:0] y);
+
+always_comb 
+	begin 
+		case(s)
+		3'b000:
+		y = d0;
+		3'b001:
+		y = d1;
+		3'b010:
+		y = d2;
+		3'b011:
+		y = d3;
+		3'b100:
+		y=d4;
+		default:
+		y = d5;
+		endcase
+	end
+
+endmodule
+
+
+module mux11 #(parameter width =128) (input logic [width-1:0] d0,d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,
+												input logic [4:0] s, 
+												output logic [width-1:0] y);
+
+always_comb 
+	begin 
+	unique case(s)
+		4'b0000:
+		y = d0;
+		4'b0001:
+		y = d1;
+		4'b0010:
+		y = d2;
+		4'b0011:
+		y = d3;
+		4'b0100:
+		y = d4;
+		4'b0101:
+		y = d5;
+		4'b0110:
+		y = d6;
+		4'b0111:
+		y = d7;
+		4'b1000:
+		y = d8;
+		4'b1001:
+		y = d9;
+		default:
+		y = d10;
+		endcase
+	end	
+
+
+endmodule
