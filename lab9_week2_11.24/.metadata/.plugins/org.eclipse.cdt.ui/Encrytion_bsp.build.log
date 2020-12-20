@@ -1,6 +1,6 @@
-20:08:59 **** Clean-only build of configuration Nios II for project Encrytion_bsp ****
-make clean 
-[BSP clean complete]
+08:44:03 **** Incremental Build of configuration Nios II for project Encrytion_bsp ****
+make all 
+[BSP build complete]
 
-20:09:00 Build Finished (took 670ms)
+08:44:04 Build Finished (took 1s.355ms)
 

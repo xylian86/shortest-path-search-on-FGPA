@@ -42,7 +42,7 @@ module avalon_aes_interface (
 	logic[3:0] [31:0] Reg_temp;
 	logic finish;//week2
 
-	AES Decryption (.CLK(cLK),
+	AES Decryption (.CLK(CLK),
 						 .RESET(RESET),
 						 .AES_START(Reg_list[14][0]),
 						 .AES_DONE(finish),
