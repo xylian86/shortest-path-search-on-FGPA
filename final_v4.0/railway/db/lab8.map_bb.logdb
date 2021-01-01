@@ -1,0 +1,5 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lab8:lab8file|usbmouse:usbmouseclick|lpm_mult:Mult1|mult_p5t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lab8:lab8file|usbmouse:usbmouseclick|lpm_mult:Mult0|mult_p5t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lab8:lab8file|mouseclick:mouse|lpm_mult:Mult1|mult_p5t:auto_generated|mac_out2,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,lab8:lab8file|mouseclick:mouse|lpm_mult:Mult0|mult_p5t:auto_generated|mac_out2,

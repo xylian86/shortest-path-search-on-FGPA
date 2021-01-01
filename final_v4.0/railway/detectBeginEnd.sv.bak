@@ -1,0 +1,10 @@
+module  detect (		  input logic [7:0] keycode,
+							  input logic [9:0] Ball_X_OUT,Ball_Y_OUT, 
+                       input        [9:0] DrawX, DrawY,       // Current pixel coordinates
+							  output logic [9:0] pos_x_out,pos_y_out
+                     );
+							
+							
+							
+
+endmodule

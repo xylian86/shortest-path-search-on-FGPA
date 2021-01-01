@@ -1,0 +1,257 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'SoundTop|USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -2.589
+TNS   : -15.534
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : 5.628
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 10.553
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'lab8file|vga_clk_instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 10.634
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Setup 'altera_reserved_tck'
+Slack : 45.816
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.315
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'SoundTop|USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.389
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'altera_reserved_tck'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab8file|vga_clk_instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 0.404
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'CLOCK_50'
+Slack : 12.393
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 13.128
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'altera_reserved_tck'
+Slack : 47.579
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'altera_reserved_tck'
+Slack : 1.010
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'CLOCK_50'
+Slack : 2.854
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Removal 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 5.183
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.622
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 9.694
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'lab8file|vga_clk_instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.701
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.630
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'SoundTop|USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1947.623
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'SoundTop|USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -2.220
+TNS   : -13.320
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : 6.773
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 11.220
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'lab8file|vga_clk_instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 11.594
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'altera_reserved_tck'
+Slack : 46.268
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.260
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'SoundTop|USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.347
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 0.352
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'lab8file|vga_clk_instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : 13.038
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 13.798
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 47.868
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.913
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 2.552
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Removal 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 4.664
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.643
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 9.684
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'lab8file|vga_clk_instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.703
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.577
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'SoundTop|USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1947.607
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'SoundTop|USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -0.993
+TNS   : -5.958
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : 12.384
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'lab8file|vga_clk_instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 14.863
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 15.087
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'altera_reserved_tck'
+Slack : 48.118
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.078
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'SoundTop|USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.179
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 0.180
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'altera_reserved_tck'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'lab8file|vga_clk_instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'CLOCK_50'
+Slack : 15.839
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 16.288
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'altera_reserved_tck'
+Slack : 48.958
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'altera_reserved_tck'
+Slack : 0.494
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'CLOCK_50'
+Slack : 1.493
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Removal 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 2.662
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : 9.371
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab8file|nios_system|sdram_pll|sd1|pll7|clk[0]'
+Slack : 9.779
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'lab8file|vga_clk_instance|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 19.773
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'altera_reserved_tck'
+Slack : 49.482
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'SoundTop|USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1947.715
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,185 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -5.392
+TNS   : -3830.345
+
+Type  : Slow 1200mV 85C Model Setup 'USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -3.706
+TNS   : -22.236
+
+Type  : Slow 1200mV 85C Model Setup 'DAC_LR_CLK~reg0'
+Slack : -2.477
+TNS   : -27.869
+
+Type  : Slow 1200mV 85C Model Setup 'I2C_Protocol:I2C|SCLK'
+Slack : -1.298
+TNS   : -17.060
+
+Type  : Slow 1200mV 85C Model Setup 'I2C_Protocol:I2C|finish_flag'
+Slack : -0.262
+TNS   : -0.523
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.386
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'I2C_Protocol:I2C|finish_flag'
+Slack : 0.406
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'I2C_Protocol:I2C|SCLK'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'DAC_LR_CLK~reg0'
+Slack : 0.664
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'DAC_LR_CLK~reg0'
+Slack : -1.285
+TNS   : -23.130
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'I2C_Protocol:I2C|SCLK'
+Slack : -1.285
+TNS   : -19.275
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'I2C_Protocol:I2C|finish_flag'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.622
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1947.628
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -4.819
+TNS   : -3442.383
+
+Type  : Slow 1200mV 0C Model Setup 'USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -3.198
+TNS   : -19.188
+
+Type  : Slow 1200mV 0C Model Setup 'DAC_LR_CLK~reg0'
+Slack : -2.158
+TNS   : -23.367
+
+Type  : Slow 1200mV 0C Model Setup 'I2C_Protocol:I2C|SCLK'
+Slack : -1.087
+TNS   : -14.185
+
+Type  : Slow 1200mV 0C Model Setup 'I2C_Protocol:I2C|finish_flag'
+Slack : -0.141
+TNS   : -0.281
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.340
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'I2C_Protocol:I2C|finish_flag'
+Slack : 0.355
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.365
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'I2C_Protocol:I2C|SCLK'
+Slack : 0.407
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'DAC_LR_CLK~reg0'
+Slack : 0.606
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'DAC_LR_CLK~reg0'
+Slack : -1.285
+TNS   : -23.130
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'I2C_Protocol:I2C|SCLK'
+Slack : -1.285
+TNS   : -19.275
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'I2C_Protocol:I2C|finish_flag'
+Slack : -1.285
+TNS   : -5.140
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.643
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1947.628
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -2.370
+TNS   : -1588.938
+
+Type  : Fast 1200mV 0C Model Setup 'USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : -1.602
+TNS   : -9.612
+
+Type  : Fast 1200mV 0C Model Setup 'DAC_LR_CLK~reg0'
+Slack : -0.721
+TNS   : -4.840
+
+Type  : Fast 1200mV 0C Model Setup 'I2C_Protocol:I2C|SCLK'
+Slack : -0.100
+TNS   : -0.500
+
+Type  : Fast 1200mV 0C Model Setup 'I2C_Protocol:I2C|finish_flag'
+Slack : 0.379
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'I2C_Protocol:I2C|SCLK'
+Slack : 0.155
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.175
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'I2C_Protocol:I2C|finish_flag'
+Slack : 0.183
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'DAC_LR_CLK~reg0'
+Slack : 0.302
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'DAC_LR_CLK~reg0'
+Slack : -1.000
+TNS   : -18.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'I2C_Protocol:I2C|SCLK'
+Slack : -1.000
+TNS   : -15.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'I2C_Protocol:I2C|finish_flag'
+Slack : -1.000
+TNS   : -4.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.371
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'USB_Clock_PLL_inst|altpll_component|auto_generated|pll1|clk[1]'
+Slack : 1947.697
+TNS   : 0.000
+
+------------------------------------------------------------
