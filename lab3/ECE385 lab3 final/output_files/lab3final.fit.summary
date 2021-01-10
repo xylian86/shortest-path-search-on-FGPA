@@ -1,12 +1,12 @@
-Fitter Status : Successful - Sun Sep 27 13:48:19 2020
-Quartus Prime Version : 18.0.0 Build 614 04/24/2018 SJ Lite Edition
+Fitter Status : Failed - Tue Sep 29 22:53:23 2020
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : lab3final
 Top-level Entity Name : lab3final
 Family : Cyclone IV E
 Device : EP4CE115F29C7
 Timing Models : Final
-Total logic elements : 22 / 114,480 ( < 1 % )
-    Total combinational functions : 22 / 114,480 ( < 1 % )
+Total logic elements : 23 / 114,480 ( < 1 % )
+    Total combinational functions : 23 / 114,480 ( < 1 % )
     Dedicated logic registers : 12 / 114,480 ( < 1 % )
 Total registers : 12
 Total pins : 25 / 529 ( 5 % )

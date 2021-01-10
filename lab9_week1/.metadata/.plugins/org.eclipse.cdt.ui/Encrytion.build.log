@@ -1,9 +1,0 @@
-15:09:13 **** Incremental Build of configuration Nios II for project Encrytion ****
-make all 
-Info: Building ../Encrytion_bsp/
-D:/ece385/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../Encrytion_bsp/
-[BSP build complete]
-[Encrytion build complete]
-
-15:09:14 Build Finished (took 931ms)
-
